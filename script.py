@@ -1,18 +1,29 @@
 import os
 
 
+def center_text(text, width=20):
+    """Centers text in a fixed-width column."""
+    text = str(text)
+    padding = max(0, (width - len(text)) // 2)
+    return f"{' ' * padding}{text}{' ' * padding}"
+
+
 def generate_readme():
     # Directories for questions and solutions
     questions_dir = './Questions'
     solutions_dir = './Solutions'
-    readme_content = """# LeetCode Solutions\n\nThis repository contains solutions for LeetCode problems in multiple 
-    programming languages.\n\n"""
-    readme_content += ("| Question No | Title                                                        | Solution        "
-                       "                       | Difficulty | Space Complexity | Time Complexity |\n")
-    readme_content += "|-------------|--------------------------------------------------------------|---------------------------------------|------------|------------------|-----------------|\n"
 
+    # Start building README content
+    readme_content = """# LeetCode Solutions
+
+This repository contains solutions for LeetCode problems in multiple programming languages.
+
+| Question No | Title                          | Solution                           | Difficulty | Space Complexity | Time Complexity |
+|-------------|--------------------------------|------------------------------------|------------|------------------|-----------------|
+"""
+
+    # Traverse the Questions folder
     questions = {}
-
     for question_file in sorted(os.listdir(questions_dir)):
         if question_file.endswith('.txt'):
             question_path = os.path.join(questions_dir, question_file)
@@ -24,8 +35,8 @@ def generate_readme():
                 difficulty = "-"
                 space_complexity = "-"
                 time_complexity = "-"
-                question_number, title = question_file.split('.', 1)  # from file name
-                title = title.strip().replace('.txt', '')  # from file name
+                question_number, title = question_file.split('.', 1)
+                title = title.strip().replace('.txt', '')
 
                 # Extract metadata
                 for line in lines:
@@ -47,13 +58,12 @@ def generate_readme():
                     'time_complexity': time_complexity,
                 }
 
-        # Traverse the Solutions folder
-
+    # Traverse the Solutions folder
     for solution_file in sorted(os.listdir(solutions_dir)):
         if solution_file.endswith('.py'):
             solution_path = os.path.join(solutions_dir, solution_file)
-            question_number, title = solution_file.split('.', 1)  # from file name
-            title = title.strip().replace('.py', '') # from file name
+            question_number, title = solution_file.split('.', 1)
+            title = title.strip().replace('.py', '')
 
             # Match the solution with the question details
             question_info = questions.get(question_number, {
@@ -66,16 +76,15 @@ def generate_readme():
 
             # Add row to the README table
             readme_content += (
-                f"| {question_number} "
+                f"| {center_text(question_number)} "
                 f"| [{question_info['title']}]({question_info['link']}) "
-                f"| [Python](./Solutions/{solution_file}) "
-                f"| {question_info['difficulty']} "
-                f"| {question_info['space_complexity']} "
-                f"| {question_info['time_complexity']} |\n"
+                f"| [Python](./Solutions/{solution_file.replace(' ', '%20')}) "
+                f"| {center_text(question_info['difficulty'])} "
+                f"| {center_text(question_info['space_complexity'])} "
+                f"| {center_text(question_info['time_complexity'])} |\n"
             )
 
-        # Write the README file
-
+    # Write the README file
     with open("README.md", "w") as f:
         f.write(readme_content)
 
