@@ -5,10 +5,22 @@ questions_dir = "./Questions"
 solutions_dir = "./Solutions"
 
 def generate_readme():
+    # Initialize counters for progress tracker
+    total_solved = 0
+    difficulty_count = {"Easy": 0, "Medium": 0, "Hard": 0}
+
     # Start building README content
-    readme_content = """# LeetCode Solutions
+    badges = """
+![Solved](https://img.shields.io/badge/Solved-{total_solved}-blue)
+![Easy](https://img.shields.io/badge/Easy-{easy_count}-green)
+![Medium](https://img.shields.io/badge/Medium-{medium_count}-orange)
+![Hard](https://img.shields.io/badge/Hard-{hard_count}-red)
+"""
+    readme_content = f"""# LeetCode Solutions
 
 This repository contains solutions for LeetCode problems in multiple programming languages.
+
+{badges}
 
 | Question No | Title | Solution | Difficulty | Space Complexity | Time Complexity |
 |-------------|-------|----------|------------|------------------|-----------------|
@@ -33,6 +45,9 @@ This repository contains solutions for LeetCode problems in multiple programming
                         leetcode_link = line.split(':', 1)[1].strip()
                     elif line.lower().startswith('difficulty'):
                         difficulty = line.split(':', 1)[1].strip()
+                        # Count difficulties for progress tracker
+                        if difficulty in difficulty_count:
+                            difficulty_count[difficulty] += 1
                     elif line.lower().startswith('space complexity'):
                         space_complexity = line.split(':', 1)[1].strip()
                     elif line.lower().startswith('time complexity'):
@@ -63,6 +78,15 @@ This repository contains solutions for LeetCode problems in multiple programming
 
             # Add row to the Markdown table
             readme_content += f"| {question_number} | [{question_info['title']}]({question_info['link']}) | [Python](./Solutions/{solution_file.replace(' ', '%20')}) | {question_info['difficulty']} | {question_info['space_complexity']} | {question_info['time_complexity']} |\n"
+            total_solved += 1
+
+    # Add progress section
+    readme_content = readme_content.format(
+        total_solved=total_solved,
+        easy_count=difficulty_count['Easy'],
+        medium_count=difficulty_count['Medium'],
+        hard_count=difficulty_count['Hard']
+    )
 
     # Write the README file
     with open("README.md", "w") as f:
