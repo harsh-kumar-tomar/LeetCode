@@ -1,0 +1,4 @@
+link: https://leetcode.com/problems/first-bad-version/
+difficulty: Easy
+space complexity: O(1)
+time complexity: O(log(n))
