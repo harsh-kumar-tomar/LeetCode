@@ -4,7 +4,7 @@ This repository contains solutions for LeetCode problems in multiple programming
 
 
 ![Solved](https://img.shields.io/badge/Solved-2-blue)
-![Easy](https://img.shields.io/badge/Easy-2-green)
+![Easy](https://img.shields.io/badge/Easy-1-green)
 ![Medium](https://img.shields.io/badge/Medium-1-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 

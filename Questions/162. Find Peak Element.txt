@@ -3,6 +3,12 @@ difficulty: Medium
 space complexity: O(1)
 time complexity: O(log(n))
 
+Advice
+See, binary search has two important aspects.
+
+A sorted array.
+Splitting an array into two halves.
+
 Question
 
 A peak element is an element that is strictly greater than its neighbors.
