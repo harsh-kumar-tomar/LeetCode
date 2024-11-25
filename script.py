@@ -1,8 +1,11 @@
 import os
+import subprocess
+from datetime import datetime
 
 # Directories for questions and solutions
 questions_dir = "./Questions"
 solutions_dir = "./Solutions"
+
 
 def generate_readme():
     # Initialize counters for progress tracker
@@ -94,6 +97,22 @@ This repository contains solutions for LeetCode problems in multiple programming
 
     print("README.md generated successfully.")
 
+
+def git_push():
+    # Get today's date in "DD MMM YYYY" format
+    today_date = datetime.now().strftime("%d %b %Y")
+
+    # Run Git commands to stage, commit, and push changes
+    try:
+        subprocess.run(["git", "add", "."], check=True)
+        subprocess.run(["git", "commit", "-m", f"Update solutions and README on {today_date}"], check=True)
+        subprocess.run(["git", "push", "origin", "main"], check=True)
+        print("Changes pushed to GitHub successfully.")
+    except subprocess.CalledProcessError as e:
+        print("Error while pushing changes to GitHub:", e)
+
+
 # Run the script
 if __name__ == "__main__":
     generate_readme()
+    git_push()

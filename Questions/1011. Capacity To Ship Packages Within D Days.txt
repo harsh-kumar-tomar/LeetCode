@@ -1,4 +1,0 @@
-link: https://leetcode.com/problems/capacity-to-ship-packages-within-d-days
-difficulty: Medium
-space complexity: O(n)
-time complexity: O(n)

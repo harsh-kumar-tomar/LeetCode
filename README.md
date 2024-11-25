@@ -4,11 +4,11 @@ This repository contains solutions for LeetCode problems in multiple programming
 
 
 ![Solved](https://img.shields.io/badge/Solved-1-blue)
-![Easy](https://img.shields.io/badge/Easy-0-green)
-![Medium](https://img.shields.io/badge/Medium-1-orange)
+![Easy](https://img.shields.io/badge/Easy-1-green)
+![Medium](https://img.shields.io/badge/Medium-0-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 
 
 | Question No | Title | Solution | Difficulty | Space Complexity | Time Complexity |
 |-------------|-------|----------|------------|------------------|-----------------|
-| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days) | [Python](./Solutions/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.py) | Medium | O(n) | O(n) |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/278.%20First%20Bad%20Version.py) | Easy | O(1) | O(log(n)) |
