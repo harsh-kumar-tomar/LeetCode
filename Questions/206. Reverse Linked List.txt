@@ -1,7 +1,7 @@
 link: https://leetcode.com/problems/reverse-linked-list
 difficulty: Easy
-space complexity: O(1)
-time complexity: O(log(n))
+space complexity: O(n)
+time complexity: O(n)
 
 Question:
 
