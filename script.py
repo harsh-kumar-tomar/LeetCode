@@ -42,7 +42,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 
                 if '.' not in solution_file:
                     concept_hashmap[solution_file] = solution_file
-                    break
+                    continue
                 else:
                     question_number, title = solution_file.split('.', 1)
                     title = title.strip().replace('.py', '')
@@ -91,14 +91,14 @@ This repository contains solutions for LeetCode problems and additional coding c
     )
 
     # Concepts Table
-    if concept_hashmap:
-        readme_content += "\n## Additional Concepts\n\n"
-        readme_content += "| File Name |\n"
-        readme_content += "|-----------|\n"
-        for file_name, path in concept_hashmap.items():
-            # Remove .py extension and link to the file
-            file_link = f"./Solutions/{path.replace(' ', '%20')}"
-            readme_content += f"| [{file_name}]({file_link}) |\n"
+    readme_content += "\n## Additional Concepts\n\n"
+    readme_content += "| File Name |\n"
+    readme_content += "|-----------|\n"
+    for file_name, path in concept_hashmap.items():
+        # Remove .py extension and link to the file
+        file_link = f"./Solutions/{path.replace(' ', '%20')}"
+        readme_content += f"| [{file_name}]({file_link}) |\n"
+
 
     # Write the README file
     with open("README.md", "w") as f:

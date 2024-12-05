@@ -16,3 +16,8 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/278.%20First%20Bad%20Version.py) | Easy | O(1) | O(log(n)) |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/first-bad-version) | [Python](./Solutions/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.py) | Easy | O(1) | O(log(n)) |
 | bfs | [py](-) | [Python](./Solutions/bfs.py) | - | - | - |
+
+## Additional Concepts
+
+| File Name |
+|-----------|
