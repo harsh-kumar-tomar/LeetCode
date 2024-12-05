@@ -1,3 +1,20 @@
+"""
+Link: https://leetcode.com/problems/reverse-linked-list
+Difficulty: Easy
+Space Complexity: O(n)
+Time Complexity: O(n)
+
+Question:
+
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+Example 1:
+
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
+"""
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -7,8 +24,7 @@ class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         return self.reverse(head)
 
-    def reverse(self,root):
-
+    def reverse(self, root):
         if root == None or root.next == None:
             return root
 

@@ -3,17 +3,17 @@ import subprocess
 from datetime import datetime
 
 # Directories for questions and solutions
-questions_dir = "./Questions"
 solutions_dir = "./Solutions"
+
 
 def generate_readme():
     # Initialize counters for progress tracker
-    total_solved = 0
-    difficulty_count = {"Easy": 0, "Medium": 0, "Hard": 0}
+    total_question_solved = 0
+    difficulty_count_hash_map = {"Easy": 0, "Medium": 0, "Hard": 0}
 
     # Start building README content
     badges = """
-![Solved](https://img.shields.io/badge/Solved-{total_solved}-blue)
+![Solved](https://img.shields.io/badge/Solved-{total_question_solved}-blue)
 ![Easy](https://img.shields.io/badge/Easy-{easy_count}-green)
 ![Medium](https://img.shields.io/badge/Medium-{medium_count}-orange)
 ![Hard](https://img.shields.io/badge/Hard-{hard_count}-red)
@@ -30,17 +30,21 @@ This repository contains solutions for LeetCode problems and additional coding c
 
     # Track questions and solutions
     questions = {}
-    solved_files = set()
+    concept_hashmap = {}
 
     # Traverse the Questions folder
-    for question_file in sorted(os.listdir(questions_dir)):
-        if question_file.endswith('.txt'):
-            question_path = os.path.join(questions_dir, question_file)
+    for solution_file in sorted(os.listdir(solutions_dir)):
+        if solution_file.endswith('.py'):
+            question_path = os.path.join(solutions_dir, solution_file)
             with open(question_path, 'r') as file:
                 # Parse metadata from the question file
                 lines = file.readlines()
-                question_number, title = question_file.split('.', 1)
-                title = title.strip().replace('.txt', '')
+
+                if '.' not in solution_file:
+                    concept_hashmap[solution_file] = solution_file
+                else:
+                    question_number, title = solution_file.split('.', 1)
+                    title = title.strip().replace('.py', '')
 
                 # Default values
                 leetcode_link = difficulty = space_complexity = time_complexity = '-'
@@ -51,8 +55,8 @@ This repository contains solutions for LeetCode problems and additional coding c
                     elif line.lower().startswith('difficulty'):
                         difficulty = line.split(':', 1)[1].strip()
                         # Count difficulties for progress tracker
-                        if difficulty in difficulty_count:
-                            difficulty_count[difficulty] += 1
+                        if difficulty in difficulty_count_hash_map:
+                            difficulty_count_hash_map[difficulty] += 1
                     elif line.lower().startswith('space complexity'):
                         space_complexity = line.split(':', 1)[1].strip()
                     elif line.lower().startswith('time complexity'):
@@ -65,42 +69,34 @@ This repository contains solutions for LeetCode problems and additional coding c
                     'difficulty': difficulty,
                     'space_complexity': space_complexity,
                     'time_complexity': time_complexity,
+                    'path': solution_file.replace(' ', '%20')
                 }
 
     # Traverse the Solutions folder
     concepts_files = []
-    for solution_file in sorted(os.listdir(solutions_dir)):
-        if solution_file.endswith('.py'):
-            question_number, title = solution_file.split('.', 1)
-            title = title.strip().replace('.py', '')
 
-            if question_number in questions:
-                question_info = questions[question_number]
-                # Add row to the Markdown table
-                readme_content += f"| {question_number} | [{question_info['title']}]({question_info['link']}) | [Python](./Solutions/{solution_file.replace(' ', '%20')}) | {question_info['difficulty']} | {question_info['space_complexity']} | {question_info['time_complexity']} |\n"
-                total_solved += 1
-                solved_files.add(solution_file)
-            else:
-                # File does not correspond to a question
-                concepts_files.append(solution_file)
+    for question_info in questions:
+        # Add row to the Markdown table
+        question = questions[question_info]
+        readme_content += f"| {question_info} | [{question['title']}]({question['link']}) | [Python](./Solutions/{question['path']}) | {question['difficulty']} | {question['space_complexity']} | {question['time_complexity']} |\n"
+        total_question_solved += 1
 
-    # Add progress section
+    # progress section
     readme_content = readme_content.format(
-        total_solved=total_solved,
-        easy_count=difficulty_count['Easy'],
-        medium_count=difficulty_count['Medium'],
-        hard_count=difficulty_count['Hard']
+        total_question_solved=total_question_solved,
+        easy_count=difficulty_count_hash_map['Easy'],
+        medium_count=difficulty_count_hash_map['Medium'],
+        hard_count=difficulty_count_hash_map['Hard']
     )
 
-    # Add Concepts Table
-    if concepts_files:
+    # Concepts Table
+    if concept_hashmap:
         readme_content += "\n## Additional Concepts\n\n"
         readme_content += "| File Name |\n"
         readme_content += "|-----------|\n"
-        for file in concepts_files:
+        for file_name, path in concept_hashmap.items():
             # Remove .py extension and link to the file
-            file_name = os.path.splitext(file)[0]
-            file_link = f"./Solutions/{file.replace(' ', '%20')}"
+            file_link = f"./Solutions/{path.replace(' ', '%20')}"
             readme_content += f"| [{file_name}]({file_link}) |\n"
 
     # Write the README file
@@ -108,6 +104,7 @@ This repository contains solutions for LeetCode problems and additional coding c
         f.write(readme_content)
 
     print("README.md generated successfully.")
+
 
 def git_push():
     # Get today's date in "DD MMM YYYY" format
@@ -121,6 +118,7 @@ def git_push():
         print("Changes pushed to GitHub successfully.")
     except subprocess.CalledProcessError as e:
         print("Error while pushing changes to GitHub:", e)
+
 
 # Run the script
 if __name__ == "__main__":
