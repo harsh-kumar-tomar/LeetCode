@@ -42,6 +42,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 
                 if '.' not in solution_file:
                     concept_hashmap[solution_file] = solution_file
+                    break
                 else:
                     question_number, title = solution_file.split('.', 1)
                     title = title.strip().replace('.py', '')
