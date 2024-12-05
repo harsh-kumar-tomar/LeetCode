@@ -20,4 +20,4 @@ This repository contains solutions for LeetCode problems and additional coding c
 
 | File Name |
 |-----------|
-| bfs.py |
+| [bfs](./Solutions/bfs.py) |

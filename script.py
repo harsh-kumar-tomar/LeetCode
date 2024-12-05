@@ -98,7 +98,10 @@ This repository contains solutions for LeetCode problems and additional coding c
         readme_content += "| File Name |\n"
         readme_content += "|-----------|\n"
         for file in concepts_files:
-            readme_content += f"| {file} |\n"
+            # Remove .py extension and link to the file
+            file_name = os.path.splitext(file)[0]
+            file_link = f"./Solutions/{file.replace(' ', '%20')}"
+            readme_content += f"| [{file_name}]({file_link}) |\n"
 
     # Write the README file
     with open("README.md", "w") as f:
