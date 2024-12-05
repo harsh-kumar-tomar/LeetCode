@@ -2,7 +2,7 @@ import os
 import subprocess
 from datetime import datetime
 
-# Directories for questions and solutions
+# Directory for solutions
 solutions_dir = "./Solutions"
 
 
@@ -32,20 +32,21 @@ This repository contains solutions for LeetCode problems and additional coding c
     questions = {}
     concept_hashmap = {}
 
-    # Traverse the Questions folder
+    # Traverse the Solutions folder
     for solution_file in sorted(os.listdir(solutions_dir)):
         if solution_file.endswith('.py'):
             question_path = os.path.join(solutions_dir, solution_file)
             with open(question_path, 'r') as file:
-                # Parse metadata from the question file
+                # Parse metadata from the solution file
                 lines = file.readlines()
 
+                # Identify additional concepts by checking file name pattern
                 if not solution_file[0].isdigit():
                     concept_hashmap[solution_file] = solution_file
                     continue
-                else:
-                    question_number, title = solution_file.split('.', 1)
-                    title = title.strip().replace('.py', '')
+
+                question_number, title = solution_file.split('.', 1)
+                title = title.strip().replace('.py', '')
 
                 # Default values
                 leetcode_link = difficulty = space_complexity = time_complexity = '-'
@@ -55,16 +56,14 @@ This repository contains solutions for LeetCode problems and additional coding c
                         leetcode_link = line.split(':', 1)[1].strip()
                     elif line.lower().startswith('difficulty'):
                         difficulty = line.split(':', 1)[1].strip()
-                        # Count difficulties for progress tracker
                         if difficulty in difficulty_count_hash_map:
                             difficulty_count_hash_map[difficulty] += 1
                     elif line.lower().startswith('space complexity'):
                         space_complexity = line.split(':', 1)[1].strip()
                     elif line.lower().startswith('time complexity'):
                         time_complexity = line.split(':', 1)[1].strip()
-                        break
 
-                # Store information
+                # Store question metadata
                 questions[question_number] = {
                     'title': title,
                     'link': leetcode_link,
@@ -74,16 +73,13 @@ This repository contains solutions for LeetCode problems and additional coding c
                     'path': solution_file.replace(' ', '%20')
                 }
 
-    # Traverse the Solutions folder
-    concepts_files = []
-
+    # Add questions to the README
     for question_info in questions:
-        # Add row to the Markdown table
         question = questions[question_info]
         readme_content += f"| {question_info} | [{question['title']}]({question['link']}) | [Python](./Solutions/{question['path']}) | {question['difficulty']} | {question['space_complexity']} | {question['time_complexity']} |\n"
         total_question_solved += 1
 
-    # progress section
+    # Progress section
     readme_content = readme_content.format(
         total_question_solved=total_question_solved,
         easy_count=difficulty_count_hash_map['Easy'],
@@ -91,15 +87,14 @@ This repository contains solutions for LeetCode problems and additional coding c
         hard_count=difficulty_count_hash_map['Hard']
     )
 
-    # Concepts Table
-    readme_content += "\n## Additional Concepts\n\n"
-    readme_content += "| File Name |\n"
-    readme_content += "|-----------|\n"
-    for file_name, path in concept_hashmap.items():
-        # Remove .py extension and link to the file
-        file_link = f"./Solutions/{path.replace(' ', '%20')}"
-        readme_content += f"| [{file_name}]({file_link}) |\n"
-
+    # Additional Concepts Table
+    if concept_hashmap:
+        readme_content += "\n## Additional Concepts\n\n"
+        readme_content += "| File Name |\n"
+        readme_content += "|-----------|\n"
+        for file_name, path in concept_hashmap.items():
+            file_link = f"./Solutions/{path.replace(' ', '%20')}"
+            readme_content += f"| [{file_name}]({file_link}) |\n"
 
     # Write the README file
     with open("README.md", "w") as f:
