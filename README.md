@@ -18,6 +18,6 @@ This repository contains solutions for LeetCode problems and additional coding c
 
 ## Additional Concepts
 
-| File Name | Description |
-|-----------|-------------|
-| [Python](./Solutions/bfs.py) | To be described |
+| File Name |
+|-----------|
+| bfs.py |

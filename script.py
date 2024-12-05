@@ -95,10 +95,10 @@ This repository contains solutions for LeetCode problems and additional coding c
     # Add Concepts Table
     if concepts_files:
         readme_content += "\n## Additional Concepts\n\n"
-        readme_content += "| File Name | Description |\n"
-        readme_content += "|-----------|-------------|\n"
+        readme_content += "| File Name |\n"
+        readme_content += "|-----------|\n"
         for file in concepts_files:
-            readme_content += f"| [Python](./Solutions/{file.replace(' ', '%20')}) | To be described |\n"
+            readme_content += f"| {file} |\n"
 
     # Write the README file
     with open("README.md", "w") as f:
