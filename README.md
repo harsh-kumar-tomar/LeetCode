@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-This repository contains soltions for LeetCode problems and additional coding concepts.
+This repository contains solutions for LeetCode problems and additional coding concepts.
 
 
 ![Solved](https://img.shields.io/badge/Solved-5-blue)
