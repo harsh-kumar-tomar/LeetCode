@@ -40,7 +40,7 @@ This repository contains solutions for LeetCode problems and additional coding c
                 # Parse metadata from the question file
                 lines = file.readlines()
 
-                if '.' not in solution_file:
+                if not solution_file.startswith("1234567890"):
                     concept_hashmap[solution_file] = solution_file
                     continue
                 else:
@@ -62,6 +62,7 @@ This repository contains solutions for LeetCode problems and additional coding c
                         space_complexity = line.split(':', 1)[1].strip()
                     elif line.lower().startswith('time complexity'):
                         time_complexity = line.split(':', 1)[1].strip()
+                        break
 
                 # Store information
                 questions[question_number] = {
