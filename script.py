@@ -20,7 +20,7 @@ def generate_readme():
 """
     readme_content = f"""# LeetCode Solutions
 
-This repository contains solutions for LeetCode problems and additional coding concepts.
+This repository contains soltions for LeetCode problems and additional coding concepts.
 
 {badges}
 
