@@ -2,7 +2,7 @@
 Link: https://leetcode.com/problems/take-gifts-from-the-richest-pile
 Difficulty: Easy
 Space Complexity: O(n)
-Time Complexity: O(n+k)
+Time Complexity: O(n+k*logn)
 
 Question:
 You are given an integer array gifts denoting the number of gifts in various piles. Every second, you do the following:
@@ -17,7 +17,9 @@ Return the number of gifts remaining after k seconds.
 Example 1:
 
 Input: gifts = [25,64,9,4,100], k = 4
+
 Output: 29
+
 Explanation:
 The gifts are taken in the following way:
 - In the first second, the last pile is chosen and 10 gifts are left behind.
@@ -28,7 +30,9 @@ The final remaining gifts are [5,8,9,4,3], so the total number of gifts remainin
 Example 2:
 
 Input: gifts = [1,1,1,1], k = 4
+
 Output: 4
+
 Explanation:
 In this case, regardless which pile you choose, you have to leave behind 1 gift in each pile.
 That is, you can't take any pile with you.
