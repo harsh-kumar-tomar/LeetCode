@@ -42,6 +42,7 @@ from typing import List
 
 
 class Solution:
+    # optimized using hash map
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         ls = []
         num_map = {}
@@ -51,3 +52,14 @@ class Solution:
             if complement in num_map:
                 return [num_map[complement], i]
             num_map[num] = i
+
+    # Brute force
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        ls = []
+        num_map = {}
+        n = len(nums)
+
+        for i in range(0, n):
+            for j in range(i + 1, n):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
