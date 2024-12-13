@@ -2,7 +2,7 @@
 Link: https://leetcode.com/problems/two-sum
 Difficulty: Easy
 Space Complexity: O(n)
-Time Complexity: O(n+k*logn)
+Time Complexity: O(n)
 
 Question:
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.

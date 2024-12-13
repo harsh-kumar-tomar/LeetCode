@@ -11,7 +11,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 
 | Question No | Title | Solution | Difficulty | Space Complexity | Time Complexity |
 |-------------|-------|----------|------------|------------------|-----------------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [Python](./Solutions/1.%20Two%20Sum.py) | Easy | O(n) | O(n+k*logn) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [Python](./Solutions/1.%20Two%20Sum.py) | Easy | O(n) | O(n) |
 | 162 | [Find Peak Element](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/162.%20Find%20Peak%20Element.py) | Medium | O(1) | O(log(n)) |
 | 18 | [4Sum](https://leetcode.com/problems/4sum) | [Python](./Solutions/18.%204Sum.py) | Medium | O(n) | O(n*k) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Python](./Solutions/206.%20Reverse%20Linked%20List.py) | Easy | O(n) | O(n) |
