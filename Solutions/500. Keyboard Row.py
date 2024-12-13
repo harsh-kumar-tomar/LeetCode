@@ -2,7 +2,7 @@
 Link: https://leetcode.com/problems/keyboard-row
 Difficulty: Medium
 Space Complexity: O(n)
-Time Complexity: O(nlogn)
+Time Complexity: O(n*k)
 
 Question
 
@@ -56,6 +56,31 @@ from typing import List
 
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
+
+        ls = []
+
+        for word in words:
+            n = len(word)
+            firstRow = 0
+            secondRow = 0
+            thirdRow = 0
+
+            for char in word:
+                char = str.lower(char)
+                if char in "qwertyuiop":
+                    firstRow += 1
+                if char in "asdfghjkl":
+                    secondRow += 1
+                if char in "zxcvbnm":
+                    thirdRow += 1
+
+            if firstRow == n or secondRow == n or thirdRow == n:
+                ls.append(word)
+
+        print(ls)
+
+# can use set as it will avoid the 'in' operation which can take m time complexity
+
 
 
 
