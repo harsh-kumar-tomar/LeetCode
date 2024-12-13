@@ -3,15 +3,17 @@
 This repository contains solutions for LeetCode problems and additional coding concepts.
 
 
-![Solved](https://img.shields.io/badge/Solved-9-blue)
-![Easy](https://img.shields.io/badge/Easy-4-green)
-![Medium](https://img.shields.io/badge/Medium-5-orange)
+![Solved](https://img.shields.io/badge/Solved-11-blue)
+![Easy](https://img.shields.io/badge/Easy-5-green)
+![Medium](https://img.shields.io/badge/Medium-6-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 
 
 | Question No | Title | Solution | Difficulty | Space Complexity | Time Complexity |
 |-------------|-------|----------|------------|------------------|-----------------|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [Python](./Solutions/1.%20Two%20Sum.py) | Easy | O(n) | O(n+k*logn) |
 | 162 | [Find Peak Element](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/162.%20Find%20Peak%20Element.py) | Medium | O(1) | O(log(n)) |
+| 18 | [4Sum](https://leetcode.com/problems/4sum) | [Python](./Solutions/18.%204Sum.py) | Medium | O(n) | O(n*k) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Python](./Solutions/206.%20Reverse%20Linked%20List.py) | Easy | O(n) | O(n) |
 | 2558 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [Python](./Solutions/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py) | Easy | O(n) | O(n+k*logn) |
 | 2593 | [Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [Python](./Solutions/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py) | Medium | O(n) | O(nlogn) |
