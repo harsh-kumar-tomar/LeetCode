@@ -84,10 +84,11 @@ class Solution:
 
         presum = []
         result = []
+        s = {"a","e","i","o","u"}
         sum = 0
 
         for word in words:
-            if word[0] in "aeiou" and word[-1] in "aeiou":
+            if word[0] in s and word[-1] in s:
                 sum += 1
             presum.append(sum)
 
