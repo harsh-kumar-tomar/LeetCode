@@ -26,6 +26,29 @@ from typing import List
 
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        r = [intervals[0]]
+        j = 1
+
+        intervals.sort(key=lambda x: x[0])
+
+        while j < len(intervals):
+            if r[-1][1] >= intervals[j][0]:
+                r[-1][1] = max(r[-1][1], intervals[j][1])
+            else:
+                r.append(intervals[j])
+            j += 1
+
+        return r
+
+
+a = Solution().merge([[1, 4], [0, 4]])
+
+print(a)
+
+
+# old code
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
 
         intervals.sort(key=lambda x: x[0])
 
@@ -44,7 +67,4 @@ class Solution:
                 ans.append(interval)
                 pointer += 1
 
-        print(ans)
-
-
-a = Solution().merge(intervals=[[1, 3], [2, 6], [8, 10], [15, 18]])
+        return (ans)

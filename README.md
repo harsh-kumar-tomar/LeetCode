@@ -3,7 +3,7 @@
 This repository contains solutions for LeetCode problems and additional coding concepts.
 
 
-![Solved](https://img.shields.io/badge/Solved-23-blue)
+![Solved](https://img.shields.io/badge/Solved-28-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -12,6 +12,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | Question No | Title | Solution | Difficulty | Space Complexity | Time Complexity |
 |-------------|-------|----------|------------|------------------|-----------------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) | [Python](./Solutions/1.%20Two%20Sum.py) | Easy | O(n) | O(n) |
+| 1079 | [Letter Tile Possibilities](-) | [Python](./Solutions/1079.%20Letter%20Tile%20Possibilities.py) | - | - | - |
 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | [Python](./Solutions/1422.%20Maximum%20Score%20After%20Splitting%20a%20String.py) | Easy | O(n) | O(n) |
 | 15 | [3Sum](https://leetcode.com/problems/two-sum) | [Python](./Solutions/15.%203Sum.py) | Medium | O(n) | O(n) |
 | 162 | [Find Peak Element](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/162.%20Find%20Peak%20Element.py) | Medium | O(1) | O(log(n)) |
@@ -26,9 +27,13 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/278.%20First%20Bad%20Version.py) | Easy | O(1) | O(log(n)) |
 | 3066 | [Minimum Operations to Exceed Threshold Value II](-) | [Python](./Solutions/3066.%20Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.py) | - | - | - |
 | 3136 | [Valid Word](-) | [Python](./Solutions/3136.%20Valid%20Word.py) | - | - | - |
+| 3211 | [Generate Binary Strings Without Adjacent Zeros](-) | [Python](./Solutions/3211.%20Generate%20Binary%20Strings%20Without%20Adjacent%20Zeros.py) | - | - | - |
 | 3280 | [Convert Date to Binary](-) | [Python](./Solutions/3280.%20Convert%20Date%20to%20Binary.py) | - | - | - |
+| 3354 | [Make Array Elements Equal to Zero](-) | [Python](./Solutions/3354.%20Make%20Array%20Elements%20Equal%20to%20Zero.py) | - | - | - |
+| 3432 | [Count Partitions with Even Sum Difference](-) | [Python](./Solutions/3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference.py) | - | - | - |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | [Python](./Solutions/392.%20Is%20Subsequence.py) | Easy | O(n) | O(n) |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum) | [Python](./Solutions/494.%20Target%20Sum.py) | Medium | O(n*s) | O(n*s) or len(nums)(2*sum(nums)+1) |
+| 495 | [Teemo Attacking](-) | [Python](./Solutions/495.%20Teemo%20Attacking.py) | - | - | - |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row) | [Python](./Solutions/500.%20Keyboard%20Row.py) | Medium | O(n) | O(n*k) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./Solutions/56.%20Merge%20Intervals.py) | Medium | O(n) | O(n) |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Python](./Solutions/57.%20Insert%20Interval.py) | Medium | O(n) | O(n) |
@@ -41,5 +46,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 |-----------|
 | [Animation.py](./Solutions/Animation.py) |
 | [bfs.py](./Solutions/bfs.py) |
+| [dino.py](./Solutions/dino.py) |
 | [main.py](./Solutions/main.py) |
+| [naive string matching.py](./Solutions/naive%20string%20matching.py) |
 | [subsequence.py](./Solutions/subsequence.py) |
