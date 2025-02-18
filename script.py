@@ -5,7 +5,6 @@ from datetime import datetime
 # Directory for solutions
 solutions_dir = "./Solutions"
 
-
 def generate_readme():
     # Initialize counters for progress tracker
     total_question_solved = 0
@@ -32,17 +31,18 @@ This repository contains solutions for LeetCode problems and additional coding c
     questions = {}
     concept_hashmap = {}
 
-    # Traverse the Solutions folder
-    for solution_file in sorted(os.listdir(solutions_dir)):
-        if solution_file.endswith('.py'):
-            question_path = os.path.join(solutions_dir, solution_file)
-            with open(question_path, 'r') as file:
-                # Parse metadata from the solution file
-                lines = file.readlines()
+    # Traverse the Solutions folder (including subdirectories)
+    for root, _, files in os.walk(solutions_dir):
+        for solution_file in sorted(files):
+            if solution_file.endswith('.py'):
+                question_path = os.path.join(root, solution_file)
+                relative_path = os.path.relpath(question_path, solutions_dir)  # Get path relative to Solutions/
+                with open(question_path, 'r') as file:
+                    lines = file.readlines()
 
                 # Identify additional concepts by checking file name pattern
                 if not solution_file[0].isdigit():
-                    concept_hashmap[solution_file] = solution_file
+                    concept_hashmap[solution_file] = relative_path
                     continue
 
                 question_number, title = solution_file.split('.', 1)
@@ -70,11 +70,11 @@ This repository contains solutions for LeetCode problems and additional coding c
                     'difficulty': difficulty,
                     'space_complexity': space_complexity,
                     'time_complexity': time_complexity,
-                    'path': solution_file.replace(' ', '%20')
+                    'path': relative_path.replace(' ', '%20')  # Format for GitHub links
                 }
 
     # Add questions to the README
-    for question_info in questions:
+    for question_info in sorted(questions.keys(), key=lambda x: int(x)):  # Sort by question number
         question = questions[question_info]
         readme_content += f"| {question_info} | [{question['title']}]({question['link']}) | [Python](./Solutions/{question['path']}) | {question['difficulty']} | {question['space_complexity']} | {question['time_complexity']} |\n"
         total_question_solved += 1
@@ -100,7 +100,7 @@ This repository contains solutions for LeetCode problems and additional coding c
     with open("README.md", "w") as f:
         f.write(readme_content)
 
-    print("README.md generated successfully.")
+    print("✅ README.md generated successfully.")
 
 
 def git_push():
@@ -112,9 +112,9 @@ def git_push():
         subprocess.run(["git", "add", "."], check=True)
         subprocess.run(["git", "commit", "-m", f"Update solutions and README on {today_date}"], check=True)
         subprocess.run(["git", "push", "origin", "main"], check=True)
-        print("Changes pushed to GitHub successfully.")
+        print("🚀 Changes pushed to GitHub successfully.")
     except subprocess.CalledProcessError as e:
-        print("Error while pushing changes to GitHub:", e)
+        print("❌ Error while pushing changes to GitHub:", e)
 
 
 # Run the script
