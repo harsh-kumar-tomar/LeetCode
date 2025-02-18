@@ -3,6 +3,10 @@
 This repository contains solutions for LeetCode problems and additional coding concepts.
 
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/LeetCode-Solutions)
+![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/LeetCode-Solutions)
+
 ![Solved](https://img.shields.io/badge/Solved-31-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)

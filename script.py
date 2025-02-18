@@ -12,6 +12,10 @@ def generate_readme():
 
     # Start building README content
     badges = """
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/LeetCode-Solutions)
+![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/LeetCode-Solutions)
+
 ![Solved](https://img.shields.io/badge/Solved-{total_question_solved}-blue)
 ![Easy](https://img.shields.io/badge/Easy-{easy_count}-green)
 ![Medium](https://img.shields.io/badge/Medium-{medium_count}-orange)
