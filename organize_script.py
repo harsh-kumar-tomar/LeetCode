@@ -4,7 +4,7 @@ import re
 from categories import Categories
 from typing import List
 
-solutions_dir = "./Solutions"
+solutions_dir = "./LeetCode"
 
 def extract_category(line):
     match = re.search(r'Categories\.(\w+)', line)
@@ -23,7 +23,7 @@ def organize_solutions():
 
             path = None
             for line in lines:
-                if "path =" in line:
+                if "path =" in line or "Path =" in line or "Path=" in line or "path=" in line:
                     path = extract_category(line)
                     break
 

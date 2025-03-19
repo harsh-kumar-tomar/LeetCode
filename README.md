@@ -7,7 +7,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 
-![Solved](https://img.shields.io/badge/Solved-73-blue)
+![Solved](https://img.shields.io/badge/Solved-74-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -68,6 +68,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 2265 | [Count Nodes Equal to Average of Subtree](-) | [Python](./Solutions/Tree\2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) | - | - | - |
 | 2331 | [Evaluate Boolean Binary Tree](-) | [Python](./Solutions/Tree\2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | - | - | - |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | [Python](./Solutions/2351.%20First%20Letter%20to%20Appear%20Twice.py) | Easy | O(n) | O(n) |
+| 2460 | [Apply Operations to an Array](-) | [Python](./Solutions/2460.%20Apply%20Operations%20to%20an%20Array.py) | - | - | - |
 | 2529 | [Maximum Count of Positive Integer and Negative Integer](-) | [Python](./Solutions/2529.%20Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py) | - | - | - |
 | 2558 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [Python](./Solutions/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py) | Easy | O(n) | O(n+k*logn) |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | [Python](./Solutions/2559.%20Count%20Vowel%20Strings%20in%20Ranges.py) | Medium | O(n) | O(n) |
@@ -93,10 +94,10 @@ This repository contains solutions for LeetCode problems and additional coding c
 
 | File Name |
 |-----------|
-| [Draw a Square.py](./Solutions/Draw%20a%20Square.py) |
-| [bfs.py](./Solutions/bfs.py) |
-| [kimi.py](./Solutions/kimi.py) |
-| [main.py](./Solutions/main.py) |
-| [subsequence.py](./Solutions/subsequence.py) |
-| [Distance.py](./Solutions/Graph\Distance.py) |
-| [TreeNode.py](./Solutions/Tree\TreeNode.py) |
+| [Draw a Square.py](LeetCode/Draw%20a%20Square.py) |
+| [bfs.py](LeetCode/bfs.py) |
+| [kimi.py](LeetCode/kimi.py) |
+| [main.py](LeetCode/main.py) |
+| [subsequence.py](LeetCode/subsequence.py) |
+| [Distance.py](LeetCode/Graph\Distance.py) |
+| [TreeNode.py](LeetCode/Tree\TreeNode.py) |

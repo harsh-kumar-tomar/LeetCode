@@ -2,7 +2,7 @@
 import os
 import re
 
-solutions_dir = "./Solutions"
+solutions_dir = "./LeetCode"
 
 def extract_solution(file_path):
     """Extracts structured data from a solution file."""

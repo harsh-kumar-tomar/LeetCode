@@ -1,4 +1,4 @@
-from Solutions.Tree.TreeNode import TreeNode
+from LeetCode.Tree.TreeNode import TreeNode
 
 
 class Solution:

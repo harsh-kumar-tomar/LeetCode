@@ -1,6 +1,6 @@
 from typing import Optional
 
-from Solutions.Tree.TreeNode import TreeNode
+from LeetCode.Tree.TreeNode import TreeNode
 
 
 def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Optional[TreeNode]:

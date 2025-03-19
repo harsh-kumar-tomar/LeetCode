@@ -3,7 +3,7 @@ import subprocess
 from datetime import datetime
 
 # Directory for solutions
-solutions_dir = "./Solutions"
+solutions_dir = "./LeetCode"
 
 def generate_readme():
     # Initialize counters for progress tracker
@@ -35,12 +35,12 @@ This repository contains solutions for LeetCode problems and additional coding c
     questions = {}
     concept_hashmap = {}
 
-    # Traverse the Solutions folder (including subdirectories)
+    # Traverse the LeetCode folder (including subdirectories)
     for root, _, files in os.walk(solutions_dir):
         for solution_file in sorted(files):
             if solution_file.endswith('.py'):
                 question_path = os.path.join(root, solution_file)
-                relative_path = os.path.relpath(question_path, solutions_dir)  # Get path relative to Solutions/
+                relative_path = os.path.relpath(question_path, solutions_dir)  # Get path relative to LeetCode/
                 with open(question_path, 'r') as file:
                     lines = file.readlines()
 
@@ -97,7 +97,7 @@ This repository contains solutions for LeetCode problems and additional coding c
         readme_content += "| File Name |\n"
         readme_content += "|-----------|\n"
         for file_name, path in concept_hashmap.items():
-            file_link = f"./Solutions/{path.replace(' ', '%20')}"
+            file_link = f"LeetCode/{path.replace(' ', '%20')}"
             readme_content += f"| [{file_name}]({file_link}) |\n"
 
     # Write the README file

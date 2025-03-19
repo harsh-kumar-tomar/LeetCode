@@ -1,6 +1,6 @@
 from typing import *
 
-from Solutions.Tree.TreeNode import TreeNode
+from LeetCode.Tree.TreeNode import TreeNode
 from categories import Categories
 import queue
 
