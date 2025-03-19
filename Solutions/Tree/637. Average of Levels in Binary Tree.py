@@ -7,23 +7,27 @@ import queue
 path = Categories.TREE
 
 
-def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-    q = queue.Queue()
+def averageOfLevels(root: Optional[TreeNode]) -> List[float]:
     r = []
-
+    q = queue.Queue()
     q.put(root)
 
     while not q.empty():
+
         level_size = q.qsize()
-        ls = []
+        s = 0
+        count = level_size
+
         for _ in range(level_size):
             el = q.get()
-            ls.append(el.val)
+            s += el
             if el.left:
                 q.put(el.left)
             if el.right:
                 q.put(el.right)
 
-        r.append(ls)
+        r.append(s/count)
 
     return r
+
+
