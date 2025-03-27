@@ -7,7 +7,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 
-![Solved](https://img.shields.io/badge/Solved-74-blue)
+![Solved](https://img.shields.io/badge/Solved-79-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -62,8 +62,11 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 1791 | [Find Center of Star Graph](-) | [Python](./Solutions/1791.%20Find%20Center%20of%20Star%20Graph.py) | - | - | - |
 | 1921 | [Eliminate Maximum Number of Monsters](-) | [Python](./Solutions/1921.%20Eliminate%20Maximum%20Number%20of%20Monsters.py) | - | - | - |
 | 1947 | [Maximum Compatibility Score Sum](-) | [Python](./Solutions/1947.%20Maximum%20Compatibility%20Score%20Sum.py) | - | - | - |
+| 1976 | [Number of Ways to Arrive at Destination](-) | [Python](./Solutions/Graph\1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination.py) | - | - | - |
 | 1980 | [Find Unique Binary String](-) | [Python](./Solutions/1980.%20Find%20Unique%20Binary%20String.py) | - | - | - |
+| 2033 | [Minimum Operations to Make a Uni-Value Grid](-) | [Python](./Solutions/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) | - | - | - |
 | 2070 | [Most Beautiful Item for Each Query](-) | [Python](./Solutions/2070.%20Most%20Beautiful%20Item%20for%20Each%20Query.py) | - | - | - |
+| 2115 | [Find All Possible Recipes from Given Supplies](-) | [Python](./Solutions/Graph\2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py) | - | - | - |
 | 2208 | [Minimum Operations to Halve Array Sum](-) | [Python](./Solutions/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.py) | - | - | - |
 | 2265 | [Count Nodes Equal to Average of Subtree](-) | [Python](./Solutions/Tree\2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) | - | - | - |
 | 2331 | [Evaluate Boolean Binary Tree](-) | [Python](./Solutions/Tree\2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | - | - | - |
@@ -74,10 +77,12 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | [Python](./Solutions/2559.%20Count%20Vowel%20Strings%20in%20Ranges.py) | Medium | O(n) | O(n) |
 | 2579 | [Count Total Number of Colored Cells](-) | [Python](./Solutions/2579.%20Count%20Total%20Number%20of%20Colored%20Cells.py) | - | - | - |
 | 2593 | [Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [Python](./Solutions/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py) | Medium | O(n) | O(nlogn) |
+| 2685 | [Count the Number of Complete Components](-) | [Python](./Solutions/Graph\2685.%20Count%20the%20Number%20of%20Complete%20Components.py) | - | - | - |
 | 2762 | [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays) | [Python](./Solutions/2762.%20Continuous%20Subarrays.py) | Medium | O(1) | O(log(n)) |
 | 2924 | [Find Champion II](-) | [Python](./Solutions/2924.%20Find%20Champion%20II.py) | - | - | - |
 | 3066 | [Minimum Operations to Exceed Threshold Value II](-) | [Python](./Solutions/3066.%20Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.py) | - | - | - |
 | 3136 | [Valid Word](-) | [Python](./Solutions/3136.%20Valid%20Word.py) | - | - | - |
+| 3146 | [Permutation Difference between Two Strings](-) | [Python](./Solutions/3146.%20Permutation%20Difference%20between%20Two%20Strings.py) | - | - | - |
 | 3208 | [Alternating Groups II](-) | [Python](./Solutions/3208.%20Alternating%20Groups%20II.py) | - | - | - |
 | 3211 | [Generate Binary Strings Without Adjacent Zeros](-) | [Python](./Solutions/3211.%20Generate%20Binary%20Strings%20Without%20Adjacent%20Zeros.py) | - | - | - |
 | 3280 | [Convert Date to Binary](-) | [Python](./Solutions/3280.%20Convert%20Date%20to%20Binary.py) | - | - | - |
@@ -96,8 +101,12 @@ This repository contains solutions for LeetCode problems and additional coding c
 |-----------|
 | [Draw a Square.py](LeetCode/Draw%20a%20Square.py) |
 | [bfs.py](LeetCode/bfs.py) |
-| [kimi.py](LeetCode/kimi.py) |
 | [main.py](LeetCode/main.py) |
 | [subsequence.py](LeetCode/subsequence.py) |
+| [BFS.py](LeetCode/Graph\BFS.py) |
+| [DFS.py](LeetCode/Graph\DFS.py) |
+| [Dijkstra's Algorithm.py](LeetCode/Graph\Dijkstra's%20Algorithm.py) |
 | [Distance.py](LeetCode/Graph\Distance.py) |
+| [Graph.py](LeetCode/Graph\Graph.py) |
+| [Topological Sort.py](LeetCode/Graph\Topological%20Sort.py) |
 | [TreeNode.py](LeetCode/Tree\TreeNode.py) |
