@@ -7,7 +7,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 
-![Solved](https://img.shields.io/badge/Solved-79-blue)
+![Solved](https://img.shields.io/badge/Solved-80-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -34,6 +34,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 79 | [Word Search](-) | [Python](./Solutions/BackTrack\79.%20Word%20Search.py) | - | - | - |
 | 93 | [Restore IP Addresses](-) | [Python](./Solutions/93.%20Restore%20IP%20Addresses.py) | - | - | - |
 | 102 | [Binary Tree Level Order Traversal](-) | [Python](./Solutions/Tree\102.%20Binary%20Tree%20Level%20Order%20Traversal.py) | - | - | - |
+| 146 | [LRU Cache](-) | [Python](./Solutions/146.%20LRU%20Cache.py) | - | - | - |
 | 162 | [Find Peak Element](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/162.%20Find%20Peak%20Element.py) | Medium | O(1) | O(log(n)) |
 | 198 | [House Robber](-) | [Python](./Solutions/Dp\198.%20House%20Robber.py) | - | - | - |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Python](./Solutions/206.%20Reverse%20Linked%20List.py) | Easy | O(n) | O(n) |
