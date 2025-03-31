@@ -38,12 +38,65 @@ Constraints:
 0 <= value <= 105
 At most 2 * 105 calls will be made to get and put.
 """
+from functools import cache
+from typing import Tuple
 
 
 class LRUCache:
+    class Node:
+        def __init__(self,val,prev,next):
+            self.val = val
+            self.next = next
+            self.prev = prev
+
 
     def __init__(self, capacity: int):
+        self.cache = {}
+        self.capacity = capacity
+        self.head = self.Node(-1,None,None)
+        self.tail = self.Node(-1,None,None)
+
+        self.head.next = self.tail
+        self.tail.prev = self.head
+
 
     def get(self, key: int) -> int:
+        if key not in self.cache:
+            return -1
+        node = self.cache[key]
+        self.remove_node(node)
+        self.add_to_head(node)
+        return self.cache[key].val[1]
 
     def put(self, key: int, value: int) -> None:
+
+        if key in self.cache :
+            self.cache[key].val = key,value
+            self.remove_node(self.cache[key])
+            self.add_to_head(self.cache[key])
+        else:
+            newNode = self.Node((key,value),None,None)
+            self.cache[key] = newNode
+            self.add_to_head(newNode)
+
+            if len(self.cache)  > self.capacity:
+                node = self.remove_tail()
+                self.cache.pop(node.val[0])
+
+
+    def remove_node(self,node):
+        node.prev.next = node.next
+        node.next.prev = node.prev
+
+
+    def remove_tail(self):
+        temp = self.tail.prev
+        self.remove_node(temp)
+        return temp
+
+    def add_to_head(self,node):
+
+        node.next = self.head.next
+        self.head.next.prev = node
+        self.head.next = node
+        node.prev = self.head

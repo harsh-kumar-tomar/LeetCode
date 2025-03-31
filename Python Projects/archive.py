@@ -1,6 +1,6 @@
 import requests
 
-url = "https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/"
+url = "https://algo.monster/liteproblems/1487"
 response = requests.get(url)
 
 if response.status_code == 200:

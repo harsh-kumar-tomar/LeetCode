@@ -7,7 +7,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 
-![Solved](https://img.shields.io/badge/Solved-80-blue)
+![Solved](https://img.shields.io/badge/Solved-87-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -40,8 +40,10 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Python](./Solutions/206.%20Reverse%20Linked%20List.py) | Easy | O(n) | O(n) |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/278.%20First%20Bad%20Version.py) | Easy | O(1) | O(log(n)) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | [Python](./Solutions/392.%20Is%20Subsequence.py) | Easy | O(n) | O(n) |
+| 394 | [Decode String](-) | [Python](./Solutions/394.%20Decode%20String.py) | - | - | - |
 | 401 | [Binary Watch](-) | [Python](./Solutions/401.%20Binary%20Watch.py) | - | - | - |
 | 429 | [N-ary Tree Level Order Traversal](-) | [Python](./Solutions/Tree\429.%20N-ary%20Tree%20Level%20Order%20Traversal.py) | - | - | - |
+| 486 | [Predict the Winner](-) | [Python](./Solutions/486.%20Predict%20the%20Winner.py) | - | - | - |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum) | [Python](./Solutions/494.%20Target%20Sum.py) | Medium | O(n*s) | O(n*s) or len(nums)(2*sum(nums)+1) |
 | 495 | [Teemo Attacking](-) | [Python](./Solutions/495.%20Teemo%20Attacking.py) | - | - | - |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row) | [Python](./Solutions/500.%20Keyboard%20Row.py) | Medium | O(n) | O(n*k) |
@@ -62,26 +64,31 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 1780 | [Check if Number is a Sum of Powers of Three](-) | [Python](./Solutions/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py) | - | - | - |
 | 1791 | [Find Center of Star Graph](-) | [Python](./Solutions/1791.%20Find%20Center%20of%20Star%20Graph.py) | - | - | - |
 | 1921 | [Eliminate Maximum Number of Monsters](-) | [Python](./Solutions/1921.%20Eliminate%20Maximum%20Number%20of%20Monsters.py) | - | - | - |
+| 1922 | [Count Good Numbers](-) | [Python](./Solutions/1922.%20Count%20Good%20Numbers.py) | - | - | - |
 | 1947 | [Maximum Compatibility Score Sum](-) | [Python](./Solutions/1947.%20Maximum%20Compatibility%20Score%20Sum.py) | - | - | - |
 | 1976 | [Number of Ways to Arrive at Destination](-) | [Python](./Solutions/Graph\1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination.py) | - | - | - |
 | 1980 | [Find Unique Binary String](-) | [Python](./Solutions/1980.%20Find%20Unique%20Binary%20String.py) | - | - | - |
 | 2033 | [Minimum Operations to Make a Uni-Value Grid](-) | [Python](./Solutions/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) | - | - | - |
+| 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](-) | [Python](./Solutions/2035.%20Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.py) | - | - | - |
 | 2070 | [Most Beautiful Item for Each Query](-) | [Python](./Solutions/2070.%20Most%20Beautiful%20Item%20for%20Each%20Query.py) | - | - | - |
 | 2115 | [Find All Possible Recipes from Given Supplies](-) | [Python](./Solutions/Graph\2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py) | - | - | - |
 | 2208 | [Minimum Operations to Halve Array Sum](-) | [Python](./Solutions/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.py) | - | - | - |
 | 2265 | [Count Nodes Equal to Average of Subtree](-) | [Python](./Solutions/Tree\2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) | - | - | - |
 | 2331 | [Evaluate Boolean Binary Tree](-) | [Python](./Solutions/Tree\2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | - | - | - |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | [Python](./Solutions/2351.%20First%20Letter%20to%20Appear%20Twice.py) | Easy | O(n) | O(n) |
+| 2357 | [Make Array Zero by Subtracting Equal Amounts](-) | [Python](./Solutions/2357.%20Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py) | - | - | - |
 | 2460 | [Apply Operations to an Array](-) | [Python](./Solutions/2460.%20Apply%20Operations%20to%20an%20Array.py) | - | - | - |
 | 2529 | [Maximum Count of Positive Integer and Negative Integer](-) | [Python](./Solutions/2529.%20Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py) | - | - | - |
 | 2558 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [Python](./Solutions/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py) | Easy | O(n) | O(n+k*logn) |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | [Python](./Solutions/2559.%20Count%20Vowel%20Strings%20in%20Ranges.py) | Medium | O(n) | O(n) |
+| 2566 | [Maximum Difference by Remapping a Digit](-) | [Python](./Solutions/2566.%20Maximum%20Difference%20by%20Remapping%20a%20Digit.py) | - | - | - |
 | 2579 | [Count Total Number of Colored Cells](-) | [Python](./Solutions/2579.%20Count%20Total%20Number%20of%20Colored%20Cells.py) | - | - | - |
 | 2593 | [Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [Python](./Solutions/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py) | Medium | O(n) | O(nlogn) |
 | 2685 | [Count the Number of Complete Components](-) | [Python](./Solutions/Graph\2685.%20Count%20the%20Number%20of%20Complete%20Components.py) | - | - | - |
 | 2762 | [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays) | [Python](./Solutions/2762.%20Continuous%20Subarrays.py) | Medium | O(1) | O(log(n)) |
 | 2924 | [Find Champion II](-) | [Python](./Solutions/2924.%20Find%20Champion%20II.py) | - | - | - |
 | 3066 | [Minimum Operations to Exceed Threshold Value II](-) | [Python](./Solutions/3066.%20Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.py) | - | - | - |
+| 3074 | [Apple Redistribution into Boxes](-) | [Python](./Solutions/3074.%20Apple%20Redistribution%20into%20Boxes.py) | - | - | - |
 | 3136 | [Valid Word](-) | [Python](./Solutions/3136.%20Valid%20Word.py) | - | - | - |
 | 3146 | [Permutation Difference between Two Strings](-) | [Python](./Solutions/3146.%20Permutation%20Difference%20between%20Two%20Strings.py) | - | - | - |
 | 3208 | [Alternating Groups II](-) | [Python](./Solutions/3208.%20Alternating%20Groups%20II.py) | - | - | - |
