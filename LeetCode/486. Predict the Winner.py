@@ -2,9 +2,10 @@ from typing import List
 
 class Solution:
     def predictTheWinner(self, nums: List[int]) -> bool:
+        hs = {}
         return self.recursion(nums, 0, len(nums) - 1, 0, 0, 0)
 
-    def recursion(self,nums, start, end, turn, player1, player2):
+    def recursion(self,nums, start, end, turn, player1, player2,dp):
 
         if start > end:
             if player1 >= player2:
@@ -13,9 +14,11 @@ class Solution:
                 return False
 
         if turn == 0:
-            return self.recursion(nums, start + 1, end, 1, player1 + nums[start], player2) or self.recursion(nums, start, end - 1, 1, player1 + nums[end], player2)
+            a = self.recursion(nums, start + 1, end, 1, player1 + nums[start], player2,dp)
+            b = self.recursion(nums, start, end - 1, 1, player1 + nums[end], player2,dp)
         else:
-            return self.recursion(nums, start + 1, end, 0, player1, player2 + nums[start]) and self.recursion(nums, start, end - 1, 0, player1, player2 + nums[end])
+            a = self.recursion(nums, start + 1, end, 0, player1, player2 + nums[start],dp)
+            b = self.recursion(nums, start, end - 1, 0, player1, player2 + nums[end],dp)
 
 
 

@@ -7,7 +7,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 
-![Solved](https://img.shields.io/badge/Solved-87-blue)
+![Solved](https://img.shields.io/badge/Solved-88-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -72,6 +72,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](-) | [Python](./Solutions/2035.%20Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.py) | - | - | - |
 | 2070 | [Most Beautiful Item for Each Query](-) | [Python](./Solutions/2070.%20Most%20Beautiful%20Item%20for%20Each%20Query.py) | - | - | - |
 | 2115 | [Find All Possible Recipes from Given Supplies](-) | [Python](./Solutions/Graph\2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py) | - | - | - |
+| 2140 | [Solving Questions With Brainpower](-) | [Python](./Solutions/2140.%20Solving%20Questions%20With%20Brainpower.py) | - | - | - |
 | 2208 | [Minimum Operations to Halve Array Sum](-) | [Python](./Solutions/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.py) | - | - | - |
 | 2265 | [Count Nodes Equal to Average of Subtree](-) | [Python](./Solutions/Tree\2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) | - | - | - |
 | 2331 | [Evaluate Boolean Binary Tree](-) | [Python](./Solutions/Tree\2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | - | - | - |
