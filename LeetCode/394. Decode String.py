@@ -1,3 +1,5 @@
+from collections import deque
+
 
 def decodeString(s: str) -> str:
 
@@ -6,19 +8,17 @@ def decodeString(s: str) -> str:
     for index, char in enumerate(s):
 
         if char == "]":
-            temp = []
-            num = []
+            temp = deque()
+            num = deque()
 
             while stack[-1] != "[":
-                temp.append(stack.pop())
+                temp.appendleft(stack.pop())
 
             stack.pop()
-            temp.reverse()
 
-            while stack and stack[-1] in "0123456789"  :
-                num.append(stack.pop())
+            while stack and stack[-1].isdigit()  :
+                num.appendleft(stack.pop())
 
-            num.reverse()
             num = int("".join(num))
 
             temp = temp*num

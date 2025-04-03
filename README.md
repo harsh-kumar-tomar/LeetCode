@@ -7,7 +7,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 
-![Solved](https://img.shields.io/badge/Solved-88-blue)
+![Solved](https://img.shields.io/badge/Solved-95-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -38,6 +38,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 162 | [Find Peak Element](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/162.%20Find%20Peak%20Element.py) | Medium | O(1) | O(log(n)) |
 | 198 | [House Robber](-) | [Python](./Solutions/Dp\198.%20House%20Robber.py) | - | - | - |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Python](./Solutions/206.%20Reverse%20Linked%20List.py) | Easy | O(n) | O(n) |
+| 241 | [Different Ways to Add Parentheses](-) | [Python](./Solutions/241.%20Different%20Ways%20to%20Add%20Parentheses.py) | - | - | - |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/278.%20First%20Bad%20Version.py) | Easy | O(1) | O(log(n)) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | [Python](./Solutions/392.%20Is%20Subsequence.py) | Easy | O(n) | O(n) |
 | 394 | [Decode String](-) | [Python](./Solutions/394.%20Decode%20String.py) | - | - | - |
@@ -47,6 +48,8 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum) | [Python](./Solutions/494.%20Target%20Sum.py) | Medium | O(n*s) | O(n*s) or len(nums)(2*sum(nums)+1) |
 | 495 | [Teemo Attacking](-) | [Python](./Solutions/495.%20Teemo%20Attacking.py) | - | - | - |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row) | [Python](./Solutions/500.%20Keyboard%20Row.py) | Medium | O(n) | O(n*k) |
+| 525 | [Contiguous Array](-) | [Python](./Solutions/525.%20Contiguous%20Array.py) | - | - | - |
+| 560 | [Subarray Sum Equals K](-) | [Python](./Solutions/560.%20Subarray%20Sum%20Equals%20K.py) | - | - | - |
 | 617 | [Merge Two Binary Trees](-) | [Python](./Solutions/Tree\617.%20Merge%20Two%20Binary%20Trees.py) | - | - | - |
 | 637 | [Average of Levels in Binary Tree](-) | [Python](./Solutions/Tree\637.%20Average%20of%20Levels%20in%20Binary%20Tree.py) | - | - | - |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/first-bad-version) | [Python](./Solutions/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.py) | Easy | O(1) | O(log(n)) |
@@ -87,6 +90,9 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 2593 | [Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [Python](./Solutions/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py) | Medium | O(n) | O(nlogn) |
 | 2685 | [Count the Number of Complete Components](-) | [Python](./Solutions/Graph\2685.%20Count%20the%20Number%20of%20Complete%20Components.py) | - | - | - |
 | 2762 | [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays) | [Python](./Solutions/2762.%20Continuous%20Subarrays.py) | Medium | O(1) | O(log(n)) |
+| 2873 | [Maximum Value of an Ordered Triplet I](-) | [Python](./Solutions/2873.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20I.py) | - | - | - |
+| 2874 | [Maximum Value of an Ordered Triplet II](-) | [Python](./Solutions/2874.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20II.py) | - | - | - |
+| 2909 | [Minimum Sum of Mountain Triplets II](-) | [Python](./Solutions/2909.%20Minimum%20Sum%20of%20Mountain%20Triplets%20II.py) | - | - | - |
 | 2924 | [Find Champion II](-) | [Python](./Solutions/2924.%20Find%20Champion%20II.py) | - | - | - |
 | 3066 | [Minimum Operations to Exceed Threshold Value II](-) | [Python](./Solutions/3066.%20Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.py) | - | - | - |
 | 3074 | [Apple Redistribution into Boxes](-) | [Python](./Solutions/3074.%20Apple%20Redistribution%20into%20Boxes.py) | - | - | - |
@@ -95,6 +101,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 3208 | [Alternating Groups II](-) | [Python](./Solutions/3208.%20Alternating%20Groups%20II.py) | - | - | - |
 | 3211 | [Generate Binary Strings Without Adjacent Zeros](-) | [Python](./Solutions/3211.%20Generate%20Binary%20Strings%20Without%20Adjacent%20Zeros.py) | - | - | - |
 | 3280 | [Convert Date to Binary](-) | [Python](./Solutions/3280.%20Convert%20Date%20to%20Binary.py) | - | - | - |
+| 3304 | [Find the K-th Character in String Game I](-) | [Python](./Solutions/3304.%20Find%20the%20K-th%20Character%20in%20String%20Game%20I.py) | - | - | - |
 | 3305 | [Count of Substrings Containing Every Vowel and K Consonants I](-) | [Python](./Solutions/3305.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20I.py) | - | - | - |
 | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](-) | [Python](./Solutions/3306.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20II.py) | - | - | - |
 | 3354 | [Make Array Elements Equal to Zero](-) | [Python](./Solutions/3354.%20Make%20Array%20Elements%20Equal%20to%20Zero.py) | - | - | - |
