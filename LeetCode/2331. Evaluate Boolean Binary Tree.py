@@ -1,6 +1,6 @@
 from typing import Optional
 
-from LeetCode.Tree.TreeNode import TreeNode
+from LeetCode.TreeNode import TreeNode
 
 
 def evaluateTree(self, root: Optional[TreeNode]) -> bool:
