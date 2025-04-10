@@ -7,7 +7,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 
-![Solved](https://img.shields.io/badge/Solved-98-blue)
+![Solved](https://img.shields.io/badge/Solved-107-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -38,12 +38,16 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 162 | [Find Peak Element](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/162.%20Find%20Peak%20Element.py) | Medium | O(1) | O(log(n)) |
 | 198 | [House Robber](-) | [Python](./Solutions/198.%20House%20Robber.py) | - | - | - |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [Python](./Solutions/206.%20Reverse%20Linked%20List.py) | Easy | O(n) | O(n) |
+| 213 | [House Robber II](-) | [Python](./Solutions/213.%20House%20Robber%20II.py) | - | - | - |
 | 241 | [Different Ways to Add Parentheses](-) | [Python](./Solutions/241.%20Different%20Ways%20to%20Add%20Parentheses.py) | - | - | - |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/278.%20First%20Bad%20Version.py) | Easy | O(1) | O(log(n)) |
+| 321 | [Create Maximum Number](-) | [Python](./Solutions/321.%20Create%20Maximum%20Number.py) | - | - | - |
+| 337 | [House Robber III](-) | [Python](./Solutions/337.%20House%20Robber%20III.py) | - | - | - |
 | 390 | [Elimination Game](-) | [Python](./Solutions/390.%20Elimination%20Game.py) | - | - | - |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | [Python](./Solutions/392.%20Is%20Subsequence.py) | Easy | O(n) | O(n) |
 | 394 | [Decode String](-) | [Python](./Solutions/394.%20Decode%20String.py) | - | - | - |
 | 401 | [Binary Watch](-) | [Python](./Solutions/401.%20Binary%20Watch.py) | - | - | - |
+| 402 | [Remove K Digits](-) | [Python](./Solutions/402.%20Remove%20K%20Digits.py) | - | - | - |
 | 403 | [Frog Jump](-) | [Python](./Solutions/403.%20Frog%20Jump.py) | - | - | - |
 | 429 | [N-ary Tree Level Order Traversal](-) | [Python](./Solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.py) | - | - | - |
 | 486 | [Predict the Winner](-) | [Python](./Solutions/486.%20Predict%20the%20Winner.py) | - | - | - |
@@ -54,9 +58,11 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 560 | [Subarray Sum Equals K](-) | [Python](./Solutions/560.%20Subarray%20Sum%20Equals%20K.py) | - | - | - |
 | 617 | [Merge Two Binary Trees](-) | [Python](./Solutions/617.%20Merge%20Two%20Binary%20Trees.py) | - | - | - |
 | 637 | [Average of Levels in Binary Tree](-) | [Python](./Solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.py) | - | - | - |
+| 738 | [Monotone Increasing Digits](-) | [Python](./Solutions/738.%20Monotone%20Increasing%20Digits.py) | - | - | - |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/first-bad-version) | [Python](./Solutions/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.py) | Easy | O(1) | O(log(n)) |
 | 746 | [Min Cost Climbing Stairs](-) | [Python](./Solutions/746.%20Min%20Cost%20Climbing%20Stairs.py) | - | - | - |
 | 797 | [All Paths From Source to Target](-) | [Python](./Solutions/797.%20All%20Paths%20From%20Source%20to%20Target.py) | - | - | - |
+| 807 | [Max Increase to Keep City Skyline](-) | [Python](./Solutions/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.py) | - | - | - |
 | 859 | [Buddy Strings](-) | [Python](./Solutions/859.%20Buddy%20Strings.py) | - | - | - |
 | 897 | [Increasing Order Search Tree](-) | [Python](./Solutions/897.%20Increasing%20Order%20Search%20Tree.py) | - | - | - |
 | 904 | [Fruit Into Baskets](-) | [Python](./Solutions/904.%20Fruit%20Into%20Baskets.py) | - | - | - |
@@ -67,6 +73,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | [Python](./Solutions/1422.%20Maximum%20Score%20After%20Splitting%20a%20String.py) | Easy | O(n) | O(n) |
 | 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](-) | [Python](./Solutions/1455.%20Check%20If%20a%20Word%20Occurs%20As%20a%20Prefix%20of%20Any%20Word%20in%20a%20Sentence.py) | - | - | - |
 | 1557 | [Minimum Number of Vertices to Reach All Nodes](-) | [Python](./Solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py) | - | - | - |
+| 1642 | [Furthest Building You Can Reach](-) | [Python](./Solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.py) | - | - | - |
 | 1780 | [Check if Number is a Sum of Powers of Three](-) | [Python](./Solutions/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py) | - | - | - |
 | 1791 | [Find Center of Star Graph](-) | [Python](./Solutions/1791.%20Find%20Center%20of%20Star%20Graph.py) | - | - | - |
 | 1921 | [Eliminate Maximum Number of Monsters](-) | [Python](./Solutions/1921.%20Eliminate%20Maximum%20Number%20of%20Monsters.py) | - | - | - |
@@ -84,6 +91,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 2331 | [Evaluate Boolean Binary Tree](-) | [Python](./Solutions/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | - | - | - |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | [Python](./Solutions/2351.%20First%20Letter%20to%20Appear%20Twice.py) | Easy | O(n) | O(n) |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](-) | [Python](./Solutions/2357.%20Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py) | - | - | - |
+| 2375 | [Construct Smallest Number From DI String](-) | [Python](./Solutions/2375.%20Construct%20Smallest%20Number%20From%20DI%20String.py) | - | - | - |
 | 2460 | [Apply Operations to an Array](-) | [Python](./Solutions/2460.%20Apply%20Operations%20to%20an%20Array.py) | - | - | - |
 | 2529 | [Maximum Count of Positive Integer and Negative Integer](-) | [Python](./Solutions/2529.%20Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py) | - | - | - |
 | 2558 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [Python](./Solutions/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py) | Easy | O(n) | O(n+k*logn) |
@@ -97,6 +105,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 2874 | [Maximum Value of an Ordered Triplet II](-) | [Python](./Solutions/2874.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20II.py) | - | - | - |
 | 2909 | [Minimum Sum of Mountain Triplets II](-) | [Python](./Solutions/2909.%20Minimum%20Sum%20of%20Mountain%20Triplets%20II.py) | - | - | - |
 | 2924 | [Find Champion II](-) | [Python](./Solutions/2924.%20Find%20Champion%20II.py) | - | - | - |
+| 2999 | [Count the Number of Powerful Integers](-) | [Python](./Solutions/2999.%20Count%20the%20Number%20of%20Powerful%20Integers.py) | - | - | - |
 | 3066 | [Minimum Operations to Exceed Threshold Value II](-) | [Python](./Solutions/3066.%20Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.py) | - | - | - |
 | 3074 | [Apple Redistribution into Boxes](-) | [Python](./Solutions/3074.%20Apple%20Redistribution%20into%20Boxes.py) | - | - | - |
 | 3136 | [Valid Word](-) | [Python](./Solutions/3136.%20Valid%20Word.py) | - | - | - |
