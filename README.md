@@ -7,7 +7,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 
-![Solved](https://img.shields.io/badge/Solved-107-blue)
+![Solved](https://img.shields.io/badge/Solved-110-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -43,6 +43,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Solutions/278.%20First%20Bad%20Version.py) | Easy | O(1) | O(log(n)) |
 | 321 | [Create Maximum Number](-) | [Python](./Solutions/321.%20Create%20Maximum%20Number.py) | - | - | - |
 | 337 | [House Robber III](-) | [Python](./Solutions/337.%20House%20Robber%20III.py) | - | - | - |
+| 386 | [Lexicographical Numbers](-) | [Python](./Solutions/386.%20Lexicographical%20Numbers.py) | - | - | - |
 | 390 | [Elimination Game](-) | [Python](./Solutions/390.%20Elimination%20Game.py) | - | - | - |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | [Python](./Solutions/392.%20Is%20Subsequence.py) | Easy | O(n) | O(n) |
 | 394 | [Decode String](-) | [Python](./Solutions/394.%20Decode%20String.py) | - | - | - |
@@ -87,6 +88,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 2115 | [Find All Possible Recipes from Given Supplies](-) | [Python](./Solutions/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py) | - | - | - |
 | 2140 | [Solving Questions With Brainpower](-) | [Python](./Solutions/2140.%20Solving%20Questions%20With%20Brainpower.py) | - | - | - |
 | 2208 | [Minimum Operations to Halve Array Sum](-) | [Python](./Solutions/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.py) | - | - | - |
+| 2217 | [Find Palindrome With Fixed Length](-) | [Python](./Solutions/2217.%20Find%20Palindrome%20With%20Fixed%20Length.py) | - | - | - |
 | 2265 | [Count Nodes Equal to Average of Subtree](-) | [Python](./Solutions/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) | - | - | - |
 | 2331 | [Evaluate Boolean Binary Tree](-) | [Python](./Solutions/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | - | - | - |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | [Python](./Solutions/2351.%20First%20Letter%20to%20Appear%20Twice.py) | Easy | O(n) | O(n) |
@@ -122,6 +124,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 3432 | [Count Partitions with Even Sum Difference](-) | [Python](./Solutions/3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference.py) | - | - | - |
 | 3477 | [Fruits Into Baskets II](-) | [Python](./Solutions/3477.%20Fruits%20Into%20Baskets%20II.py) | - | - | - |
 | 3479 | [Fruits Into Baskets III](-) | [Python](./Solutions/3479.%20Fruits%20Into%20Baskets%20III.py) | - | - | - |
+| 3512 | [Minimum Operations to Make Array Sum Divisible by K](-) | [Python](./Solutions/3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K.py) | - | - | - |
 
 ## Additional Concepts
 
