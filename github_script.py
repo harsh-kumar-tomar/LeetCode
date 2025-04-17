@@ -9,7 +9,6 @@ solutions_dir = "./LeetCode"
 def generate_readme():
     total_question_solved = 0
 
-    # Updated badges — only total solved
     badges = """
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
@@ -35,13 +34,14 @@ This repository contains solutions for LeetCode problems and additional coding c
         for solution_file in sorted(files):
             if solution_file.endswith('.py'):
                 question_path = os.path.join(root, solution_file)
-                relative_path = os.path.relpath(question_path, '.')  # Keep relative to project root
+                relative_path = os.path.relpath(question_path, '.')  # relative to repo root
+                github_path = relative_path.replace('\\', '/').replace(' ', '%20')  # fix for GitHub
 
                 with open(question_path, 'r') as file:
                     lines = file.readlines()
 
                 if not solution_file[0].isdigit():
-                    concept_hashmap[solution_file] = relative_path
+                    concept_hashmap[solution_file] = github_path
                     continue
 
                 question_number, title = solution_file.split('.', 1)
@@ -56,7 +56,7 @@ This repository contains solutions for LeetCode problems and additional coding c
                 questions[int(question_number)] = {
                     'title': title,
                     'link': leetcode_link,
-                    'path': relative_path.replace(' ', '%20')  # URL encode spaces
+                    'path': github_path
                 }
 
     for q_num in sorted(questions.keys()):
@@ -71,14 +71,12 @@ This repository contains solutions for LeetCode problems and additional coding c
         readme_content += "| File Name |\n"
         readme_content += "|-----------|\n"
         for file_name, path in concept_hashmap.items():
-            readme_content += f"| [{file_name}]({path.replace(' ', '%20')}) |\n"
+            readme_content += f"| [{file_name}]({path}) |\n"
 
     with open("README.md", "w") as f:
         f.write(readme_content)
 
-    print("✅ README.md generated successfully.")
-
-    
+    print("✅ README.md generated successfully.")    
 def git_push():
     # Get today's date in "DD MMM YYYY" format
     today_date = datetime.now().strftime("%d %b %Y")
