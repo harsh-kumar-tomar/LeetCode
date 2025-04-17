@@ -9,6 +9,7 @@ solutions_dir = "./LeetCode"
 def generate_readme():
     total_question_solved = 0
 
+    # Updated badges — only total solved
     badges = """
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
@@ -34,12 +35,11 @@ This repository contains solutions for LeetCode problems and additional coding c
         for solution_file in sorted(files):
             if solution_file.endswith('.py'):
                 question_path = os.path.join(root, solution_file)
-                relative_path = os.path.relpath(question_path, solutions_dir)
+                relative_path = os.path.relpath(question_path, '.')  # Keep relative to project root
 
                 with open(question_path, 'r') as file:
                     lines = file.readlines()
 
-                # Detect if it's a regular LeetCode question or a concept file
                 if not solution_file[0].isdigit():
                     concept_hashmap[solution_file] = relative_path
                     continue
@@ -47,7 +47,6 @@ This repository contains solutions for LeetCode problems and additional coding c
                 question_number, title = solution_file.split('.', 1)
                 title = title.strip().replace('.py', '')
 
-                # Extract LeetCode problem link (if any)
                 leetcode_link = "-"
                 for line in lines:
                     if line.lower().startswith('link'):
@@ -57,12 +56,12 @@ This repository contains solutions for LeetCode problems and additional coding c
                 questions[int(question_number)] = {
                     'title': title,
                     'link': leetcode_link,
-                    'path': relative_path.replace(' ', '%20')
+                    'path': relative_path.replace(' ', '%20')  # URL encode spaces
                 }
 
     for q_num in sorted(questions.keys()):
         q = questions[q_num]
-        readme_content += f"| [{q_num}]({q['link']}) | [{q['title']}](./Solutions/{q['path']}) |\n"
+        readme_content += f"| [{q_num}]({q['link']}) | [{q['title']}]({q['path']}) |\n"
         total_question_solved += 1
 
     readme_content = readme_content.format(total_question_solved=total_question_solved)
@@ -72,14 +71,14 @@ This repository contains solutions for LeetCode problems and additional coding c
         readme_content += "| File Name |\n"
         readme_content += "|-----------|\n"
         for file_name, path in concept_hashmap.items():
-            file_link = f"LeetCode/{path.replace(' ', '%20')}"
-            readme_content += f"| [{file_name}]({file_link}) |\n"
+            readme_content += f"| [{file_name}]({path.replace(' ', '%20')}) |\n"
 
     with open("README.md", "w") as f:
         f.write(readme_content)
 
     print("✅ README.md generated successfully.")
 
+    
 def git_push():
     # Get today's date in "DD MMM YYYY" format
     today_date = datetime.now().strftime("%d %b %Y")
