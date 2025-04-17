@@ -1,184 +1,147 @@
-# Problem Solutions
+# LeetCode Solutions
 
-This repository contains solutions for LeetCode, CSES, and Codeforces problems.
+This repository contains solutions for LeetCode problems and additional coding concepts.
 
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
-![Solved](https://img.shields.io/badge/Solved-159-blue)
 
+![Solved](https://img.shields.io/badge/Solved-117-blue)
 
-## py
 
 | Question No | Title |
 |-------------|-------|
-| [1. Two Sum](https://leetcode.com/problems/two-sum) | [py](LeetCode/1.%20Two%20Sum.py) |
-| 102. Binary Tree Level Order Traversal | [py](LeetCode/102.%20Binary%20Tree%20Level%20Order%20Traversal.py) |
-| 1079. Letter Tile Possibilities | [py](LeetCode/1079.%20Letter%20Tile%20Possibilities.py) |
-| 1106. Parsing A Boolean Expression | [py](LeetCode/1106.%20Parsing%20A%20Boolean%20Expression.py) |
-| 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance | [py](LeetCode/1334.%20Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance.py) |
-| 1415. The k-th Lexicographical String of All Happy Strings of Length n | [py](LeetCode/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) |
-| [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | [py](LeetCode/1422.%20Maximum%20Score%20After%20Splitting%20a%20String.py) |
-| 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence | [py](LeetCode/1455.%20Check%20If%20a%20Word%20Occurs%20As%20a%20Prefix%20of%20Any%20Word%20in%20a%20Sentence.py) |
-| 146. LRU Cache | [py](LeetCode/146.%20LRU%20Cache.py) |
-| [15. 3Sum](https://leetcode.com/problems/two-sum) | [py](LeetCode/15.%203Sum.py) |
-| 1557. Minimum Number of Vertices to Reach All Nodes | [py](LeetCode/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py) |
-| [162. Find Peak Element](https://leetcode.com/problems/first-bad-version/) | [py](LeetCode/162.%20Find%20Peak%20Element.py) |
-| 1642. Furthest Building You Can Reach | [py](LeetCode/1642.%20Furthest%20Building%20You%20Can%20Reach.py) |
-| 1780. Check if Number is a Sum of Powers of Three | [py](LeetCode/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py) |
-| 1791. Find Center of Star Graph | [py](LeetCode/1791.%20Find%20Center%20of%20Star%20Graph.py) |
-| [18. 4Sum](https://leetcode.com/problems/4sum) | [py](LeetCode/18.%204Sum.py) |
-| 1921. Eliminate Maximum Number of Monsters | [py](LeetCode/1921.%20Eliminate%20Maximum%20Number%20of%20Monsters.py) |
-| 1922. Count Good Numbers | [py](LeetCode/1922.%20Count%20Good%20Numbers.py) |
-| 1947. Maximum Compatibility Score Sum | [py](LeetCode/1947.%20Maximum%20Compatibility%20Score%20Sum.py) |
-| 1976. Number of Ways to Arrive at Destination | [py](LeetCode/1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination.py) |
-| 198. House Robber | [py](LeetCode/198.%20House%20Robber.py) |
-| 1980. Find Unique Binary String | [py](LeetCode/1980.%20Find%20Unique%20Binary%20String.py) |
-| 2033. Minimum Operations to Make a Uni-Value Grid | [py](LeetCode/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) |
-| 2035. Partition Array Into Two Arrays to Minimize Sum Difference | [py](LeetCode/2035.%20Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.py) |
-| [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [py](LeetCode/206.%20Reverse%20Linked%20List.py) |
-| 2070. Most Beautiful Item for Each Query | [py](LeetCode/2070.%20Most%20Beautiful%20Item%20for%20Each%20Query.py) |
-| 2115. Find All Possible Recipes from Given Supplies | [py](LeetCode/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py) |
-| 213. House Robber II | [py](LeetCode/213.%20House%20Robber%20II.py) |
-| 2140. Solving Questions With Brainpower | [py](LeetCode/2140.%20Solving%20Questions%20With%20Brainpower.py) |
-| 2176. Count Equal and Divisible Pairs in an Array | [py](LeetCode/2176.%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array.py) |
-| 2183. Count Array Pairs Divisible by K | [py](LeetCode/2183.%20Count%20Array%20Pairs%20Divisible%20by%20K.py) |
-| 22. Generate Parentheses | [py](LeetCode/22.%20Generate%20Parentheses.py) |
-| 2208. Minimum Operations to Halve Array Sum | [py](LeetCode/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.py) |
-| 2217. Find Palindrome With Fixed Length | [py](LeetCode/2217.%20Find%20Palindrome%20With%20Fixed%20Length.py) |
-| 2265. Count Nodes Equal to Average of Subtree | [py](LeetCode/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) |
-| 2331. Evaluate Boolean Binary Tree | [py](LeetCode/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) |
-| [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | [py](LeetCode/2351.%20First%20Letter%20to%20Appear%20Twice.py) |
-| 2357. Make Array Zero by Subtracting Equal Amounts | [py](LeetCode/2357.%20Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py) |
-| 2375. Construct Smallest Number From DI String | [py](LeetCode/2375.%20Construct%20Smallest%20Number%20From%20DI%20String.py) |
-| 241. Different Ways to Add Parentheses | [py](LeetCode/241.%20Different%20Ways%20to%20Add%20Parentheses.py) |
-| 2460. Apply Operations to an Array | [py](LeetCode/2460.%20Apply%20Operations%20to%20an%20Array.py) |
-| 2529. Maximum Count of Positive Integer and Negative Integer | [py](LeetCode/2529.%20Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py) |
-| [2558. Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [py](LeetCode/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py) |
-| [2559. Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | [py](LeetCode/2559.%20Count%20Vowel%20Strings%20in%20Ranges.py) |
-| 2566. Maximum Difference by Remapping a Digit | [py](LeetCode/2566.%20Maximum%20Difference%20by%20Remapping%20a%20Digit.py) |
-| 2579. Count Total Number of Colored Cells | [py](LeetCode/2579.%20Count%20Total%20Number%20of%20Colored%20Cells.py) |
-| [2593. Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [py](LeetCode/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py) |
-| 2685. Count the Number of Complete Components | [py](LeetCode/2685.%20Count%20the%20Number%20of%20Complete%20Components.py) |
-| [2762. Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays) | [py](LeetCode/2762.%20Continuous%20Subarrays.py) |
-| [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) | [py](LeetCode/278.%20First%20Bad%20Version.py) |
-| 28. Find the Index of the First Occurrence in a String | [py](LeetCode/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String.py) |
-| 2873. Maximum Value of an Ordered Triplet I | [py](LeetCode/2873.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20I.py) |
-| 2874. Maximum Value of an Ordered Triplet II | [py](LeetCode/2874.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20II.py) |
-| 2909. Minimum Sum of Mountain Triplets II | [py](LeetCode/2909.%20Minimum%20Sum%20of%20Mountain%20Triplets%20II.py) |
-| 2924. Find Champion II | [py](LeetCode/2924.%20Find%20Champion%20II.py) |
-| 2999. Count the Number of Powerful Integers | [py](LeetCode/2999.%20Count%20the%20Number%20of%20Powerful%20Integers.py) |
-| 3066. Minimum Operations to Exceed Threshold Value II | [py](LeetCode/3066.%20Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.py) |
-| 3074. Apple Redistribution into Boxes | [py](LeetCode/3074.%20Apple%20Redistribution%20into%20Boxes.py) |
-| 3136. Valid Word | [py](LeetCode/3136.%20Valid%20Word.py) |
-| 3146. Permutation Difference between Two Strings | [py](LeetCode/3146.%20Permutation%20Difference%20between%20Two%20Strings.py) |
-| 3208. Alternating Groups II | [py](LeetCode/3208.%20Alternating%20Groups%20II.py) |
-| 321. Create Maximum Number | [py](LeetCode/321.%20Create%20Maximum%20Number.py) |
-| 3211. Generate Binary Strings Without Adjacent Zeros | [py](LeetCode/3211.%20Generate%20Binary%20Strings%20Without%20Adjacent%20Zeros.py) |
-| 3280. Convert Date to Binary | [py](LeetCode/3280.%20Convert%20Date%20to%20Binary.py) |
-| 3304. Find the K-th Character in String Game I | [py](LeetCode/3304.%20Find%20the%20K-th%20Character%20in%20String%20Game%20I.py) |
-| 3305. Count of Substrings Containing Every Vowel and K Consonants I | [py](LeetCode/3305.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20I.py) |
-| 3306. Count of Substrings Containing Every Vowel and K Consonants II | [py](LeetCode/3306.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20II.py) |
-| 3354. Make Array Elements Equal to Zero | [py](LeetCode/3354.%20Make%20Array%20Elements%20Equal%20to%20Zero.py) |
-| 3355. Zero Array Transformation I | [py](LeetCode/3355.%20Zero%20Array%20Transformation%20I.py) |
-| 3356. Zero Array Transformation II | [py](LeetCode/3356.%20Zero%20Array%20Transformation%20II.py) |
-| 337. House Robber III | [py](LeetCode/337.%20House%20Robber%20III.py) |
-| 3432. Count Partitions with Even Sum Difference | [py](LeetCode/3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference.py) |
-| 3477. Fruits Into Baskets II | [py](LeetCode/3477.%20Fruits%20Into%20Baskets%20II.py) |
-| 3479. Fruits Into Baskets III | [py](LeetCode/3479.%20Fruits%20Into%20Baskets%20III.py) |
-| 35. Search Insert Position | [py](LeetCode/35.%20Search%20Insert%20Position.py) |
-| 3512. Minimum Operations to Make Array Sum Divisible by K | [py](LeetCode/3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K.py) |
-| 386. Lexicographical Numbers | [py](LeetCode/386.%20Lexicographical%20Numbers.py) |
-| 39. Combination Sum | [py](LeetCode/39.%20Combination%20Sum.py) |
-| 390. Elimination Game | [py](LeetCode/390.%20Elimination%20Game.py) |
-| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | [py](LeetCode/392.%20Is%20Subsequence.py) |
-| 394. Decode String | [py](LeetCode/394.%20Decode%20String.py) |
-| 40. Combination Sum II | [py](LeetCode/40.%20Combination%20Sum%20II.py) |
-| 401. Binary Watch | [py](LeetCode/401.%20Binary%20Watch.py) |
-| 402. Remove K Digits | [py](LeetCode/402.%20Remove%20K%20Digits.py) |
-| 403. Frog Jump | [py](LeetCode/403.%20Frog%20Jump.py) |
-| 429. N-ary Tree Level Order Traversal | [py](LeetCode/429.%20N-ary%20Tree%20Level%20Order%20Traversal.py) |
-| 45. Jump Game II | [py](LeetCode/45.%20Jump%20Game%20II.py) |
-| 46. Permutations | [py](LeetCode/46.%20Permutations.py) |
-| 47. Permutations II | [py](LeetCode/47.%20Permutations%20II.py) |
-| 486. Predict the Winner | [py](LeetCode/486.%20Predict%20the%20Winner.py) |
-| [494. Target Sum](https://leetcode.com/problems/target-sum) | [py](LeetCode/494.%20Target%20Sum.py) |
-| 495. Teemo Attacking | [py](LeetCode/495.%20Teemo%20Attacking.py) |
-| [500. Keyboard Row](https://leetcode.com/problems/keyboard-row) | [py](LeetCode/500.%20Keyboard%20Row.py) |
-| 525. Contiguous Array | [py](LeetCode/525.%20Contiguous%20Array.py) |
-| 55. Jump Game | [py](LeetCode/55.%20Jump%20Game.py) |
-| [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [py](LeetCode/56.%20Merge%20Intervals.py) |
-| 560. Subarray Sum Equals K | [py](LeetCode/560.%20Subarray%20Sum%20Equals%20K.py) |
-| [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [py](LeetCode/57.%20Insert%20Interval.py) |
-| 617. Merge Two Binary Trees | [py](LeetCode/617.%20Merge%20Two%20Binary%20Trees.py) |
-| 62. Unique Paths | [py](LeetCode/62.%20Unique%20Paths.py) |
-| 63. Unique Paths II | [py](LeetCode/63.%20Unique%20Paths%20II.py) |
-| 637. Average of Levels in Binary Tree | [py](LeetCode/637.%20Average%20of%20Levels%20in%20Binary%20Tree.py) |
-| 64. Minimum Path Sum | [py](LeetCode/64.%20Minimum%20Path%20Sum.py) |
-| 738. Monotone Increasing Digits | [py](LeetCode/738.%20Monotone%20Increasing%20Digits.py) |
-| [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/first-bad-version) | [py](LeetCode/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.py) |
-| 746. Min Cost Climbing Stairs | [py](LeetCode/746.%20Min%20Cost%20Climbing%20Stairs.py) |
-| 77. Combinations | [py](LeetCode/77.%20Combinations.py) |
-| 78. Subsets | [py](LeetCode/78.%20Subsets.py) |
-| 79. Word Search | [py](LeetCode/79.%20Word%20Search.py) |
-| 797. All Paths From Source to Target | [py](LeetCode/797.%20All%20Paths%20From%20Source%20to%20Target.py) |
-| 807. Max Increase to Keep City Skyline | [py](LeetCode/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.py) |
-| 859. Buddy Strings | [py](LeetCode/859.%20Buddy%20Strings.py) |
-| 897. Increasing Order Search Tree | [py](LeetCode/897.%20Increasing%20Order%20Search%20Tree.py) |
-| 904. Fruit Into Baskets | [py](LeetCode/904.%20Fruit%20Into%20Baskets.py) |
-| 91. Decode Ways | [py](LeetCode/91.%20Decode%20Ways.py) |
-| 93. Restore IP Addresses | [py](LeetCode/93.%20Restore%20IP%20Addresses.py) |
-| 980. Unique Paths III | [py](LeetCode/980.%20Unique%20Paths%20III.py) |
-| DFS | [py](LeetCode/DFS.py) |
-| Dijkstra's Algorithm | [py](LeetCode/Dijkstra's%20Algorithm.py) |
-| Distance | [py](LeetCode/Distance.py) |
-| Draw a Square | [py](LeetCode/Draw%20a%20Square.py) |
-| Graph | [py](LeetCode/Graph.py) |
-| Topological Sort | [py](LeetCode/Topological%20Sort.py) |
-| TreeNode | [py](LeetCode/TreeNode.py) |
-| bfs | [py](LeetCode/bfs.py) |
-| main | [py](LeetCode/main.py) |
-| subsequence | [py](LeetCode/subsequence.py) |
-| tempCodeRunnerFile | [py](LeetCode/tempCodeRunnerFile.py) |
+| [1](https://leetcode.com/problems/two-sum) | [Two Sum](LeetCode/1.%20Two%20Sum.py) |
+| [15](https://leetcode.com/problems/two-sum) | [3Sum](LeetCode/15.%203Sum.py) |
+| [18](https://leetcode.com/problems/4sum) | [4Sum](LeetCode/18.%204Sum.py) |
+| [22](-) | [Generate Parentheses](LeetCode/22.%20Generate%20Parentheses.py) |
+| [28](-) | [Find the Index of the First Occurrence in a String](LeetCode/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String.py) |
+| [35](-) | [Search Insert Position](LeetCode/35.%20Search%20Insert%20Position.py) |
+| [39](-) | [Combination Sum](LeetCode/39.%20Combination%20Sum.py) |
+| [40](-) | [Combination Sum II](LeetCode/40.%20Combination%20Sum%20II.py) |
+| [45](-) | [Jump Game II](LeetCode/45.%20Jump%20Game%20II.py) |
+| [46](-) | [Permutations](LeetCode/46.%20Permutations.py) |
+| [47](-) | [Permutations II](LeetCode/47.%20Permutations%20II.py) |
+| [55](-) | [Jump Game](LeetCode/55.%20Jump%20Game.py) |
+| [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](LeetCode/56.%20Merge%20Intervals.py) |
+| [57](https://leetcode.com/problems/insert-interval/) | [Insert Interval](LeetCode/57.%20Insert%20Interval.py) |
+| [62](-) | [Unique Paths](LeetCode/62.%20Unique%20Paths.py) |
+| [63](-) | [Unique Paths II](LeetCode/63.%20Unique%20Paths%20II.py) |
+| [64](-) | [Minimum Path Sum](LeetCode/64.%20Minimum%20Path%20Sum.py) |
+| [77](-) | [Combinations](LeetCode/77.%20Combinations.py) |
+| [78](-) | [Subsets](LeetCode/78.%20Subsets.py) |
+| [79](-) | [Word Search](LeetCode/79.%20Word%20Search.py) |
+| [91](-) | [Decode Ways](LeetCode/91.%20Decode%20Ways.py) |
+| [93](-) | [Restore IP Addresses](LeetCode/93.%20Restore%20IP%20Addresses.py) |
+| [102](-) | [Binary Tree Level Order Traversal](LeetCode/102.%20Binary%20Tree%20Level%20Order%20Traversal.py) |
+| [146](-) | [LRU Cache](LeetCode/146.%20LRU%20Cache.py) |
+| [162](https://leetcode.com/problems/first-bad-version/) | [Find Peak Element](LeetCode/162.%20Find%20Peak%20Element.py) |
+| [198](-) | [House Robber](LeetCode/198.%20House%20Robber.py) |
+| [206](https://leetcode.com/problems/reverse-linked-list) | [Reverse Linked List](LeetCode/206.%20Reverse%20Linked%20List.py) |
+| [213](-) | [House Robber II](LeetCode/213.%20House%20Robber%20II.py) |
+| [241](-) | [Different Ways to Add Parentheses](LeetCode/241.%20Different%20Ways%20to%20Add%20Parentheses.py) |
+| [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](LeetCode/278.%20First%20Bad%20Version.py) |
+| [321](-) | [Create Maximum Number](LeetCode/321.%20Create%20Maximum%20Number.py) |
+| [337](-) | [House Robber III](LeetCode/337.%20House%20Robber%20III.py) |
+| [386](-) | [Lexicographical Numbers](LeetCode/386.%20Lexicographical%20Numbers.py) |
+| [390](-) | [Elimination Game](LeetCode/390.%20Elimination%20Game.py) |
+| [392](https://leetcode.com/problems/is-subsequence) | [Is Subsequence](LeetCode/392.%20Is%20Subsequence.py) |
+| [394](-) | [Decode String](LeetCode/394.%20Decode%20String.py) |
+| [401](-) | [Binary Watch](LeetCode/401.%20Binary%20Watch.py) |
+| [402](-) | [Remove K Digits](LeetCode/402.%20Remove%20K%20Digits.py) |
+| [403](-) | [Frog Jump](LeetCode/403.%20Frog%20Jump.py) |
+| [429](-) | [N-ary Tree Level Order Traversal](LeetCode/429.%20N-ary%20Tree%20Level%20Order%20Traversal.py) |
+| [486](-) | [Predict the Winner](LeetCode/486.%20Predict%20the%20Winner.py) |
+| [494](https://leetcode.com/problems/target-sum) | [Target Sum](LeetCode/494.%20Target%20Sum.py) |
+| [495](-) | [Teemo Attacking](LeetCode/495.%20Teemo%20Attacking.py) |
+| [500](https://leetcode.com/problems/keyboard-row) | [Keyboard Row](LeetCode/500.%20Keyboard%20Row.py) |
+| [525](-) | [Contiguous Array](LeetCode/525.%20Contiguous%20Array.py) |
+| [560](-) | [Subarray Sum Equals K](LeetCode/560.%20Subarray%20Sum%20Equals%20K.py) |
+| [617](-) | [Merge Two Binary Trees](LeetCode/617.%20Merge%20Two%20Binary%20Trees.py) |
+| [637](-) | [Average of Levels in Binary Tree](LeetCode/637.%20Average%20of%20Levels%20in%20Binary%20Tree.py) |
+| [738](-) | [Monotone Increasing Digits](LeetCode/738.%20Monotone%20Increasing%20Digits.py) |
+| [744](https://leetcode.com/problems/first-bad-version) | [Find Smallest Letter Greater Than Target](LeetCode/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.py) |
+| [746](-) | [Min Cost Climbing Stairs](LeetCode/746.%20Min%20Cost%20Climbing%20Stairs.py) |
+| [797](-) | [All Paths From Source to Target](LeetCode/797.%20All%20Paths%20From%20Source%20to%20Target.py) |
+| [807](-) | [Max Increase to Keep City Skyline](LeetCode/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.py) |
+| [859](-) | [Buddy Strings](LeetCode/859.%20Buddy%20Strings.py) |
+| [897](-) | [Increasing Order Search Tree](LeetCode/897.%20Increasing%20Order%20Search%20Tree.py) |
+| [904](-) | [Fruit Into Baskets](LeetCode/904.%20Fruit%20Into%20Baskets.py) |
+| [980](-) | [Unique Paths III](LeetCode/980.%20Unique%20Paths%20III.py) |
+| [1079](-) | [Letter Tile Possibilities](LeetCode/1079.%20Letter%20Tile%20Possibilities.py) |
+| [1106](-) | [Parsing A Boolean Expression](LeetCode/1106.%20Parsing%20A%20Boolean%20Expression.py) |
+| [1334](-) | [Find the City With the Smallest Number of Neighbors at a Threshold Distance](LeetCode/1334.%20Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance.py) |
+| [1415](-) | [The k-th Lexicographical String of All Happy Strings of Length n](LeetCode/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) |
+| [1422](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | [Maximum Score After Splitting a String](LeetCode/1422.%20Maximum%20Score%20After%20Splitting%20a%20String.py) |
+| [1455](-) | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](LeetCode/1455.%20Check%20If%20a%20Word%20Occurs%20As%20a%20Prefix%20of%20Any%20Word%20in%20a%20Sentence.py) |
+| [1557](-) | [Minimum Number of Vertices to Reach All Nodes](LeetCode/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py) |
+| [1642](-) | [Furthest Building You Can Reach](LeetCode/1642.%20Furthest%20Building%20You%20Can%20Reach.py) |
+| [1780](-) | [Check if Number is a Sum of Powers of Three](LeetCode/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py) |
+| [1791](-) | [Find Center of Star Graph](LeetCode/1791.%20Find%20Center%20of%20Star%20Graph.py) |
+| [1921](-) | [Eliminate Maximum Number of Monsters](LeetCode/1921.%20Eliminate%20Maximum%20Number%20of%20Monsters.py) |
+| [1922](-) | [Count Good Numbers](LeetCode/1922.%20Count%20Good%20Numbers.py) |
+| [1947](-) | [Maximum Compatibility Score Sum](LeetCode/1947.%20Maximum%20Compatibility%20Score%20Sum.py) |
+| [1976](-) | [Number of Ways to Arrive at Destination](LeetCode/1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination.py) |
+| [1980](-) | [Find Unique Binary String](LeetCode/1980.%20Find%20Unique%20Binary%20String.py) |
+| [2033](-) | [Minimum Operations to Make a Uni-Value Grid](LeetCode/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) |
+| [2035](-) | [Partition Array Into Two Arrays to Minimize Sum Difference](LeetCode/2035.%20Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.py) |
+| [2070](-) | [Most Beautiful Item for Each Query](LeetCode/2070.%20Most%20Beautiful%20Item%20for%20Each%20Query.py) |
+| [2115](-) | [Find All Possible Recipes from Given Supplies](LeetCode/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py) |
+| [2140](-) | [Solving Questions With Brainpower](LeetCode/2140.%20Solving%20Questions%20With%20Brainpower.py) |
+| [2176](-) | [Count Equal and Divisible Pairs in an Array](LeetCode/2176.%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array.py) |
+| [2183](-) | [Count Array Pairs Divisible by K](LeetCode/2183.%20Count%20Array%20Pairs%20Divisible%20by%20K.py) |
+| [2208](-) | [Minimum Operations to Halve Array Sum](LeetCode/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.py) |
+| [2217](-) | [Find Palindrome With Fixed Length](LeetCode/2217.%20Find%20Palindrome%20With%20Fixed%20Length.py) |
+| [2265](-) | [Count Nodes Equal to Average of Subtree](LeetCode/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) |
+| [2331](-) | [Evaluate Boolean Binary Tree](LeetCode/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) |
+| [2351](https://leetcode.com/problems/first-letter-to-appear-twice) | [First Letter to Appear Twice](LeetCode/2351.%20First%20Letter%20to%20Appear%20Twice.py) |
+| [2357](-) | [Make Array Zero by Subtracting Equal Amounts](LeetCode/2357.%20Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py) |
+| [2375](-) | [Construct Smallest Number From DI String](LeetCode/2375.%20Construct%20Smallest%20Number%20From%20DI%20String.py) |
+| [2460](-) | [Apply Operations to an Array](LeetCode/2460.%20Apply%20Operations%20to%20an%20Array.py) |
+| [2529](-) | [Maximum Count of Positive Integer and Negative Integer](LeetCode/2529.%20Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py) |
+| [2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [Take Gifts From the Richest Pile](LeetCode/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py) |
+| [2559](https://leetcode.com/problems/count-vowel-strings-in-ranges) | [Count Vowel Strings in Ranges](LeetCode/2559.%20Count%20Vowel%20Strings%20in%20Ranges.py) |
+| [2566](-) | [Maximum Difference by Remapping a Digit](LeetCode/2566.%20Maximum%20Difference%20by%20Remapping%20a%20Digit.py) |
+| [2579](-) | [Count Total Number of Colored Cells](LeetCode/2579.%20Count%20Total%20Number%20of%20Colored%20Cells.py) |
+| [2593](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [Find Score of an Array After Marking All Elements](LeetCode/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py) |
+| [2685](-) | [Count the Number of Complete Components](LeetCode/2685.%20Count%20the%20Number%20of%20Complete%20Components.py) |
+| [2762](https://leetcode.com/problems/continuous-subarrays) | [Continuous Subarrays](LeetCode/2762.%20Continuous%20Subarrays.py) |
+| [2873](-) | [Maximum Value of an Ordered Triplet I](LeetCode/2873.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20I.py) |
+| [2874](-) | [Maximum Value of an Ordered Triplet II](LeetCode/2874.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20II.py) |
+| [2909](-) | [Minimum Sum of Mountain Triplets II](LeetCode/2909.%20Minimum%20Sum%20of%20Mountain%20Triplets%20II.py) |
+| [2924](-) | [Find Champion II](LeetCode/2924.%20Find%20Champion%20II.py) |
+| [2999](-) | [Count the Number of Powerful Integers](LeetCode/2999.%20Count%20the%20Number%20of%20Powerful%20Integers.py) |
+| [3066](-) | [Minimum Operations to Exceed Threshold Value II](LeetCode/3066.%20Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.py) |
+| [3074](-) | [Apple Redistribution into Boxes](LeetCode/3074.%20Apple%20Redistribution%20into%20Boxes.py) |
+| [3136](-) | [Valid Word](LeetCode/3136.%20Valid%20Word.py) |
+| [3146](-) | [Permutation Difference between Two Strings](LeetCode/3146.%20Permutation%20Difference%20between%20Two%20Strings.py) |
+| [3208](-) | [Alternating Groups II](LeetCode/3208.%20Alternating%20Groups%20II.py) |
+| [3211](-) | [Generate Binary Strings Without Adjacent Zeros](LeetCode/3211.%20Generate%20Binary%20Strings%20Without%20Adjacent%20Zeros.py) |
+| [3280](-) | [Convert Date to Binary](LeetCode/3280.%20Convert%20Date%20to%20Binary.py) |
+| [3304](-) | [Find the K-th Character in String Game I](LeetCode/3304.%20Find%20the%20K-th%20Character%20in%20String%20Game%20I.py) |
+| [3305](-) | [Count of Substrings Containing Every Vowel and K Consonants I](LeetCode/3305.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20I.py) |
+| [3306](-) | [Count of Substrings Containing Every Vowel and K Consonants II](LeetCode/3306.%20Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20II.py) |
+| [3354](-) | [Make Array Elements Equal to Zero](LeetCode/3354.%20Make%20Array%20Elements%20Equal%20to%20Zero.py) |
+| [3355](-) | [Zero Array Transformation I](LeetCode/3355.%20Zero%20Array%20Transformation%20I.py) |
+| [3356](-) | [Zero Array Transformation II](LeetCode/3356.%20Zero%20Array%20Transformation%20II.py) |
+| [3432](-) | [Count Partitions with Even Sum Difference](LeetCode/3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference.py) |
+| [3477](-) | [Fruits Into Baskets II](LeetCode/3477.%20Fruits%20Into%20Baskets%20II.py) |
+| [3479](-) | [Fruits Into Baskets III](LeetCode/3479.%20Fruits%20Into%20Baskets%20III.py) |
+| [3512](-) | [Minimum Operations to Make Array Sum Divisible by K](LeetCode/3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K.py) |
 
-## CSES Problems
+## Additional Concepts
 
-| Question No | Title |
-|-------------|-------|
-
-## py
-
-| Question No | Title |
-|-------------|-------|
-| 110A. Nearly Lucky Number | [py](CF/110A.%20Nearly%20Lucky%20Number.py) |
-| 158A. Next Round | [py](CF/158A.%20Next%20Round.py) |
-| 1742A. Sum | [py](CF/1742A.%20Sum.py) |
-| 1915C. Can I Square | [py](CF/1915C.%20Can%20I%20Square.py) |
-| 2019A. Max Plus Size | [py](CF/2019A.%20Max%20Plus%20Size.py) |
-| 2025A. Two Screens | [py](CF/2025A.%20Two%20Screens.py) |
-| 2044A. Easy Problem | [py](CF/2044A.%20Easy%20Problem.py) |
-| 2044B. Normal Problem | [py](CF/2044B.%20Normal%20Problem.py) |
-| 2044C. Hard Problem | [py](CF/2044C.%20Hard%20Problem.py) |
-| 2044D. Harder Problem | [py](CF/2044D.%20Harder%20Problem.py) |
-| 2051B. Journey | [py](CF/2051B.%20Journey.py) |
-| 2065A. Skibidus and Amog'u | [py](CF/2065A.%20Skibidus%20and%20Amog'u.py) |
-| 2065B. Skibidus and Ohio  | [py](CF/2065B.%20Skibidus%20and%20Ohio%20.py) |
-| 2065C1. Skibidus and Fanum Tax (easy version) | [py](CF/2065C1.%20Skibidus%20and%20Fanum%20Tax%20(easy%20version).py) |
-| 2067A. Adjacent Digit Sums | [py](CF/2067A.%20Adjacent%20Digit%20Sums.py) |
-| 2069A. Was there an Array | [py](CF/2069A.%20Was%20there%20an%20Array.py) |
-| 2075A. To Zero | [py](CF/2075A.%20To%20Zero.py) |
-| 2094A. Trippi Troppi | [py](CF/2094A.%20Trippi%20Troppi.py) |
-| 2094B. Bobritto Bandito | [py](CF/2094B.%20Bobritto%20Bandito.py) |
-| 2094D. Tung Tung Sahur | [py](CF/2094D.%20Tung%20Tung%20Sahur.py) |
-| 231A. Team | [py](CF/231A.%20Team.py) |
-| 236A. Boy or Girl | [py](CF/236A.%20Boy%20or%20Girl.py) |
-| 617A. Elephant | [py](CF/617A.%20Elephant.py) |
-| 670D1. Magic Powder - 1 | [py](CF/670D1.%20Magic%20Powder%20-%201.py) |
-| 705A. Hulk | [py](CF/705A.%20Hulk.py) |
-| 71A. Way Too Long Words | [py](CF/71A.%20Way%20Too%20Long%20Words.py) |
-| 791A. Bear and Big Brother | [py](CF/791A.%20Bear%20and%20Big%20Brother.py) |
-| B. Array Recoloring | [py](CF/B.%20Array%20Recoloring.py) |
-| The Third Side | [py](CF/The%20Third%20Side.py) |
-| XOR and Triangle | [py](CF/XOR%20and%20Triangle.py) |
-| tempCodeRunnerFile | [py](CF/tempCodeRunnerFile.py) |
+| File Name |
+|-----------|
+| [DFS.py](LeetCode/DFS.py) |
+| [Dijkstra's Algorithm.py](LeetCode/Dijkstra's%20Algorithm.py) |
+| [Distance.py](LeetCode/Distance.py) |
+| [Draw a Square.py](LeetCode/Draw%20a%20Square.py) |
+| [Graph.py](LeetCode/Graph.py) |
+| [Topological Sort.py](LeetCode/Topological%20Sort.py) |
+| [TreeNode.py](LeetCode/TreeNode.py) |
+| [bfs.py](LeetCode/bfs.py) |
+| [main.py](LeetCode/main.py) |
+| [subsequence.py](LeetCode/subsequence.py) |
+| [tempCodeRunnerFile.py](LeetCode/tempCodeRunnerFile.py) |
