@@ -63,14 +63,14 @@ def handle_cses(subfolder_name:str,files:list[str]):
         return
     global cses_read_me
 
-    cses_read_me += f"# {subfolder_name}\n" 
-    cses_read_me += "|Question|\n"
+    cses_read_me += f"## {subfolder_name}\n" 
+    cses_read_me += "|Question/Solutions|\n"
     cses_read_me += "|-|\n"
     for file in files:
         title = file
         file_path = f"{cses_dir}/{subfolder_name}/{file}"
         
-        cses_read_me += f"| [{title.removesuffix('.py')}]({file_path}) |\n"
+        cses_read_me += f"| [ {title.removesuffix('.py')} ]( {file_path} ) |\n"
 
     print(cses_read_me)
 
