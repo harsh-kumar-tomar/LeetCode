@@ -162,9 +162,6 @@
 |[71A](https://codeforces.com/problemset/problem/7/A) | [ Way Too Long Words](./CF/71A.%20Way%20Too%20Long%20Words.py)|
 |[791A](https://codeforces.com/problemset/problem/79/A) | [ Bear and Big Brother](./CF/791A.%20Bear%20and%20Big%20Brother.py)|
 |[996A](https://codeforces.com/problemset/problem/99/A) | [ Hit the Lottery](./CF/996A.%20Hit%20the%20Lottery.py)|
-|[B](https://codeforces.com/problemset/problem//B) | [ Array Recoloring](./CF/B.%20Array%20Recoloring.py)|
-|[The Third Side](https://codeforces.com/problemset/problem/The Third Si/e) | [py](./CF/The%20Third%20Side.py)|
-|[XOR and Triangle](https://codeforces.com/problemset/problem/XOR and Triang/e) | [py](./CF/XOR%20and%20Triangle.py)|
 
 # Cses
 ## Dynamic Problem
