@@ -63,7 +63,7 @@ def handle_cses(subfolder_name:str,files:list[str]):
         return
     global cses_read_me
 
-    cses_read_me += f"#{subfolder_name}" 
+    cses_read_me += f"#{subfolder_name}\n" 
     cses_read_me += "|Question|\n"
     cses_read_me += "|-|\n"
     for file in files:
