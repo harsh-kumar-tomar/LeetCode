@@ -131,32 +131,35 @@ This repository contains solutions for LeetCode problems and additional coding c
             readme_content += f"| [{cf_id}]({cf_question['link']}) | {cf_question['title']} | [Python](./CF/{cf_question['path']}) |\n"
 
     # CSES Section
-    cses_questions = {}
+    readme_content += "\n## CSES Solutions\n\n"
 
     # Traverse the Cses folder (including subdirectories)
     for root, dirs, files in os.walk(cses_dir):
-        for dir_name in dirs:
-            # Show directory name above each table
-            readme_content += f"\n## {dir_name}\n\n"
-            readme_content += "| Problem Name | Solution |\n"
-            readme_content += "|--------------|----------|\n"
-            
-            # Traverse the directory to find python files
-            for dir_root, _, dir_files in os.walk(os.path.join(cses_dir, dir_name)):
-                for solution_file in sorted(dir_files):
-                    if solution_file.endswith('.py'):
-                        question_path = os.path.join(dir_root, solution_file)
-                        relative_path = os.path.relpath(question_path, cses_dir)  # Get path relative to Cses/
-                        problem_name = solution_file.replace('.py', '')
-                        file_link = f"Cses/{relative_path.replace(' ', '%20')}"
-                        cses_questions[problem_name] = {
-                            'name': problem_name,
-                            'link': file_link
-                        }
-                        
-            # Add Cses questions to the README under the directory
-            for cses_question in cses_questions.values():
-                readme_content += f"| {cses_question['name']} | [Python](./{cses_question['link']}) |\n"
+        # Check if there are any files in the directory
+        if files:
+            for dir_name in dirs:
+                # Add directory name as a section header in README
+                readme_content += f"\n### {dir_name}\n\n"
+                readme_content += "| Problem Name | Solution |\n"
+                readme_content += "|--------------|----------|\n"
+
+                # List Python files in the current subdirectory
+                cses_questions = {}
+                for dir_root, _, dir_files in os.walk(os.path.join(cses_dir, dir_name)):
+                    for solution_file in sorted(dir_files):
+                        if solution_file.endswith('.py'):
+                            question_path = os.path.join(dir_root, solution_file)
+                            relative_path = os.path.relpath(question_path, cses_dir)  # Get path relative to Cses/
+                            problem_name = solution_file.replace('.py', '')
+                            file_link = f"Cses/{relative_path.replace(' ', '%20')}"
+                            cses_questions[problem_name] = {
+                                'name': problem_name,
+                                'link': file_link
+                            }
+                
+                # Add questions from the current directory
+                for cses_question in cses_questions.values():
+                    readme_content += f"| {cses_question['name']} | [Python](./{cses_question['link']}) |\n"
 
     # Write the README file
     with open("README.md", "w") as f:
