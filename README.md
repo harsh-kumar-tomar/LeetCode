@@ -7,7 +7,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 
-![Solved](https://img.shields.io/badge/Solved-117-blue)
+![Solved](https://img.shields.io/badge/Solved-118-blue)
 ![Easy](https://img.shields.io/badge/Easy-8-green)
 ![Medium](https://img.shields.io/badge/Medium-10-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
@@ -21,6 +21,7 @@ This repository contains solutions for LeetCode problems and additional coding c
 | 22 | [Generate Parentheses](-) | [Python](./Solutions/22.%20Generate%20Parentheses.py) | - | - | - |
 | 28 | [Find the Index of the First Occurrence in a String](-) | [Python](./Solutions/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String.py) | - | - | - |
 | 35 | [Search Insert Position](-) | [Python](./Solutions/35.%20Search%20Insert%20Position.py) | - | - | - |
+| 38 | [Count and Say](-) | [Python](./Solutions/38.%20Count%20and%20Say.py) | - | - | - |
 | 39 | [Combination Sum](-) | [Python](./Solutions/39.%20Combination%20Sum.py) | - | - | - |
 | 40 | [Combination Sum II](-) | [Python](./Solutions/40.%20Combination%20Sum%20II.py) | - | - | - |
 | 45 | [Jump Game II](-) | [Python](./Solutions/45.%20Jump%20Game%20II.py) | - | - | - |
