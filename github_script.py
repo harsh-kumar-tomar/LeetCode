@@ -28,8 +28,8 @@ This repository contains solutions for LeetCode problems and additional coding c
 
 {badges}
 
-| Question No | Title | Solution | Difficulty | Space Complexity | Time Complexity |
-|-------------|-------|----------|------------|------------------|-----------------|
+| Question No | Title | Solution | Difficulty |
+|-------------|-------|----------|------------|
 """
 
     # Track questions and solutions
@@ -54,7 +54,7 @@ This repository contains solutions for LeetCode problems and additional coding c
                 title = title.strip().replace('.py', '')
 
                 # Default values
-                leetcode_link = difficulty = space_complexity = time_complexity = '-'
+                leetcode_link = difficulty = '-'
 
                 for line in lines:
                     if line.lower().startswith('link'):
@@ -63,25 +63,19 @@ This repository contains solutions for LeetCode problems and additional coding c
                         difficulty = line.split(':', 1)[1].strip()
                         if difficulty in difficulty_count_hash_map:
                             difficulty_count_hash_map[difficulty] += 1
-                    elif line.lower().startswith('space complexity'):
-                        space_complexity = line.split(':', 1)[1].strip()
-                    elif line.lower().startswith('time complexity'):
-                        time_complexity = line.split(':', 1)[1].strip()
 
                 # Store question metadata
                 questions[question_number] = {
                     'title': title,
                     'link': leetcode_link,
                     'difficulty': difficulty,
-                    'space_complexity': space_complexity,
-                    'time_complexity': time_complexity,
                     'path': relative_path.replace(' ', '%20')  # Format for GitHub links
                 }
 
     # Add questions to the README
     for question_info in sorted(questions.keys(), key=lambda x: int(x)):  # Sort by question number
         question = questions[question_info]
-        readme_content += f"| {question_info} | [{question['title']}]({question['link']}) | [Python](./Solutions/{question['path']}) | {question['difficulty']} | {question['space_complexity']} | {question['time_complexity']} |\n"
+        readme_content += f"| {question_info} | [{question['title']}]({question['link']}) | [Python](./Solutions/{question['path']}) | {question['difficulty']} |\n"
         total_question_solved += 1
 
     # Progress section
@@ -117,18 +111,23 @@ This repository contains solutions for LeetCode problems and additional coding c
                 question_id, title = solution_file.split('.', 1)
                 title = title.strip().replace('.py', '')
 
+                # Generate the link for Codeforces problem (assuming format: https://codeforces.com/problemset/problem/{contest_id}/{problem_id})
+                contest_id, problem_id = question_id[:3], question_id[3:]
+                cf_link = f"https://codeforces.com/problemset/problem/{contest_id}/{problem_id}"
+
                 cf_questions[question_id] = {
                     'title': title,
+                    'link': cf_link,
                     'path': relative_path.replace(' ', '%20')  # Format for GitHub links
                 }
 
     # Add Codeforces questions to README
     if cf_questions:
         readme_content += "\n## Codeforces Solutions\n\n"
-        readme_content += "| Problem ID | Title |\n"
-        readme_content += "|------------|-------|\n"
+        readme_content += "| Problem ID | Title | Link |\n"
+        readme_content += "|------------|-------|------|\n"
         for cf_id, cf_question in sorted(cf_questions.items()):
-            readme_content += f"| {cf_id} | [{cf_question['title']}]({cf_question['path']}) |\n"
+            readme_content += f"| [{cf_id}]({cf_question['link']}) | {cf_question['title']} | [Python](./CF/{cf_question['path']}) |\n"
 
     # Write the README file
     with open("README.md", "w") as f:
