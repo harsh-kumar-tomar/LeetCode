@@ -152,7 +152,7 @@
 |[2051B](https://codeforces.com/problemset/problem/2051/B) | [ Journey](./CF/2051B.%20Journey.py)|
 |[2065A](https://codeforces.com/problemset/problem/2065/A) | [ Skibidus and Amog'u](./CF/2065A.%20Skibidus%20and%20Amog'u.py)|
 |[2065B](https://codeforces.com/problemset/problem/2065/B) | [ Skibidus and Ohio ](./CF/2065B.%20Skibidus%20and%20Ohio%20.py)|
-|[2065C1](https://codeforces.com/problemset/problem/2065C/1) | [ Skibidus and Fanum Tax (easy version)](./CF/2065C1.%20Skibidus%20and%20Fanum%20Tax%20(easy%20version).py)|
+|[2065C1](https://codeforces.com/problemset/problem/2065/C1) | [ Skibidus and Fanum Tax (easy version)](./CF/2065C1.%20Skibidus%20and%20Fanum%20Tax%20(easy%20version).py)|
 |[2067A](https://codeforces.com/problemset/problem/2067/A) | [ Adjacent Digit Sums](./CF/2067A.%20Adjacent%20Digit%20Sums.py)|
 |[2069A](https://codeforces.com/problemset/problem/2069/A) | [ Was there an Array](./CF/2069A.%20Was%20there%20an%20Array.py)|
 |[2075A](https://codeforces.com/problemset/problem/2075/A) | [ To Zero](./CF/2075A.%20To%20Zero.py)|
@@ -162,7 +162,7 @@
 |[231A](https://codeforces.com/problemset/problem/231/A) | [ Team](./CF/231A.%20Team.py)|
 |[236A](https://codeforces.com/problemset/problem/236/A) | [ Boy or Girl](./CF/236A.%20Boy%20or%20Girl.py)|
 |[617A](https://codeforces.com/problemset/problem/617/A) | [ Elephant](./CF/617A.%20Elephant.py)|
-|[670D1](https://codeforces.com/problemset/problem/670D/1) | [ Magic Powder - 1](./CF/670D1.%20Magic%20Powder%20-%201.py)|
+|[670D1](https://codeforces.com/problemset/problem/670/D1) | [ Magic Powder - 1](./CF/670D1.%20Magic%20Powder%20-%201.py)|
 |[705A](https://codeforces.com/problemset/problem/705/A) | [ Hulk](./CF/705A.%20Hulk.py)|
 |[71A](https://codeforces.com/problemset/problem/71/A) | [ Way Too Long Words](./CF/71A.%20Way%20Too%20Long%20Words.py)|
 |[791A](https://codeforces.com/problemset/problem/791/A) | [ Bear and Big Brother](./CF/791A.%20Bear%20and%20Big%20Brother.py)|
