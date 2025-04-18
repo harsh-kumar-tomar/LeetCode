@@ -28,7 +28,7 @@ def handle_leetcode(files:list[str]):
         file_path = f"{leetcode_dir}/{file}"
         leetcode_web_link = get_link_from_file(file_path)
 
-        leetcode_read_me += f"|[{numeric}]({leetcode_web_link}) | [{title.removesuffix(".py")}]({file_path})|\n"
+        leetcode_read_me += f"|[{numeric}]({leetcode_web_link}) | [{title.removesuffix(".py")}]({file_path.replace(' ','%20')})|\n"
         
     print(leetcode_read_me)
         
@@ -56,8 +56,6 @@ def handle_cf(files:list[str]):
         cf_web_link = "https://codeforces.com/problemset/problem/{}/{}".format(contest_num,alphabet)
 
         cf_read_me += f"|[{alpha_numeric}]({cf_web_link}) | [{title.removesuffix(".py")}]({file_path.replace(' ','%20')})|\n"
-
-    print(cf_read_me)
 
 def handle_cses(subfolder_name:str,files:list[str]):
 
