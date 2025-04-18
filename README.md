@@ -152,37 +152,37 @@
 # Codeforces
 |Problem|Question|
 |-|-|
-|[110A](https://codeforces.com/problemset/problem/11/A) | [ Nearly Lucky Number](./CF/110A. Nearly Lucky Number.py)|
-|[158A](https://codeforces.com/problemset/problem/15/A) | [ Next Round](./CF/158A. Next Round.py)|
-|[1742A](https://codeforces.com/problemset/problem/174/A) | [ Sum](./CF/1742A. Sum.py)|
-|[1915C](https://codeforces.com/problemset/problem/191/C) | [ Can I Square](./CF/1915C. Can I Square.py)|
-|[2019A](https://codeforces.com/problemset/problem/201/A) | [ Max Plus Size](./CF/2019A. Max Plus Size.py)|
-|[2025A](https://codeforces.com/problemset/problem/202/A) | [ Two Screens](./CF/2025A. Two Screens.py)|
-|[2044A](https://codeforces.com/problemset/problem/204/A) | [ Easy Problem](./CF/2044A. Easy Problem.py)|
-|[2044B](https://codeforces.com/problemset/problem/204/B) | [ Normal Problem](./CF/2044B. Normal Problem.py)|
-|[2044C](https://codeforces.com/problemset/problem/204/C) | [ Hard Problem](./CF/2044C. Hard Problem.py)|
-|[2044D](https://codeforces.com/problemset/problem/204/D) | [ Harder Problem](./CF/2044D. Harder Problem.py)|
-|[2051B](https://codeforces.com/problemset/problem/205/B) | [ Journey](./CF/2051B. Journey.py)|
-|[2065A](https://codeforces.com/problemset/problem/206/A) | [ Skibidus and Amog'u](./CF/2065A. Skibidus and Amog'u.py)|
-|[2065B](https://codeforces.com/problemset/problem/206/B) | [ Skibidus and Ohio ](./CF/2065B. Skibidus and Ohio .py)|
-|[2065C1](https://codeforces.com/problemset/problem/2065/1) | [ Skibidus and Fanum Tax (easy version)](./CF/2065C1. Skibidus and Fanum Tax (easy version).py)|
-|[2067A](https://codeforces.com/problemset/problem/206/A) | [ Adjacent Digit Sums](./CF/2067A. Adjacent Digit Sums.py)|
-|[2069A](https://codeforces.com/problemset/problem/206/A) | [ Was there an Array](./CF/2069A. Was there an Array.py)|
-|[2075A](https://codeforces.com/problemset/problem/207/A) | [ To Zero](./CF/2075A. To Zero.py)|
-|[2094A](https://codeforces.com/problemset/problem/209/A) | [ Trippi Troppi](./CF/2094A. Trippi Troppi.py)|
-|[2094B](https://codeforces.com/problemset/problem/209/B) | [ Bobritto Bandito](./CF/2094B. Bobritto Bandito.py)|
-|[2094D](https://codeforces.com/problemset/problem/209/D) | [ Tung Tung Sahur](./CF/2094D. Tung Tung Sahur.py)|
-|[231A](https://codeforces.com/problemset/problem/23/A) | [ Team](./CF/231A. Team.py)|
-|[236A](https://codeforces.com/problemset/problem/23/A) | [ Boy or Girl](./CF/236A. Boy or Girl.py)|
-|[617A](https://codeforces.com/problemset/problem/61/A) | [ Elephant](./CF/617A. Elephant.py)|
-|[670D1](https://codeforces.com/problemset/problem/670/1) | [ Magic Powder - 1](./CF/670D1. Magic Powder - 1.py)|
-|[705A](https://codeforces.com/problemset/problem/70/A) | [ Hulk](./CF/705A. Hulk.py)|
-|[71A](https://codeforces.com/problemset/problem/7/A) | [ Way Too Long Words](./CF/71A. Way Too Long Words.py)|
-|[791A](https://codeforces.com/problemset/problem/79/A) | [ Bear and Big Brother](./CF/791A. Bear and Big Brother.py)|
-|[996A](https://codeforces.com/problemset/problem/99/A) | [ Hit the Lottery](./CF/996A. Hit the Lottery.py)|
-|[B](https://codeforces.com/problemset/problem//B) | [ Array Recoloring](./CF/B. Array Recoloring.py)|
-|[The Third Side](https://codeforces.com/problemset/problem/The Third Si/e) | [py](./CF/The Third Side.py)|
-|[XOR and Triangle](https://codeforces.com/problemset/problem/XOR and Triang/e) | [py](./CF/XOR and Triangle.py)|
+|[110A](https://codeforces.com/problemset/problem/11/A) | [ Nearly Lucky Number](./CF/110A.%20Nearly%20Lucky%20Number.py)|
+|[158A](https://codeforces.com/problemset/problem/15/A) | [ Next Round](./CF/158A.%20Next%20Round.py)|
+|[1742A](https://codeforces.com/problemset/problem/174/A) | [ Sum](./CF/1742A.%20Sum.py)|
+|[1915C](https://codeforces.com/problemset/problem/191/C) | [ Can I Square](./CF/1915C.%20Can%20I%20Square.py)|
+|[2019A](https://codeforces.com/problemset/problem/201/A) | [ Max Plus Size](./CF/2019A.%20Max%20Plus%20Size.py)|
+|[2025A](https://codeforces.com/problemset/problem/202/A) | [ Two Screens](./CF/2025A.%20Two%20Screens.py)|
+|[2044A](https://codeforces.com/problemset/problem/204/A) | [ Easy Problem](./CF/2044A.%20Easy%20Problem.py)|
+|[2044B](https://codeforces.com/problemset/problem/204/B) | [ Normal Problem](./CF/2044B.%20Normal%20Problem.py)|
+|[2044C](https://codeforces.com/problemset/problem/204/C) | [ Hard Problem](./CF/2044C.%20Hard%20Problem.py)|
+|[2044D](https://codeforces.com/problemset/problem/204/D) | [ Harder Problem](./CF/2044D.%20Harder%20Problem.py)|
+|[2051B](https://codeforces.com/problemset/problem/205/B) | [ Journey](./CF/2051B.%20Journey.py)|
+|[2065A](https://codeforces.com/problemset/problem/206/A) | [ Skibidus and Amog'u](./CF/2065A.%20Skibidus%20and%20Amog'u.py)|
+|[2065B](https://codeforces.com/problemset/problem/206/B) | [ Skibidus and Ohio ](./CF/2065B.%20Skibidus%20and%20Ohio%20.py)|
+|[2065C1](https://codeforces.com/problemset/problem/2065/1) | [ Skibidus and Fanum Tax (easy version)](./CF/2065C1.%20Skibidus%20and%20Fanum%20Tax%20(easy%20version).py)|
+|[2067A](https://codeforces.com/problemset/problem/206/A) | [ Adjacent Digit Sums](./CF/2067A.%20Adjacent%20Digit%20Sums.py)|
+|[2069A](https://codeforces.com/problemset/problem/206/A) | [ Was there an Array](./CF/2069A.%20Was%20there%20an%20Array.py)|
+|[2075A](https://codeforces.com/problemset/problem/207/A) | [ To Zero](./CF/2075A.%20To%20Zero.py)|
+|[2094A](https://codeforces.com/problemset/problem/209/A) | [ Trippi Troppi](./CF/2094A.%20Trippi%20Troppi.py)|
+|[2094B](https://codeforces.com/problemset/problem/209/B) | [ Bobritto Bandito](./CF/2094B.%20Bobritto%20Bandito.py)|
+|[2094D](https://codeforces.com/problemset/problem/209/D) | [ Tung Tung Sahur](./CF/2094D.%20Tung%20Tung%20Sahur.py)|
+|[231A](https://codeforces.com/problemset/problem/23/A) | [ Team](./CF/231A.%20Team.py)|
+|[236A](https://codeforces.com/problemset/problem/23/A) | [ Boy or Girl](./CF/236A.%20Boy%20or%20Girl.py)|
+|[617A](https://codeforces.com/problemset/problem/61/A) | [ Elephant](./CF/617A.%20Elephant.py)|
+|[670D1](https://codeforces.com/problemset/problem/670/1) | [ Magic Powder - 1](./CF/670D1.%20Magic%20Powder%20-%201.py)|
+|[705A](https://codeforces.com/problemset/problem/70/A) | [ Hulk](./CF/705A.%20Hulk.py)|
+|[71A](https://codeforces.com/problemset/problem/7/A) | [ Way Too Long Words](./CF/71A.%20Way%20Too%20Long%20Words.py)|
+|[791A](https://codeforces.com/problemset/problem/79/A) | [ Bear and Big Brother](./CF/791A.%20Bear%20and%20Big%20Brother.py)|
+|[996A](https://codeforces.com/problemset/problem/99/A) | [ Hit the Lottery](./CF/996A.%20Hit%20the%20Lottery.py)|
+|[B](https://codeforces.com/problemset/problem//B) | [ Array Recoloring](./CF/B.%20Array%20Recoloring.py)|
+|[The Third Side](https://codeforces.com/problemset/problem/The Third Si/e) | [py](./CF/The%20Third%20Side.py)|
+|[XOR and Triangle](https://codeforces.com/problemset/problem/XOR and Triang/e) | [py](./CF/XOR%20and%20Triangle.py)|
 
 # Cses
 ## Dynamic Problem

@@ -55,7 +55,7 @@ def handle_cf(files:list[str]):
         
         cf_web_link = "https://codeforces.com/problemset/problem/{}/{}".format(contest_num,alphabet)
 
-        cf_read_me += f"|[{alpha_numeric}]({cf_web_link}) | [{title.removesuffix(".py")}]({file_path})|\n"
+        cf_read_me += f"|[{alpha_numeric}]({cf_web_link}) | [{title.removesuffix(".py")}]({file_path.replace(' ','%20')})|\n"
 
     print(cf_read_me)
 
