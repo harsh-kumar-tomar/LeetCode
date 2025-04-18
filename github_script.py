@@ -10,6 +10,11 @@ cses_dir = "./Cses"
 leetcode_dir = "./LeetCode"
 total_problems_solved = 0
 
+base_read_me = """
+![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
+![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
+![Solved](https://img.shields.io/badge/Solved-{}-blue)\n
+"""
 leetcode_read_me = "# LeetCode\n"
 cf_read_me = "# Codeforces\n"
 cses_read_me = "# Cses\n"
@@ -18,7 +23,10 @@ final_read_me = ""
 
 def handle_leetcode(files:list[str]):
     print("Leetcode")
-    global leetcode_read_me
+    global leetcode_read_me,total_problems_solved
+
+    total_problems_solved += len(files)
+
     leetcode_read_me += "|Problem|Question|\n"
     leetcode_read_me += "|-|-|\n"
 
@@ -43,7 +51,8 @@ def get_link_from_file(file_path:str):
 
 def handle_cf(files:list[str]):
     print("cf")
-    global cf_read_me
+    global cf_read_me , total_problems_solved
+    total_problems_solved += len(files)
     cf_read_me += "|Problem|Question|\n"
     cf_read_me += "|-|-|\n"
     # 110A. Nearly Lucky Number.py
@@ -61,7 +70,8 @@ def handle_cses(subfolder_name:str,files:list[str]):
 
     if len(files) == 0 :
         return
-    global cses_read_me
+    global cses_read_me,total_problems_solved
+    total_problems_solved += len(files)
 
     cses_read_me += f"## {subfolder_name}\n" 
     cses_read_me += "|Question/Solutions|\n"
@@ -88,7 +98,7 @@ for root, _, files in os.walk(solutions_dir):
         handle_cf(files)
 
 with open("README.md", "w") as f:
-        f.write(leetcode_read_me + "\n" + cf_read_me + "\n" + cses_read_me)
+        f.write(base_read_me.format(total_problems_solved)+leetcode_read_me + "\n" + cf_read_me + "\n" + cses_read_me)
 
 print("✅ README.md generated successfully.")
 
