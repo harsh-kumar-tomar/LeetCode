@@ -149,3 +149,40 @@ This repository contains solutions for LeetCode problems and additional coding c
 | [main.py](LeetCode/main.py) |
 | [subsequence.py](LeetCode/subsequence.py) |
 | [tempCodeRunnerFile.py](LeetCode/tempCodeRunnerFile.py) |
+
+## Codeforces Solutions
+
+| Problem ID | Title |
+|------------|-------|
+| 110A | [Nearly Lucky Number](110A.%20Nearly%20Lucky%20Number.py) |
+| 158A | [Next Round](158A.%20Next%20Round.py) |
+| 1742A | [Sum](1742A.%20Sum.py) |
+| 1915C | [Can I Square](1915C.%20Can%20I%20Square.py) |
+| 2019A | [Max Plus Size](2019A.%20Max%20Plus%20Size.py) |
+| 2025A | [Two Screens](2025A.%20Two%20Screens.py) |
+| 2044A | [Easy Problem](2044A.%20Easy%20Problem.py) |
+| 2044B | [Normal Problem](2044B.%20Normal%20Problem.py) |
+| 2044C | [Hard Problem](2044C.%20Hard%20Problem.py) |
+| 2044D | [Harder Problem](2044D.%20Harder%20Problem.py) |
+| 2051B | [Journey](2051B.%20Journey.py) |
+| 2065A | [Skibidus and Amog'u](2065A.%20Skibidus%20and%20Amog'u.py) |
+| 2065B | [Skibidus and Ohio ](2065B.%20Skibidus%20and%20Ohio%20.py) |
+| 2065C1 | [Skibidus and Fanum Tax (easy version)](2065C1.%20Skibidus%20and%20Fanum%20Tax%20(easy%20version).py) |
+| 2067A | [Adjacent Digit Sums](2067A.%20Adjacent%20Digit%20Sums.py) |
+| 2069A | [Was there an Array](2069A.%20Was%20there%20an%20Array.py) |
+| 2075A | [To Zero](2075A.%20To%20Zero.py) |
+| 2094A | [Trippi Troppi](2094A.%20Trippi%20Troppi.py) |
+| 2094B | [Bobritto Bandito](2094B.%20Bobritto%20Bandito.py) |
+| 2094D | [Tung Tung Sahur](2094D.%20Tung%20Tung%20Sahur.py) |
+| 231A | [Team](231A.%20Team.py) |
+| 236A | [Boy or Girl](236A.%20Boy%20or%20Girl.py) |
+| 617A | [Elephant](617A.%20Elephant.py) |
+| 670D1 | [Magic Powder - 1](670D1.%20Magic%20Powder%20-%201.py) |
+| 705A | [Hulk](705A.%20Hulk.py) |
+| 71A | [Way Too Long Words](71A.%20Way%20Too%20Long%20Words.py) |
+| 791A | [Bear and Big Brother](791A.%20Bear%20and%20Big%20Brother.py) |
+| 996A | [Hit the Lottery](996A.%20Hit%20the%20Lottery.py) |
+| B | [Array Recoloring](B.%20Array%20Recoloring.py) |
+| The Third Side | [py](The%20Third%20Side.py) |
+| XOR and Triangle | [py](XOR%20and%20Triangle.py) |
+| tempCodeRunnerFile | [py](tempCodeRunnerFile.py) |

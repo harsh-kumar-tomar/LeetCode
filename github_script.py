@@ -4,6 +4,7 @@ from datetime import datetime
 
 # Directory for solutions
 solutions_dir = "./LeetCode"
+cf_dir = "./CF"
 
 def generate_readme():
     # Initialize counters for progress tracker
@@ -100,12 +101,40 @@ This repository contains solutions for LeetCode problems and additional coding c
             file_link = f"LeetCode/{path.replace(' ', '%20')}"
             readme_content += f"| [{file_name}]({file_link}) |\n"
 
+    # Codeforces Section
+    cf_questions = {}
+
+    # Traverse the CF folder (including subdirectories)
+    for root, _, files in os.walk(cf_dir):
+        for solution_file in sorted(files):
+            if solution_file.endswith('.py'):
+                question_path = os.path.join(root, solution_file)
+                relative_path = os.path.relpath(question_path, cf_dir)  # Get path relative to CF/
+                with open(question_path, 'r') as file:
+                    lines = file.readlines()
+
+                # Alphanumeric ID extraction (assuming filename starts with ID)
+                question_id, title = solution_file.split('.', 1)
+                title = title.strip().replace('.py', '')
+
+                cf_questions[question_id] = {
+                    'title': title,
+                    'path': relative_path.replace(' ', '%20')  # Format for GitHub links
+                }
+
+    # Add Codeforces questions to README
+    if cf_questions:
+        readme_content += "\n## Codeforces Solutions\n\n"
+        readme_content += "| Problem ID | Title |\n"
+        readme_content += "|------------|-------|\n"
+        for cf_id, cf_question in sorted(cf_questions.items()):
+            readme_content += f"| {cf_id} | [{cf_question['title']}]({cf_question['path']}) |\n"
+
     # Write the README file
     with open("README.md", "w") as f:
         f.write(readme_content)
 
     print("✅ README.md generated successfully.")
-
 
 def git_push():
     # Get today's date in "DD MMM YYYY" format
