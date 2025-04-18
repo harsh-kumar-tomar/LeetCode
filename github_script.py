@@ -49,7 +49,7 @@ def handle_cf(files:list[str]):
     # 110A. Nearly Lucky Number.py
     for file in files:
         alpha_numeric , title = file.split('.',maxsplit=1)
-        contest_num , alphabet = alpha_numeric[:len(alpha_numeric)-2:] , alpha_numeric[-1]
+        contest_num , alphabet = alpha_numeric[:len(alpha_numeric)-1:] , alpha_numeric[-1]
         
         file_path = f"{cf_dir}/{file}" 
         
