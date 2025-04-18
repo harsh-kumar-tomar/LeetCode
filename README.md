@@ -1,9 +1,9 @@
-#Dynamic Problem
+# Dynamic Problem
 |Question|
 |-|
 | [Dice Combinations](./Cses/Dynamic Problem/Dice Combinations.py) |
 | [Minimizing Coins](./Cses/Dynamic Problem/Minimizing Coins.py) |
-#Introductory Problems
+# Introductory Problems
 |Question|
 |-|
 | [Increasing Array](./Cses/Introductory Problems/Increasing Array.py) |
