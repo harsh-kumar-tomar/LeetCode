@@ -10,14 +10,15 @@ cses_dir = "./Cses"
 leetcode_dir = "./LeetCode"
 total_problems_solved = 0
 
-leetcode_read_me = ""
-cf_read_me = ""
-cses_read_me = ""
+leetcode_read_me = "#LeetCode\n"
+cf_read_me = "#Codeforces\n"
+cses_read_me = "#Cses\n"
 final_read_me = ""
 
 
 def handle_leetcode(files:list[str]):
     print("Leetcode")
+    global leetcode_read_me
     leetcode_read_me += "|Problem|Question|\n"
     leetcode_read_me += "|-|-|\n"
 
@@ -42,6 +43,7 @@ def get_link_from_file(file_path:str):
 
 def handle_cf(files:list[str]):
     print("cf")
+    global cf_read_me
     cf_read_me += "|Problem|Question|\n"
     cf_read_me += "|-|-|\n"
     # 110A. Nearly Lucky Number.py
@@ -81,17 +83,14 @@ for root, _, files in os.walk(solutions_dir):
     folder_name = os.path.normpath(root).split('\\')
     # print(folder_name,len(files))
     if folder_name[0] == "LeetCode":
-        # handle_leetcode(files)
-        pass
+        handle_leetcode(files)
     elif folder_name[0] == "Cses" and len(folder_name) > 1 :
         handle_cses(folder_name[1],files)
-        pass
     elif folder_name[0] == "CF":
-        # handle_cf(files)
-        pass
+        handle_cf(files)
 
 with open("README.md", "w") as f:
-        f.write(cses_read_me)
+        f.write(leetcode_read_me + cf_read_me + cses_read_me)
 
 print("✅ README.md generated successfully.")
 
