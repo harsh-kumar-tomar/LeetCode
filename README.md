@@ -1,27 +1,22 @@
 # LeetCode
 |Problem|Question|
 |-|-|
-|[1](https://leetcode.com/problems/two-sum
-) | [ Two Sum](./LeetCode/1.%20Two%20Sum.py)|
+|[1](https://leetcode.com/problems/two-sum) | [ Two Sum](./LeetCode/1.%20Two%20Sum.py)|
 |[102]() | [ Binary Tree Level Order Traversal](./LeetCode/102.%20Binary%20Tree%20Level%20Order%20Traversal.py)|
 |[1079]() | [ Letter Tile Possibilities](./LeetCode/1079.%20Letter%20Tile%20Possibilities.py)|
 |[1106]() | [ Parsing A Boolean Expression](./LeetCode/1106.%20Parsing%20A%20Boolean%20Expression.py)|
 |[1334]() | [ Find the City With the Smallest Number of Neighbors at a Threshold Distance](./LeetCode/1334.%20Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance.py)|
 |[1415]() | [ The k-th Lexicographical String of All Happy Strings of Length n](./LeetCode/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py)|
-|[1422](https://leetcode.com/problems/maximum-score-after-splitting-a-string
-) | [ Maximum Score After Splitting a String](./LeetCode/1422.%20Maximum%20Score%20After%20Splitting%20a%20String.py)|
+|[1422](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | [ Maximum Score After Splitting a String](./LeetCode/1422.%20Maximum%20Score%20After%20Splitting%20a%20String.py)|
 |[1455]() | [ Check If a Word Occurs As a Prefix of Any Word in a Sentence](./LeetCode/1455.%20Check%20If%20a%20Word%20Occurs%20As%20a%20Prefix%20of%20Any%20Word%20in%20a%20Sentence.py)|
 |[146]() | [ LRU Cache](./LeetCode/146.%20LRU%20Cache.py)|
-|[15](https://leetcode.com/problems/two-sum
-) | [ 3Sum](./LeetCode/15.%203Sum.py)|
+|[15](https://leetcode.com/problems/two-sum) | [ 3Sum](./LeetCode/15.%203Sum.py)|
 |[1557]() | [ Minimum Number of Vertices to Reach All Nodes](./LeetCode/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py)|
-|[162](https://leetcode.com/problems/first-bad-version/
-) | [ Find Peak Element](./LeetCode/162.%20Find%20Peak%20Element.py)|
+|[162](https://leetcode.com/problems/first-bad-version/) | [ Find Peak Element](./LeetCode/162.%20Find%20Peak%20Element.py)|
 |[1642]() | [ Furthest Building You Can Reach](./LeetCode/1642.%20Furthest%20Building%20You%20Can%20Reach.py)|
 |[1780]() | [ Check if Number is a Sum of Powers of Three](./LeetCode/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py)|
 |[1791]() | [ Find Center of Star Graph](./LeetCode/1791.%20Find%20Center%20of%20Star%20Graph.py)|
-|[18](https://leetcode.com/problems/4sum
-) | [ 4Sum](./LeetCode/18.%204Sum.py)|
+|[18](https://leetcode.com/problems/4sum) | [ 4Sum](./LeetCode/18.%204Sum.py)|
 |[1921]() | [ Eliminate Maximum Number of Monsters](./LeetCode/1921.%20Eliminate%20Maximum%20Number%20of%20Monsters.py)|
 |[1922]() | [ Count Good Numbers](./LeetCode/1922.%20Count%20Good%20Numbers.py)|
 |[1947]() | [ Maximum Compatibility Score Sum](./LeetCode/1947.%20Maximum%20Compatibility%20Score%20Sum.py)|
@@ -30,8 +25,7 @@
 |[1980]() | [ Find Unique Binary String](./LeetCode/1980.%20Find%20Unique%20Binary%20String.py)|
 |[2033]() | [ Minimum Operations to Make a Uni-Value Grid](./LeetCode/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py)|
 |[2035]() | [ Partition Array Into Two Arrays to Minimize Sum Difference](./LeetCode/2035.%20Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.py)|
-|[206](https://leetcode.com/problems/reverse-linked-list
-) | [ Reverse Linked List](./LeetCode/206.%20Reverse%20Linked%20List.py)|
+|[206](https://leetcode.com/problems/reverse-linked-list) | [ Reverse Linked List](./LeetCode/206.%20Reverse%20Linked%20List.py)|
 |[2070]() | [ Most Beautiful Item for Each Query](./LeetCode/2070.%20Most%20Beautiful%20Item%20for%20Each%20Query.py)|
 |[2115]() | [ Find All Possible Recipes from Given Supplies](./LeetCode/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py)|
 |[213]() | [ House Robber II](./LeetCode/213.%20House%20Robber%20II.py)|
@@ -43,26 +37,20 @@
 |[2217]() | [ Find Palindrome With Fixed Length](./LeetCode/2217.%20Find%20Palindrome%20With%20Fixed%20Length.py)|
 |[2265]() | [ Count Nodes Equal to Average of Subtree](./LeetCode/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py)|
 |[2331]() | [ Evaluate Boolean Binary Tree](./LeetCode/2331.%20Evaluate%20Boolean%20Binary%20Tree.py)|
-|[2351](https://leetcode.com/problems/first-letter-to-appear-twice
-) | [ First Letter to Appear Twice](./LeetCode/2351.%20First%20Letter%20to%20Appear%20Twice.py)|
+|[2351](https://leetcode.com/problems/first-letter-to-appear-twice) | [ First Letter to Appear Twice](./LeetCode/2351.%20First%20Letter%20to%20Appear%20Twice.py)|
 |[2357]() | [ Make Array Zero by Subtracting Equal Amounts](./LeetCode/2357.%20Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py)|
 |[2375]() | [ Construct Smallest Number From DI String](./LeetCode/2375.%20Construct%20Smallest%20Number%20From%20DI%20String.py)|
 |[241]() | [ Different Ways to Add Parentheses](./LeetCode/241.%20Different%20Ways%20to%20Add%20Parentheses.py)|
 |[2460]() | [ Apply Operations to an Array](./LeetCode/2460.%20Apply%20Operations%20to%20an%20Array.py)|
 |[2529]() | [ Maximum Count of Positive Integer and Negative Integer](./LeetCode/2529.%20Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py)|
-|[2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile
-) | [ Take Gifts From the Richest Pile](./LeetCode/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py)|
-|[2559](https://leetcode.com/problems/count-vowel-strings-in-ranges
-) | [ Count Vowel Strings in Ranges](./LeetCode/2559.%20Count%20Vowel%20Strings%20in%20Ranges.py)|
+|[2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [ Take Gifts From the Richest Pile](./LeetCode/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py)|
+|[2559](https://leetcode.com/problems/count-vowel-strings-in-ranges) | [ Count Vowel Strings in Ranges](./LeetCode/2559.%20Count%20Vowel%20Strings%20in%20Ranges.py)|
 |[2566]() | [ Maximum Difference by Remapping a Digit](./LeetCode/2566.%20Maximum%20Difference%20by%20Remapping%20a%20Digit.py)|
 |[2579]() | [ Count Total Number of Colored Cells](./LeetCode/2579.%20Count%20Total%20Number%20of%20Colored%20Cells.py)|
-|[2593](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements
-) | [ Find Score of an Array After Marking All Elements](./LeetCode/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py)|
+|[2593](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [ Find Score of an Array After Marking All Elements](./LeetCode/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py)|
 |[2685]() | [ Count the Number of Complete Components](./LeetCode/2685.%20Count%20the%20Number%20of%20Complete%20Components.py)|
-|[2762](https://leetcode.com/problems/continuous-subarrays
-) | [ Continuous Subarrays](./LeetCode/2762.%20Continuous%20Subarrays.py)|
-|[278](https://leetcode.com/problems/first-bad-version/
-) | [ First Bad Version](./LeetCode/278.%20First%20Bad%20Version.py)|
+|[2762](https://leetcode.com/problems/continuous-subarrays) | [ Continuous Subarrays](./LeetCode/2762.%20Continuous%20Subarrays.py)|
+|[278](https://leetcode.com/problems/first-bad-version/) | [ First Bad Version](./LeetCode/278.%20First%20Bad%20Version.py)|
 |[28]() | [ Find the Index of the First Occurrence in a String](./LeetCode/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String.py)|
 |[2873]() | [ Maximum Value of an Ordered Triplet I](./LeetCode/2873.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20I.py)|
 |[2874]() | [ Maximum Value of an Ordered Triplet II](./LeetCode/2874.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20II.py)|
@@ -93,8 +81,7 @@
 |[386]() | [ Lexicographical Numbers](./LeetCode/386.%20Lexicographical%20Numbers.py)|
 |[39]() | [ Combination Sum](./LeetCode/39.%20Combination%20Sum.py)|
 |[390]() | [ Elimination Game](./LeetCode/390.%20Elimination%20Game.py)|
-|[392](https://leetcode.com/problems/is-subsequence
-) | [ Is Subsequence](./LeetCode/392.%20Is%20Subsequence.py)|
+|[392](https://leetcode.com/problems/is-subsequence) | [ Is Subsequence](./LeetCode/392.%20Is%20Subsequence.py)|
 |[394]() | [ Decode String](./LeetCode/394.%20Decode%20String.py)|
 |[40]() | [ Combination Sum II](./LeetCode/40.%20Combination%20Sum%20II.py)|
 |[401]() | [ Binary Watch](./LeetCode/401.%20Binary%20Watch.py)|
@@ -105,26 +92,21 @@
 |[46]() | [ Permutations](./LeetCode/46.%20Permutations.py)|
 |[47]() | [ Permutations II](./LeetCode/47.%20Permutations%20II.py)|
 |[486]() | [ Predict the Winner](./LeetCode/486.%20Predict%20the%20Winner.py)|
-|[494](https://leetcode.com/problems/target-sum
-) | [ Target Sum](./LeetCode/494.%20Target%20Sum.py)|
+|[494](https://leetcode.com/problems/target-sum) | [ Target Sum](./LeetCode/494.%20Target%20Sum.py)|
 |[495]() | [ Teemo Attacking](./LeetCode/495.%20Teemo%20Attacking.py)|
-|[500](https://leetcode.com/problems/keyboard-row
-) | [ Keyboard Row](./LeetCode/500.%20Keyboard%20Row.py)|
+|[500](https://leetcode.com/problems/keyboard-row) | [ Keyboard Row](./LeetCode/500.%20Keyboard%20Row.py)|
 |[525]() | [ Contiguous Array](./LeetCode/525.%20Contiguous%20Array.py)|
 |[55]() | [ Jump Game](./LeetCode/55.%20Jump%20Game.py)|
-|[56](https://leetcode.com/problems/merge-intervals/
-) | [ Merge Intervals](./LeetCode/56.%20Merge%20Intervals.py)|
+|[56](https://leetcode.com/problems/merge-intervals/) | [ Merge Intervals](./LeetCode/56.%20Merge%20Intervals.py)|
 |[560]() | [ Subarray Sum Equals K](./LeetCode/560.%20Subarray%20Sum%20Equals%20K.py)|
-|[57](https://leetcode.com/problems/insert-interval/
-) | [ Insert Interval](./LeetCode/57.%20Insert%20Interval.py)|
+|[57](https://leetcode.com/problems/insert-interval/) | [ Insert Interval](./LeetCode/57.%20Insert%20Interval.py)|
 |[617]() | [ Merge Two Binary Trees](./LeetCode/617.%20Merge%20Two%20Binary%20Trees.py)|
 |[62]() | [ Unique Paths](./LeetCode/62.%20Unique%20Paths.py)|
 |[63]() | [ Unique Paths II](./LeetCode/63.%20Unique%20Paths%20II.py)|
 |[637]() | [ Average of Levels in Binary Tree](./LeetCode/637.%20Average%20of%20Levels%20in%20Binary%20Tree.py)|
 |[64]() | [ Minimum Path Sum](./LeetCode/64.%20Minimum%20Path%20Sum.py)|
 |[738]() | [ Monotone Increasing Digits](./LeetCode/738.%20Monotone%20Increasing%20Digits.py)|
-|[744](https://leetcode.com/problems/first-bad-version
-) | [ Find Smallest Letter Greater Than Target](./LeetCode/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.py)|
+|[744](https://leetcode.com/problems/first-bad-version) | [ Find Smallest Letter Greater Than Target](./LeetCode/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.py)|
 |[746]() | [ Min Cost Climbing Stairs](./LeetCode/746.%20Min%20Cost%20Climbing%20Stairs.py)|
 |[77]() | [ Combinations](./LeetCode/77.%20Combinations.py)|
 |[78]() | [ Subsets](./LeetCode/78.%20Subsets.py)|
