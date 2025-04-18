@@ -90,7 +90,7 @@ for root, _, files in os.walk(solutions_dir):
         handle_cf(files)
 
 with open("README.md", "w") as f:
-        f.write(leetcode_read_me + cf_read_me + cses_read_me)
+        f.write(leetcode_read_me + "\n" + cf_read_me + "\n" + cses_read_me)
 
 print("✅ README.md generated successfully.")
 

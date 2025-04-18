@@ -148,6 +148,7 @@
 |[tempCodeRunnerFile]() | [py](./LeetCode/tempCodeRunnerFile.py)|
 |[Topological Sort]() | [py](./LeetCode/Topological Sort.py)|
 |[TreeNode]() | [py](./LeetCode/TreeNode.py)|
+
 #Codeforces
 |Problem|Question|
 |-|-|
@@ -182,6 +183,7 @@
 |[B](https://codeforces.com/problemset/problem//B) | [ Array Recoloring](./CF/B. Array Recoloring.py)|
 |[The Third Side](https://codeforces.com/problemset/problem/The Third Si/e) | [py](./CF/The Third Side.py)|
 |[XOR and Triangle](https://codeforces.com/problemset/problem/XOR and Triang/e) | [py](./CF/XOR and Triangle.py)|
+
 #Cses
 ## Dynamic Problem
 |Question/Solutions|
