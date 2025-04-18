@@ -70,7 +70,7 @@ def handle_cses(subfolder_name:str,files:list[str]):
         title = file
         file_path = f"{cses_dir}/{subfolder_name}/{file}"
         
-        cses_read_me += f"| [ {title.removesuffix('.py')} ]( {file_path} ) |\n"
+        cses_read_me += f"|[{title.removesuffix('.py')}]({file_path})|\n"
 
     print(cses_read_me)
 
