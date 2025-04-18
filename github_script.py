@@ -42,12 +42,12 @@ def sort_leetcode_files(files:list[str]):
 def handle_leetcode(files:list[str]):
     global leetcode_read_me,total_problems_solved
 
+    files = sort_leetcode_files(files)
     total_problems_solved += len(files)
 
     leetcode_read_me += "|Problem|Question|\n"
     leetcode_read_me += "|-|-|\n"
 
-    files = sort_leetcode_files(files)
     for file in files:
         numeric , title = file.split('.',maxsplit=1)
 

@@ -1,7 +1,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
-![Solved](https://img.shields.io/badge/Solved-164-blue)
+![Solved](https://img.shields.io/badge/Solved-153-blue)
 
 # LeetCode
 |Problem|Question|
