@@ -21,8 +21,25 @@ cses_read_me = "# Cses\n"
 final_read_me = ""
 
 
+def sort_leetcode_files(files:list[str]):
+    file_map = {}
+    # 1. Two Sum.py
+    print(files)
+    for file in files:
+        numeric , title = file.split('.',maxsplit=1)
+        if numeric.isnumeric():
+            file_map[int(numeric)] = "."+title
+    
+    sorted_file_map = dict(sorted(file_map.items())) 
+    sorted_files_list = []
+
+    for key,val in sorted_file_map.items():
+        sorted_files_list.append(str(key)+val)
+    
+    return sorted_files_list
+    
+
 def handle_leetcode(files:list[str]):
-    print("Leetcode")
     global leetcode_read_me,total_problems_solved
 
     total_problems_solved += len(files)
@@ -30,6 +47,7 @@ def handle_leetcode(files:list[str]):
     leetcode_read_me += "|Problem|Question|\n"
     leetcode_read_me += "|-|-|\n"
 
+    files = sort_leetcode_files(files)
     for file in files:
         numeric , title = file.split('.',maxsplit=1)
 
@@ -38,7 +56,6 @@ def handle_leetcode(files:list[str]):
 
         leetcode_read_me += f"|[{numeric}]({leetcode_web_link}) | [{title.removesuffix(".py")}]({file_path.replace(' ','%20')})|\n"
         
-    print(leetcode_read_me)
         
 def get_link_from_file(file_path:str):
     link = ""
@@ -58,12 +75,12 @@ def split_cf_alphanumeric(alphanumeric:str):
     return (alphanumeric[:index],alphanumeric[index:])
 
 def handle_cf(files:list[str]):
-    print("cf")
+
     global cf_read_me , total_problems_solved
     total_problems_solved += len(files)
     cf_read_me += "|Problem|Question|\n"
     cf_read_me += "|-|-|\n"
-    # 110A. Nearly Lucky Number.py
+
     for file in files:
         alpha_numeric , title = file.split('.',maxsplit=1)
         contest_num , alphabet = split_cf_alphanumeric(alpha_numeric)
@@ -78,6 +95,7 @@ def handle_cses(subfolder_name:str,files:list[str]):
 
     if len(files) == 0 :
         return
+    
     global cses_read_me,total_problems_solved
     total_problems_solved += len(files)
 
@@ -90,7 +108,6 @@ def handle_cses(subfolder_name:str,files:list[str]):
         
         cses_read_me += f"|[{title.removesuffix('.py')}]({file_path.replace(' ','%20')})|\n"
 
-    print(cses_read_me)
 
 
 
@@ -112,10 +129,8 @@ print("✅ README.md generated successfully.")
 
 
 
-# Get today's date in "DD MMM YYYY" format
 today_date = datetime.now().strftime("%d %b %Y")
 
-# Run Git commands to stage, commit, and push changes
 try:
     subprocess.run(["git", "add", "."], check=True)
     subprocess.run(["git", "commit", "-m", f"Update solutions and README on {today_date}"], check=True)
