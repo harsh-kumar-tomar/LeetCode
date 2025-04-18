@@ -188,13 +188,13 @@
 ## Dynamic Problem
 |Question/Solutions|
 |-|
-|[Dice Combinations](./Cses/Dynamic Problem/Dice Combinations.py)|
-|[Minimizing Coins](./Cses/Dynamic Problem/Minimizing Coins.py)|
+|[Dice Combinations](./Cses/Dynamic%20Problem/Dice%20Combinations.py)|
+|[Minimizing Coins](./Cses/Dynamic%20Problem/Minimizing%20Coins.py)|
 ## Introductory Problems
 |Question/Solutions|
 |-|
-|[Increasing Array](./Cses/Introductory Problems/Increasing Array.py)|
-|[Missing Number](./Cses/Introductory Problems/Missing Number.py)|
-|[Permutations](./Cses/Introductory Problems/Permutations.py)|
-|[Repetitions](./Cses/Introductory Problems/Repetitions.py)|
-|[Weird Algorithm](./Cses/Introductory Problems/Weird Algorithm.py)|
+|[Increasing Array](./Cses/Introductory%20Problems/Increasing%20Array.py)|
+|[Missing Number](./Cses/Introductory%20Problems/Missing%20Number.py)|
+|[Permutations](./Cses/Introductory%20Problems/Permutations.py)|
+|[Repetitions](./Cses/Introductory%20Problems/Repetitions.py)|
+|[Weird Algorithm](./Cses/Introductory%20Problems/Weird%20Algorithm.py)|
