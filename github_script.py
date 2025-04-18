@@ -91,7 +91,7 @@ for root, _, files in os.walk(solutions_dir):
         pass
 
 with open("README.md", "w") as f:
-        f.write(final_read_me)
+        f.write(cses_read_me)
 
 print("✅ README.md generated successfully.")
 
