@@ -1,4 +1,4 @@
-#LeetCode
+# LeetCode
 |Problem|Question|
 |-|-|
 |[1](https://leetcode.com/problems/two-sum
@@ -149,7 +149,7 @@
 |[Topological Sort]() | [py](./LeetCode/Topological Sort.py)|
 |[TreeNode]() | [py](./LeetCode/TreeNode.py)|
 
-#Codeforces
+# Codeforces
 |Problem|Question|
 |-|-|
 |[110A](https://codeforces.com/problemset/problem/11/A) | [ Nearly Lucky Number](./CF/110A. Nearly Lucky Number.py)|
@@ -184,7 +184,7 @@
 |[The Third Side](https://codeforces.com/problemset/problem/The Third Si/e) | [py](./CF/The Third Side.py)|
 |[XOR and Triangle](https://codeforces.com/problemset/problem/XOR and Triang/e) | [py](./CF/XOR and Triangle.py)|
 
-#Cses
+# Cses
 ## Dynamic Problem
 |Question/Solutions|
 |-|

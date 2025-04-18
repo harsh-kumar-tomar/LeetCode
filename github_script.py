@@ -10,9 +10,9 @@ cses_dir = "./Cses"
 leetcode_dir = "./LeetCode"
 total_problems_solved = 0
 
-leetcode_read_me = "#LeetCode\n"
-cf_read_me = "#Codeforces\n"
-cses_read_me = "#Cses\n"
+leetcode_read_me = "# LeetCode\n"
+cf_read_me = "# Codeforces\n"
+cses_read_me = "# Cses\n"
 final_read_me = ""
 
 
