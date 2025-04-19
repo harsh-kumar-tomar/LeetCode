@@ -32,7 +32,6 @@ def get_count_badge(title:str,count:int,color:str = "blue"):
 def sort_leetcode_files(files:list[str]):
     file_map = {}
     # 1. Two Sum.py
-    print(files)
     for file in files:
         numeric , title = file.split('.',maxsplit=1)
         if numeric.isnumeric():
@@ -124,8 +123,10 @@ def handle_cses(subfolder_name:str,files:list[str]):
         
         cses_read_me += f"|[{title.removesuffix('.py')}]({file_path.replace(' ','%20')})|\n"
 
-
-
+def get_base_read_me():
+    global base_read_me
+    base_read_me += get_count_badge("LeetCode",count_leetcode) + get_count_badge("CF",count_cf) + get_count_badge("Cses",count_cses)
+    return base_read_me
 
 for root, _, files in os.walk(solutions_dir):
 
@@ -139,7 +140,7 @@ for root, _, files in os.walk(solutions_dir):
         handle_cf(files)
 
 with open("README.md", "w") as f:
-        f.write(base_read_me.format(total_problems_solved) + leetcode_read_me + "\n" + cf_read_me + "\n" + cses_read_me)
+        f.write( get_base_read_me() + leetcode_read_me + "\n" + cf_read_me + "\n" + cses_read_me)
 
 print("✅ README.md generated successfully.")
 

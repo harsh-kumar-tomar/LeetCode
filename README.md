@@ -1,6 +1,9 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
+![LeetCode](https://img.shields.io/badge/LeetCode-118-blue)
+![CF](https://img.shields.io/badge/CF-28-blue)
+![Cses](https://img.shields.io/badge/Cses-7-blue)
 # LeetCode
 |Problem|Question|
 |-|-|
