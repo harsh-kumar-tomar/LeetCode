@@ -3,10 +3,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](https://leetcode.com/u/harsh780/)
 ![Solved](https://img.shields.io/badge/Solved-153-blue)
-![LeetCode](https://img.shields.io/badge/LeetCode-118-FFA116)
-![CF](https://img.shields.io/badge/CF-28-1F8ACB)
-![Cses](https://img.shields.io/badge/Cses-7-5E5E5E)
-# LeetCode
+[![LeetCode](https://img.shields.io/badge/LeetCode-118-FFA116)
+](https://leetcode.com/u/harsh780/)[![CF](https://img.shields.io/badge/CF-28-1F8ACB)
+](https://codeforces.com/profile/harshkumartomar)[![Cses](https://img.shields.io/badge/Cses-7-5E5E5E)
+](https://cses.fi/user/321162)# LeetCode
 |Problem|Question|
 |-|-|
 |[1](https://leetcode.com/problems/two-sum) | [ Two Sum](./LeetCode/1.%20Two%20Sum.py)|

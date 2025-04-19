@@ -15,6 +15,10 @@ count_leetcode = 0
 count_cf = 0
 count_cses = 0
 
+leetcode_profile_link = "https://leetcode.com/u/harsh780/"
+cf_profile_link = "https://codeforces.com/profile/harshkumartomar"
+cses_profile_link = "https://cses.fi/user/321162"
+
 base_read_me = """
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
@@ -26,8 +30,13 @@ cf_read_me = "# Codeforces\n"
 cses_read_me = "# Cses\n"
 final_read_me = ""
 
-def get_count_badge(title:str,count:int,color:str = "blue"):
-    return "![{}](https://img.shields.io/badge/{}-{}-{})\n".format(title,title,count,color)
+
+def get_count_badge(title:str,count:int,color:str = "blue",link = None):
+    badge = "![{}](https://img.shields.io/badge/{}-{}-{})\n".format(title,title,count,color)
+    if link :
+        return f"[{badge}]({link})"
+    else:
+        return badge
 
 
 def sort_leetcode_files(files:list[str]):
@@ -126,7 +135,7 @@ def handle_cses(subfolder_name:str,files:list[str]):
 
 def get_base_read_me():
     global base_read_me
-    base_read_me += get_count_badge("Solved",total_problems_solved) + get_count_badge("LeetCode",count_leetcode,"FFA116") + get_count_badge("CF",count_cf,"1F8ACB") + get_count_badge("Cses",count_cses,"5E5E5E")
+    base_read_me += get_count_badge("Solved",total_problems_solved) + get_count_badge("LeetCode",count_leetcode,"FFA116",leetcode_profile_link) + get_count_badge("CF",count_cf,"1F8ACB",cf_profile_link) + get_count_badge("Cses",count_cses,"5E5E5E",cses_profile_link)
     return base_read_me
 
 for root, _, files in os.walk(solutions_dir):
