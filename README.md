@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
 ![Solved](https://img.shields.io/badge/Solved-153-blue)
-![LeetCode](https://img.shields.io/badge/LeetCode-118-#FFA116)
+![LeetCode](https://img.shields.io/badge/LeetCode-118-FFA116)
 ![CF](https://img.shields.io/badge/CF-28-blue)
 ![Cses](https://img.shields.io/badge/Cses-7-blue)
 # LeetCode
