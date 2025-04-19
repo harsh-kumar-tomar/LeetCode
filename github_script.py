@@ -18,13 +18,15 @@ count_cses = 0
 base_read_me = """
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
-!(https://img.shields.io/badge/Solved-{}-blue)\n
 """
 
 leetcode_read_me = "# LeetCode\n"
 cf_read_me = "# Codeforces\n"
 cses_read_me = "# Cses\n"
 final_read_me = ""
+
+def get_count_badge(title:str,count:int,color:str = "blue"):
+    return "![{}](https://img.shields.io/badge/{}-{}-{})\n".format(title,title,count,color)
 
 
 def sort_leetcode_files(files:list[str]):
