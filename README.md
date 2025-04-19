@@ -1,6 +1,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)]
 ![Solved](https://img.shields.io/badge/Solved-153-blue)
 ![LeetCode](https://img.shields.io/badge/LeetCode-118-blue)
 ![CF](https://img.shields.io/badge/CF-28-blue)
