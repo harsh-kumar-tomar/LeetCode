@@ -36,7 +36,7 @@ def get_count_badge(title:str,count:int,color:str = "blue",link = None):
     if link :
         return f"[{badge}]({link})\n"
     else:
-        return badge
+        return f"{badge}\n"
 
 
 def sort_leetcode_files(files:list[str]):
