@@ -126,7 +126,7 @@ def handle_cses(subfolder_name:str,files:list[str]):
 
 def get_base_read_me():
     global base_read_me
-    base_read_me += get_count_badge("Solved",total_problems_solved) + get_count_badge("LeetCode",count_leetcode,"FFA116") + get_count_badge("CF",count_cf) + get_count_badge("Cses",count_cses)
+    base_read_me += get_count_badge("Solved",total_problems_solved) + get_count_badge("LeetCode",count_leetcode,"FFA116") + get_count_badge("CF",count_cf,"1F8ACB") + get_count_badge("Cses",count_cses,"5E5E5E")
     return base_read_me
 
 for root, _, files in os.walk(solutions_dir):
