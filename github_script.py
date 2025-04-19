@@ -18,7 +18,7 @@ count_cses = 0
 base_read_me = """
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)]
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
 """
 
 leetcode_read_me = "# LeetCode\n"
