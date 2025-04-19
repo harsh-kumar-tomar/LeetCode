@@ -32,9 +32,9 @@ final_read_me = ""
 
 
 def get_count_badge(title:str,count:int,color:str = "blue",link = None):
-    badge = "![{}](https://img.shields.io/badge/{}-{}-{})\n".format(title,title,count,color)
+    badge = "![{}](https://img.shields.io/badge/{}-{}-{})".format(title,title,count,color)
     if link :
-        return f"[{badge}]({link})"
+        return f"[{badge}]({link})\n"
     else:
         return badge
 
