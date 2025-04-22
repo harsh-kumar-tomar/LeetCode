@@ -1,10 +1,10 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](https://leetcode.com/u/harsh780/)
-![Solved](https://img.shields.io/badge/Solved-153-blue)
-[![LeetCode](https://img.shields.io/badge/LeetCode-118-FFA116)](https://leetcode.com/u/harsh780/)
-[![CF](https://img.shields.io/badge/CF-28-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
+![Solved](https://img.shields.io/badge/Solved-167-blue)
+[![LeetCode](https://img.shields.io/badge/LeetCode-121-FFA116)](https://leetcode.com/u/harsh780/)
+[![CF](https://img.shields.io/badge/CF-39-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
 [![Cses](https://img.shields.io/badge/Cses-7-5E5E5E)](https://cses.fi/user/321162)
 # LeetCode
 |Problem|Question|
@@ -87,6 +87,7 @@
 |[2070]() | [ Most Beautiful Item for Each Query](./LeetCode/2070.%20Most%20Beautiful%20Item%20for%20Each%20Query.py)|
 |[2115]() | [ Find All Possible Recipes from Given Supplies](./LeetCode/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py)|
 |[2140]() | [ Solving Questions With Brainpower](./LeetCode/2140.%20Solving%20Questions%20With%20Brainpower.py)|
+|[2145]() | [ Count the Hidden Sequences](./LeetCode/2145.%20Count%20the%20Hidden%20Sequences.py)|
 |[2176]() | [ Count Equal and Divisible Pairs in an Array](./LeetCode/2176.%20Count%20Equal%20and%20Divisible%20Pairs%20in%20an%20Array.py)|
 |[2183]() | [ Count Array Pairs Divisible by K](./LeetCode/2183.%20Count%20Array%20Pairs%20Divisible%20by%20K.py)|
 |[2208]() | [ Minimum Operations to Halve Array Sum](./LeetCode/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.py)|
@@ -100,11 +101,13 @@
 |[2529]() | [ Maximum Count of Positive Integer and Negative Integer](./LeetCode/2529.%20Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py)|
 |[2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [ Take Gifts From the Richest Pile](./LeetCode/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py)|
 |[2559](https://leetcode.com/problems/count-vowel-strings-in-ranges) | [ Count Vowel Strings in Ranges](./LeetCode/2559.%20Count%20Vowel%20Strings%20in%20Ranges.py)|
+|[2563]() | [ Count the Number of Fair Pairs](./LeetCode/2563.%20Count%20the%20Number%20of%20Fair%20Pairs.py)|
 |[2566]() | [ Maximum Difference by Remapping a Digit](./LeetCode/2566.%20Maximum%20Difference%20by%20Remapping%20a%20Digit.py)|
 |[2579]() | [ Count Total Number of Colored Cells](./LeetCode/2579.%20Count%20Total%20Number%20of%20Colored%20Cells.py)|
 |[2593](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [ Find Score of an Array After Marking All Elements](./LeetCode/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py)|
 |[2685]() | [ Count the Number of Complete Components](./LeetCode/2685.%20Count%20the%20Number%20of%20Complete%20Components.py)|
 |[2762](https://leetcode.com/problems/continuous-subarrays) | [ Continuous Subarrays](./LeetCode/2762.%20Continuous%20Subarrays.py)|
+|[2824]() | [ Count Pairs Whose Sum is Less than Target](./LeetCode/2824.%20Count%20Pairs%20Whose%20Sum%20is%20Less%20than%20Target.py)|
 |[2873]() | [ Maximum Value of an Ordered Triplet I](./LeetCode/2873.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20I.py)|
 |[2874]() | [ Maximum Value of an Ordered Triplet II](./LeetCode/2874.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20II.py)|
 |[2909]() | [ Minimum Sum of Mountain Triplets II](./LeetCode/2909.%20Minimum%20Sum%20of%20Mountain%20Triplets%20II.py)|
@@ -132,9 +135,16 @@
 |Problem|Question|
 |-|-|
 |[110A](https://codeforces.com/problemset/problem/110/A) | [ Nearly Lucky Number](./CF/110A.%20Nearly%20Lucky%20Number.py)|
+|[1352A](https://codeforces.com/problemset/problem/1352/A) | [ Sum of Round Numbers](./CF/1352A.%20Sum%20of%20Round%20Numbers.py)|
+|[1352C](https://codeforces.com/problemset/problem/1352/C) | [ K-th Not Divisible by n](./CF/1352C.%20K-th%20Not%20Divisible%20by%20n.py)|
 |[158A](https://codeforces.com/problemset/problem/158/A) | [ Next Round](./CF/158A.%20Next%20Round.py)|
 |[1742A](https://codeforces.com/problemset/problem/1742/A) | [ Sum](./CF/1742A.%20Sum.py)|
 |[1915C](https://codeforces.com/problemset/problem/1915/C) | [ Can I Square](./CF/1915C.%20Can%20I%20Square.py)|
+|[1999A](https://codeforces.com/problemset/problem/1999/A) | [ A+B Again](./CF/1999A.%20A+B%20Again.py)|
+|[2009A](https://codeforces.com/problemset/problem/2009/A) | [ Minimize!](./CF/2009A.%20Minimize!.py)|
+|[2009B](https://codeforces.com/problemset/problem/2009/B) | [ osu!mania](./CF/2009B.%20osu!mania.py)|
+|[2009C](https://codeforces.com/problemset/problem/2009/C) | [ The Legend of Freya the Frog](./CF/2009C.%20The%20Legend%20of%20Freya%20the%20Frog.py)|
+|[2009E](https://codeforces.com/problemset/problem/2009/E) | [ Klee's SUPER DUPER LARGE Array!!!](./CF/2009E.%20Klee's%20SUPER%20DUPER%20LARGE%20Array!!!.py)|
 |[2019A](https://codeforces.com/problemset/problem/2019/A) | [ Max Plus Size](./CF/2019A.%20Max%20Plus%20Size.py)|
 |[2025A](https://codeforces.com/problemset/problem/2025/A) | [ Two Screens](./CF/2025A.%20Two%20Screens.py)|
 |[2044A](https://codeforces.com/problemset/problem/2044/A) | [ Easy Problem](./CF/2044A.%20Easy%20Problem.py)|
@@ -151,6 +161,7 @@
 |[2094A](https://codeforces.com/problemset/problem/2094/A) | [ Trippi Troppi](./CF/2094A.%20Trippi%20Troppi.py)|
 |[2094B](https://codeforces.com/problemset/problem/2094/B) | [ Bobritto Bandito](./CF/2094B.%20Bobritto%20Bandito.py)|
 |[2094D](https://codeforces.com/problemset/problem/2094/D) | [ Tung Tung Sahur](./CF/2094D.%20Tung%20Tung%20Sahur.py)|
+|[2096A](https://codeforces.com/problemset/problem/2096/A) | [ Wonderful Sticks](./CF/2096A.%20Wonderful%20Sticks.py)|
 |[231A](https://codeforces.com/problemset/problem/231/A) | [ Team](./CF/231A.%20Team.py)|
 |[236A](https://codeforces.com/problemset/problem/236/A) | [ Boy or Girl](./CF/236A.%20Boy%20or%20Girl.py)|
 |[617A](https://codeforces.com/problemset/problem/617/A) | [ Elephant](./CF/617A.%20Elephant.py)|
@@ -158,7 +169,10 @@
 |[705A](https://codeforces.com/problemset/problem/705/A) | [ Hulk](./CF/705A.%20Hulk.py)|
 |[71A](https://codeforces.com/problemset/problem/71/A) | [ Way Too Long Words](./CF/71A.%20Way%20Too%20Long%20Words.py)|
 |[791A](https://codeforces.com/problemset/problem/791/A) | [ Bear and Big Brother](./CF/791A.%20Bear%20and%20Big%20Brother.py)|
+|[939A](https://codeforces.com/problemset/problem/939/A) | [ Love Triangle](./CF/939A.%20Love%20Triangle.py)|
 |[996A](https://codeforces.com/problemset/problem/996/A) | [ Hit the Lottery](./CF/996A.%20Hit%20the%20Lottery.py)|
+|[996B](https://codeforces.com/problemset/problem/996/B) | [ World Cup](./CF/996B.%20World%20Cup.py)|
+|[tempCodeRunnerFile](https://codeforces.com/problemset/problem/tempCodeRunnerFil/e) | [py](./CF/tempCodeRunnerFile.py)|
 
 # Cses
 ## Dynamic Problem

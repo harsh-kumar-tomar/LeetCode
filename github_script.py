@@ -22,7 +22,7 @@ cses_profile_link = "https://cses.fi/user/321162"
 base_read_me = """
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](https://leetcode.com/u/harsh780/)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
 """
 
 leetcode_read_me = "# LeetCode\n"
