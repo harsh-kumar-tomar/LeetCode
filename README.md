@@ -2,8 +2,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-167-blue)
-[![LeetCode](https://img.shields.io/badge/LeetCode-121-FFA116)](https://leetcode.com/u/harsh780/)
+![Solved](https://img.shields.io/badge/Solved-168-blue)
+[![LeetCode](https://img.shields.io/badge/LeetCode-122-FFA116)](https://leetcode.com/u/harsh780/)
 [![CF](https://img.shields.io/badge/CF-39-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
 [![Cses](https://img.shields.io/badge/Cses-7-5E5E5E)](https://cses.fi/user/321162)
 # LeetCode
@@ -67,6 +67,7 @@
 |[897]() | [ Increasing Order Search Tree](./LeetCode/897.%20Increasing%20Order%20Search%20Tree.py)|
 |[904]() | [ Fruit Into Baskets](./LeetCode/904.%20Fruit%20Into%20Baskets.py)|
 |[980]() | [ Unique Paths III](./LeetCode/980.%20Unique%20Paths%20III.py)|
+|[1011]() | [ Capacity To Ship Packages Within D Days](./LeetCode/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.py)|
 |[1079]() | [ Letter Tile Possibilities](./LeetCode/1079.%20Letter%20Tile%20Possibilities.py)|
 |[1106]() | [ Parsing A Boolean Expression](./LeetCode/1106.%20Parsing%20A%20Boolean%20Expression.py)|
 |[1334]() | [ Find the City With the Smallest Number of Neighbors at a Threshold Distance](./LeetCode/1334.%20Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance.py)|
