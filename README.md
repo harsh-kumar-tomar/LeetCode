@@ -2,18 +2,20 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-168-blue)
-[![LeetCode](https://img.shields.io/badge/LeetCode-122-FFA116)](https://leetcode.com/u/harsh780/)
-[![CF](https://img.shields.io/badge/CF-39-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
+![Solved](https://img.shields.io/badge/Solved-176-blue)
+[![LeetCode](https://img.shields.io/badge/LeetCode-128-FFA116)](https://leetcode.com/u/harsh780/)
+[![CF](https://img.shields.io/badge/CF-41-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
 [![Cses](https://img.shields.io/badge/Cses-7-5E5E5E)](https://cses.fi/user/321162)
 # LeetCode
 |Problem|Question|
 |-|-|
 |[1](https://leetcode.com/problems/two-sum) | [ Two Sum](./LeetCode/1.%20Two%20Sum.py)|
+|[3]() | [ Longest Substring Without Repeating Characters](./LeetCode/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py)|
 |[15](https://leetcode.com/problems/two-sum) | [ 3Sum](./LeetCode/15.%203Sum.py)|
 |[18](https://leetcode.com/problems/4sum) | [ 4Sum](./LeetCode/18.%204Sum.py)|
 |[22]() | [ Generate Parentheses](./LeetCode/22.%20Generate%20Parentheses.py)|
 |[28]() | [ Find the Index of the First Occurrence in a String](./LeetCode/28.%20Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String.py)|
+|[33]() | [ Search in Rotated Sorted Array](./LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array.py)|
 |[35]() | [ Search Insert Position](./LeetCode/35.%20Search%20Insert%20Position.py)|
 |[38]() | [ Count and Say](./LeetCode/38.%20Count%20and%20Say.py)|
 |[39]() | [ Combination Sum](./LeetCode/39.%20Combination%20Sum.py)|
@@ -34,6 +36,7 @@
 |[93]() | [ Restore IP Addresses](./LeetCode/93.%20Restore%20IP%20Addresses.py)|
 |[102]() | [ Binary Tree Level Order Traversal](./LeetCode/102.%20Binary%20Tree%20Level%20Order%20Traversal.py)|
 |[146]() | [ LRU Cache](./LeetCode/146.%20LRU%20Cache.py)|
+|[153]() | [ Find Minimum in Rotated Sorted Array](./LeetCode/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.py)|
 |[162](https://leetcode.com/problems/first-bad-version/) | [ Find Peak Element](./LeetCode/162.%20Find%20Peak%20Element.py)|
 |[198]() | [ House Robber](./LeetCode/198.%20House%20Robber.py)|
 |[206](https://leetcode.com/problems/reverse-linked-list) | [ Reverse Linked List](./LeetCode/206.%20Reverse%20Linked%20List.py)|
@@ -63,6 +66,7 @@
 |[746]() | [ Min Cost Climbing Stairs](./LeetCode/746.%20Min%20Cost%20Climbing%20Stairs.py)|
 |[797]() | [ All Paths From Source to Target](./LeetCode/797.%20All%20Paths%20From%20Source%20to%20Target.py)|
 |[807]() | [ Max Increase to Keep City Skyline](./LeetCode/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.py)|
+|[852]() | [ Peak Index in a Mountain Array](./LeetCode/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py)|
 |[859]() | [ Buddy Strings](./LeetCode/859.%20Buddy%20Strings.py)|
 |[897]() | [ Increasing Order Search Tree](./LeetCode/897.%20Increasing%20Order%20Search%20Tree.py)|
 |[904]() | [ Fruit Into Baskets](./LeetCode/904.%20Fruit%20Into%20Baskets.py)|
@@ -71,6 +75,7 @@
 |[1079]() | [ Letter Tile Possibilities](./LeetCode/1079.%20Letter%20Tile%20Possibilities.py)|
 |[1106]() | [ Parsing A Boolean Expression](./LeetCode/1106.%20Parsing%20A%20Boolean%20Expression.py)|
 |[1334]() | [ Find the City With the Smallest Number of Neighbors at a Threshold Distance](./LeetCode/1334.%20Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance.py)|
+|[1399]() | [ Count Largest Group](./LeetCode/1399.%20Count%20Largest%20Group.py)|
 |[1415]() | [ The k-th Lexicographical String of All Happy Strings of Length n](./LeetCode/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py)|
 |[1422](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | [ Maximum Score After Splitting a String](./LeetCode/1422.%20Maximum%20Score%20After%20Splitting%20a%20String.py)|
 |[1455]() | [ Check If a Word Occurs As a Prefix of Any Word in a Sentence](./LeetCode/1455.%20Check%20If%20a%20Word%20Occurs%20As%20a%20Prefix%20of%20Any%20Word%20in%20a%20Sentence.py)|
@@ -108,6 +113,7 @@
 |[2593](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [ Find Score of an Array After Marking All Elements](./LeetCode/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py)|
 |[2685]() | [ Count the Number of Complete Components](./LeetCode/2685.%20Count%20the%20Number%20of%20Complete%20Components.py)|
 |[2762](https://leetcode.com/problems/continuous-subarrays) | [ Continuous Subarrays](./LeetCode/2762.%20Continuous%20Subarrays.py)|
+|[2799]() | [ Count Complete Subarrays in an Array](./LeetCode/2799.%20Count%20Complete%20Subarrays%20in%20an%20Array.py)|
 |[2824]() | [ Count Pairs Whose Sum is Less than Target](./LeetCode/2824.%20Count%20Pairs%20Whose%20Sum%20is%20Less%20than%20Target.py)|
 |[2873]() | [ Maximum Value of an Ordered Triplet I](./LeetCode/2873.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20I.py)|
 |[2874]() | [ Maximum Value of an Ordered Triplet II](./LeetCode/2874.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20II.py)|
@@ -141,6 +147,7 @@
 |[158A](https://codeforces.com/problemset/problem/158/A) | [ Next Round](./CF/158A.%20Next%20Round.py)|
 |[1742A](https://codeforces.com/problemset/problem/1742/A) | [ Sum](./CF/1742A.%20Sum.py)|
 |[1915C](https://codeforces.com/problemset/problem/1915/C) | [ Can I Square](./CF/1915C.%20Can%20I%20Square.py)|
+|[1996A](https://codeforces.com/problemset/problem/1996/A) | [ Legs](./CF/1996A.%20Legs.py)|
 |[1999A](https://codeforces.com/problemset/problem/1999/A) | [ A+B Again](./CF/1999A.%20A+B%20Again.py)|
 |[2009A](https://codeforces.com/problemset/problem/2009/A) | [ Minimize!](./CF/2009A.%20Minimize!.py)|
 |[2009B](https://codeforces.com/problemset/problem/2009/B) | [ osu!mania](./CF/2009B.%20osu!mania.py)|
@@ -169,6 +176,7 @@
 |[670D1](https://codeforces.com/problemset/problem/670/D1) | [ Magic Powder - 1](./CF/670D1.%20Magic%20Powder%20-%201.py)|
 |[705A](https://codeforces.com/problemset/problem/705/A) | [ Hulk](./CF/705A.%20Hulk.py)|
 |[71A](https://codeforces.com/problemset/problem/71/A) | [ Way Too Long Words](./CF/71A.%20Way%20Too%20Long%20Words.py)|
+|[750A](https://codeforces.com/problemset/problem/750/A) | [ New Year and Hurry](./CF/750A.%20New%20Year%20and%20Hurry.py)|
 |[791A](https://codeforces.com/problemset/problem/791/A) | [ Bear and Big Brother](./CF/791A.%20Bear%20and%20Big%20Brother.py)|
 |[939A](https://codeforces.com/problemset/problem/939/A) | [ Love Triangle](./CF/939A.%20Love%20Triangle.py)|
 |[996A](https://codeforces.com/problemset/problem/996/A) | [ Hit the Lottery](./CF/996A.%20Hit%20the%20Lottery.py)|
