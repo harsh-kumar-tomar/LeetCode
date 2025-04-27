@@ -2,10 +2,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-183-blue)
+![Solved](https://img.shields.io/badge/Solved-189-blue)
 [![LeetCode](https://img.shields.io/badge/LeetCode-130-FFA116)](https://leetcode.com/u/harsh780/)
 [![CF](https://img.shields.io/badge/CF-46-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
-[![Cses](https://img.shields.io/badge/Cses-7-5E5E5E)](https://cses.fi/user/321162)
+[![Cses](https://img.shields.io/badge/Cses-13-5E5E5E)](https://cses.fi/user/321162)
 # LeetCode
 |Problem|Question|
 |-|-|
@@ -199,8 +199,14 @@
 ## Introductory Problems
 |Question/Solutions|
 |-|
+|[Bit Strings](./Cses/Introductory%20Problems/Bit%20Strings.py)|
+|[Coin Piles](./Cses/Introductory%20Problems/Coin%20Piles.py)|
+|[Gray Code](./Cses/Introductory%20Problems/Gray%20Code.py)|
 |[Increasing Array](./Cses/Introductory%20Problems/Increasing%20Array.py)|
 |[Missing Number](./Cses/Introductory%20Problems/Missing%20Number.py)|
+|[Palindrome Reorder](./Cses/Introductory%20Problems/Palindrome%20Reorder.py)|
 |[Permutations](./Cses/Introductory%20Problems/Permutations.py)|
 |[Repetitions](./Cses/Introductory%20Problems/Repetitions.py)|
+|[Trailing Zeros](./Cses/Introductory%20Problems/Trailing%20Zeros.py)|
+|[Two Knights](./Cses/Introductory%20Problems/Two%20Knights.py)|
 |[Weird Algorithm](./Cses/Introductory%20Problems/Weird%20Algorithm.py)|
