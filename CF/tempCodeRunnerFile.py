@@ -1,20 +1,29 @@
-test = int(input())
+def visit(i):
+    if i in index:
+        if arr[arr[i]] == i:
+            return False
+        else:
+            return True
+    index.add(i)
+    return visit(arr[i])
 
-for _ in range(test):
-    n = int(input())
-    zero = 1
-    # to store each round number
-    r = [] 
 
-    while n != 0:
-        ten = 10**zero
 
-        if n%ten !=0 :
-            r.append(n%ten)
+n = int(input())
+arr = list(map(int,input().split()))
+index = set()
 
-        n = n // ten
-        n = n * ten
+for i in range(n):
+    arr[i] -= 1
 
-        zero += 1
-    
-    print(*r)
+flag = False
+for i in range(n):
+    if index not in index:
+        index.add(i)
+        if visit(arr[i]):
+            flag = True
+            break
+
+print("Yes") if flag == True else print("No")
+
+

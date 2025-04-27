@@ -1,33 +1,15 @@
-test = int(input())
+n = int(input())
+arr = list(map(int,input().split()))
 
-def visit(index,val):
-    
-    if val in s:
-        if val == arr[index]:
-            return False
-        else:
-            return True
-    else:
-        s.add(index)
-        return visit(val,arr[val])
+for i in range(n):
+    arr[i] -= 1
 
+flag = False
+for i in range(n):
+    if arr[arr[arr[i]]] == i:
+        flag = True
+        break
 
-
-for _ in range(test):
-    n = int(input())
-    arr = list(map(int,input().split()))
-    s = set()
-
-    for i in range(n):
-        arr[i] -= 1
-
-    flag = False
-    for index,val in enumerate(arr):
-        if index not in s:
-            if visit(index,val):
-                flag = True
-                break
-    
-    print("Yes") if flag == True else print("No")
+print("Yes") if flag == True else print("No")
 
 

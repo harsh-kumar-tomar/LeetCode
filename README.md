@@ -2,9 +2,9 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-176-blue)
-[![LeetCode](https://img.shields.io/badge/LeetCode-128-FFA116)](https://leetcode.com/u/harsh780/)
-[![CF](https://img.shields.io/badge/CF-41-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
+![Solved](https://img.shields.io/badge/Solved-183-blue)
+[![LeetCode](https://img.shields.io/badge/LeetCode-130-FFA116)](https://leetcode.com/u/harsh780/)
+[![CF](https://img.shields.io/badge/CF-46-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
 [![Cses](https://img.shields.io/badge/Cses-7-5E5E5E)](https://cses.fi/user/321162)
 # LeetCode
 |Problem|Question|
@@ -103,6 +103,7 @@
 |[2351](https://leetcode.com/problems/first-letter-to-appear-twice) | [ First Letter to Appear Twice](./LeetCode/2351.%20First%20Letter%20to%20Appear%20Twice.py)|
 |[2357]() | [ Make Array Zero by Subtracting Equal Amounts](./LeetCode/2357.%20Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py)|
 |[2375]() | [ Construct Smallest Number From DI String](./LeetCode/2375.%20Construct%20Smallest%20Number%20From%20DI%20String.py)|
+|[2405]() | [ Optimal Partition of String](./LeetCode/2405.%20Optimal%20Partition%20of%20String.py)|
 |[2460]() | [ Apply Operations to an Array](./LeetCode/2460.%20Apply%20Operations%20to%20an%20Array.py)|
 |[2529]() | [ Maximum Count of Positive Integer and Negative Integer](./LeetCode/2529.%20Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py)|
 |[2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [ Take Gifts From the Richest Pile](./LeetCode/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py)|
@@ -115,6 +116,7 @@
 |[2762](https://leetcode.com/problems/continuous-subarrays) | [ Continuous Subarrays](./LeetCode/2762.%20Continuous%20Subarrays.py)|
 |[2799]() | [ Count Complete Subarrays in an Array](./LeetCode/2799.%20Count%20Complete%20Subarrays%20in%20an%20Array.py)|
 |[2824]() | [ Count Pairs Whose Sum is Less than Target](./LeetCode/2824.%20Count%20Pairs%20Whose%20Sum%20is%20Less%20than%20Target.py)|
+|[2845]() | [ Count of Interesting Subarrays](./LeetCode/2845.%20Count%20of%20Interesting%20Subarrays.py)|
 |[2873]() | [ Maximum Value of an Ordered Triplet I](./LeetCode/2873.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20I.py)|
 |[2874]() | [ Maximum Value of an Ordered Triplet II](./LeetCode/2874.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20II.py)|
 |[2909]() | [ Minimum Sum of Mountain Triplets II](./LeetCode/2909.%20Minimum%20Sum%20of%20Mountain%20Triplets%20II.py)|
@@ -143,6 +145,7 @@
 |-|-|
 |[110A](https://codeforces.com/problemset/problem/110/A) | [ Nearly Lucky Number](./CF/110A.%20Nearly%20Lucky%20Number.py)|
 |[1352A](https://codeforces.com/problemset/problem/1352/A) | [ Sum of Round Numbers](./CF/1352A.%20Sum%20of%20Round%20Numbers.py)|
+|[1352B](https://codeforces.com/problemset/problem/1352/B) | [ Same Parity Summands](./CF/1352B.%20Same%20Parity%20Summands.py)|
 |[1352C](https://codeforces.com/problemset/problem/1352/C) | [ K-th Not Divisible by n](./CF/1352C.%20K-th%20Not%20Divisible%20by%20n.py)|
 |[158A](https://codeforces.com/problemset/problem/158/A) | [ Next Round](./CF/158A.%20Next%20Round.py)|
 |[1742A](https://codeforces.com/problemset/problem/1742/A) | [ Sum](./CF/1742A.%20Sum.py)|
@@ -170,8 +173,12 @@
 |[2094B](https://codeforces.com/problemset/problem/2094/B) | [ Bobritto Bandito](./CF/2094B.%20Bobritto%20Bandito.py)|
 |[2094D](https://codeforces.com/problemset/problem/2094/D) | [ Tung Tung Sahur](./CF/2094D.%20Tung%20Tung%20Sahur.py)|
 |[2096A](https://codeforces.com/problemset/problem/2096/A) | [ Wonderful Sticks](./CF/2096A.%20Wonderful%20Sticks.py)|
+|[2106A](https://codeforces.com/problemset/problem/2106/A) | [ Dr. TC](./CF/2106A.%20Dr.%20TC.py)|
+|[2106B](https://codeforces.com/problemset/problem/2106/B) | [ St. Chroma](./CF/2106B.%20St.%20Chroma.py)|
+|[2106C](https://codeforces.com/problemset/problem/2106/C) | [ Cherry Bomb](./CF/2106C.%20Cherry%20Bomb.py)|
 |[231A](https://codeforces.com/problemset/problem/231/A) | [ Team](./CF/231A.%20Team.py)|
 |[236A](https://codeforces.com/problemset/problem/236/A) | [ Boy or Girl](./CF/236A.%20Boy%20or%20Girl.py)|
+|[282A](https://codeforces.com/problemset/problem/282/A) | [ Bit++](./CF/282A.%20Bit++.py)|
 |[617A](https://codeforces.com/problemset/problem/617/A) | [ Elephant](./CF/617A.%20Elephant.py)|
 |[670D1](https://codeforces.com/problemset/problem/670/D1) | [ Magic Powder - 1](./CF/670D1.%20Magic%20Powder%20-%201.py)|
 |[705A](https://codeforces.com/problemset/problem/705/A) | [ Hulk](./CF/705A.%20Hulk.py)|
