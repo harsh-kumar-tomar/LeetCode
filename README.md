@@ -2,10 +2,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-189-blue)
-[![LeetCode](https://img.shields.io/badge/LeetCode-130-FFA116)](https://leetcode.com/u/harsh780/)
-[![CF](https://img.shields.io/badge/CF-46-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
-[![Cses](https://img.shields.io/badge/Cses-13-5E5E5E)](https://cses.fi/user/321162)
+![Solved](https://img.shields.io/badge/Solved-199-blue)
+[![LeetCode](https://img.shields.io/badge/LeetCode-131-FFA116)](https://leetcode.com/u/harsh780/)
+[![CF](https://img.shields.io/badge/CF-53-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
+[![Cses](https://img.shields.io/badge/Cses-15-5E5E5E)](https://cses.fi/user/321162)
 # LeetCode
 |Problem|Question|
 |-|-|
@@ -121,6 +121,7 @@
 |[2874]() | [ Maximum Value of an Ordered Triplet II](./LeetCode/2874.%20Maximum%20Value%20of%20an%20Ordered%20Triplet%20II.py)|
 |[2909]() | [ Minimum Sum of Mountain Triplets II](./LeetCode/2909.%20Minimum%20Sum%20of%20Mountain%20Triplets%20II.py)|
 |[2924]() | [ Find Champion II](./LeetCode/2924.%20Find%20Champion%20II.py)|
+|[2962]() | [ Count Subarrays Where Max Element Appears at Least K Times](./LeetCode/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.py)|
 |[2999]() | [ Count the Number of Powerful Integers](./LeetCode/2999.%20Count%20the%20Number%20of%20Powerful%20Integers.py)|
 |[3066]() | [ Minimum Operations to Exceed Threshold Value II](./LeetCode/3066.%20Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.py)|
 |[3074]() | [ Apple Redistribution into Boxes](./LeetCode/3074.%20Apple%20Redistribution%20into%20Boxes.py)|
@@ -144,6 +145,7 @@
 |Problem|Question|
 |-|-|
 |[110A](https://codeforces.com/problemset/problem/110/A) | [ Nearly Lucky Number](./CF/110A.%20Nearly%20Lucky%20Number.py)|
+|[112A](https://codeforces.com/problemset/problem/112/A) | [ Petya and Strings](./CF/112A.%20Petya%20and%20Strings.py)|
 |[1352A](https://codeforces.com/problemset/problem/1352/A) | [ Sum of Round Numbers](./CF/1352A.%20Sum%20of%20Round%20Numbers.py)|
 |[1352B](https://codeforces.com/problemset/problem/1352/B) | [ Same Parity Summands](./CF/1352B.%20Same%20Parity%20Summands.py)|
 |[1352C](https://codeforces.com/problemset/problem/1352/C) | [ K-th Not Divisible by n](./CF/1352C.%20K-th%20Not%20Divisible%20by%20n.py)|
@@ -178,7 +180,12 @@
 |[2106C](https://codeforces.com/problemset/problem/2106/C) | [ Cherry Bomb](./CF/2106C.%20Cherry%20Bomb.py)|
 |[231A](https://codeforces.com/problemset/problem/231/A) | [ Team](./CF/231A.%20Team.py)|
 |[236A](https://codeforces.com/problemset/problem/236/A) | [ Boy or Girl](./CF/236A.%20Boy%20or%20Girl.py)|
+|[263A](https://codeforces.com/problemset/problem/263/A) | [ Beautiful Matrix](./CF/263A.%20Beautiful%20Matrix.py)|
+|[266A](https://codeforces.com/problemset/problem/266/A) | [ Stones on the Table](./CF/266A.%20Stones%20on%20the%20Table.py)|
+|[281A](https://codeforces.com/problemset/problem/281/A) | [ Word Capitalization](./CF/281A.%20Word%20Capitalization.py)|
 |[282A](https://codeforces.com/problemset/problem/282/A) | [ Bit++](./CF/282A.%20Bit++.py)|
+|[339A](https://codeforces.com/problemset/problem/339/A) | [ Helpful Maths](./CF/339A.%20Helpful%20Maths.py)|
+|[546A](https://codeforces.com/problemset/problem/546/A) | [ Soldier and Bananas](./CF/546A.%20Soldier%20and%20Bananas.py)|
 |[617A](https://codeforces.com/problemset/problem/617/A) | [ Elephant](./CF/617A.%20Elephant.py)|
 |[670D1](https://codeforces.com/problemset/problem/670/D1) | [ Magic Powder - 1](./CF/670D1.%20Magic%20Powder%20-%201.py)|
 |[705A](https://codeforces.com/problemset/problem/705/A) | [ Hulk](./CF/705A.%20Hulk.py)|
@@ -186,6 +193,7 @@
 |[750A](https://codeforces.com/problemset/problem/750/A) | [ New Year and Hurry](./CF/750A.%20New%20Year%20and%20Hurry.py)|
 |[791A](https://codeforces.com/problemset/problem/791/A) | [ Bear and Big Brother](./CF/791A.%20Bear%20and%20Big%20Brother.py)|
 |[939A](https://codeforces.com/problemset/problem/939/A) | [ Love Triangle](./CF/939A.%20Love%20Triangle.py)|
+|[96A](https://codeforces.com/problemset/problem/96/A) | [ Football](./CF/96A.%20Football.py)|
 |[996A](https://codeforces.com/problemset/problem/996/A) | [ Hit the Lottery](./CF/996A.%20Hit%20the%20Lottery.py)|
 |[996B](https://codeforces.com/problemset/problem/996/B) | [ World Cup](./CF/996B.%20World%20Cup.py)|
 |[tempCodeRunnerFile](https://codeforces.com/problemset/problem/tempCodeRunnerFil/e) | [py](./CF/tempCodeRunnerFile.py)|
@@ -201,6 +209,7 @@
 |-|
 |[Bit Strings](./Cses/Introductory%20Problems/Bit%20Strings.py)|
 |[Coin Piles](./Cses/Introductory%20Problems/Coin%20Piles.py)|
+|[Creating Strings](./Cses/Introductory%20Problems/Creating%20Strings.py)|
 |[Gray Code](./Cses/Introductory%20Problems/Gray%20Code.py)|
 |[Increasing Array](./Cses/Introductory%20Problems/Increasing%20Array.py)|
 |[Missing Number](./Cses/Introductory%20Problems/Missing%20Number.py)|
@@ -209,4 +218,5 @@
 |[Repetitions](./Cses/Introductory%20Problems/Repetitions.py)|
 |[Trailing Zeros](./Cses/Introductory%20Problems/Trailing%20Zeros.py)|
 |[Two Knights](./Cses/Introductory%20Problems/Two%20Knights.py)|
+|[Two Sets](./Cses/Introductory%20Problems/Two%20Sets.py)|
 |[Weird Algorithm](./Cses/Introductory%20Problems/Weird%20Algorithm.py)|

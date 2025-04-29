@@ -1,16 +1,29 @@
 
-def recursion(s:list[int],l:int):
-    if l == 0:
-        print("".join(s))
-        return
+def recursion(i)->list[int]:
+    if i == 1:
+        return [["0"],["1"]]
+    
+    ls = recursion(i-1)
+    r = []
 
-    s.append("0")
-    recursion(s,l-1)
-    s.pop()
-    s.append("1")
-    recursion(s,l-1)
-    s.pop()
+    for arr in ls:
+        temp = arr.copy()
+        temp.append("0")
+        r.append(temp)
 
+    ls.reverse()
+
+    for arr in ls:
+        temp = arr.copy()
+        temp.append("1")
+        r.append(temp)
+    
+    return r
 
 n = int(input())
-recursion([],n)
+temp = recursion(n)
+
+for i in temp:
+    print("".join(i))
+
+
