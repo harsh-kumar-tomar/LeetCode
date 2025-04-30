@@ -2,8 +2,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-199-blue)
-[![LeetCode](https://img.shields.io/badge/LeetCode-131-FFA116)](https://leetcode.com/u/harsh780/)
+![Solved](https://img.shields.io/badge/Solved-204-blue)
+[![LeetCode](https://img.shields.io/badge/LeetCode-136-FFA116)](https://leetcode.com/u/harsh780/)
 [![CF](https://img.shields.io/badge/CF-53-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
 [![Cses](https://img.shields.io/badge/Cses-15-5E5E5E)](https://cses.fi/user/321162)
 # LeetCode
@@ -36,6 +36,7 @@
 |[93]() | [ Restore IP Addresses](./LeetCode/93.%20Restore%20IP%20Addresses.py)|
 |[102]() | [ Binary Tree Level Order Traversal](./LeetCode/102.%20Binary%20Tree%20Level%20Order%20Traversal.py)|
 |[146]() | [ LRU Cache](./LeetCode/146.%20LRU%20Cache.py)|
+|[152]() | [ Maximum Product Subarray](./LeetCode/152.%20Maximum%20Product%20Subarray.py)|
 |[153]() | [ Find Minimum in Rotated Sorted Array](./LeetCode/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.py)|
 |[162](https://leetcode.com/problems/first-bad-version/) | [ Find Peak Element](./LeetCode/162.%20Find%20Peak%20Element.py)|
 |[198]() | [ House Robber](./LeetCode/198.%20House%20Robber.py)|
@@ -61,6 +62,7 @@
 |[560]() | [ Subarray Sum Equals K](./LeetCode/560.%20Subarray%20Sum%20Equals%20K.py)|
 |[617]() | [ Merge Two Binary Trees](./LeetCode/617.%20Merge%20Two%20Binary%20Trees.py)|
 |[637]() | [ Average of Levels in Binary Tree](./LeetCode/637.%20Average%20of%20Levels%20in%20Binary%20Tree.py)|
+|[713]() | [ Subarray Product Less Than K](./LeetCode/713.%20Subarray%20Product%20Less%20Than%20K.py)|
 |[738]() | [ Monotone Increasing Digits](./LeetCode/738.%20Monotone%20Increasing%20Digits.py)|
 |[744](https://leetcode.com/problems/first-bad-version) | [ Find Smallest Letter Greater Than Target](./LeetCode/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.py)|
 |[746]() | [ Min Cost Climbing Stairs](./LeetCode/746.%20Min%20Cost%20Climbing%20Stairs.py)|
@@ -74,6 +76,7 @@
 |[1011]() | [ Capacity To Ship Packages Within D Days](./LeetCode/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.py)|
 |[1079]() | [ Letter Tile Possibilities](./LeetCode/1079.%20Letter%20Tile%20Possibilities.py)|
 |[1106]() | [ Parsing A Boolean Expression](./LeetCode/1106.%20Parsing%20A%20Boolean%20Expression.py)|
+|[1295]() | [ Find Numbers with Even Number of Digits](./LeetCode/1295.%20Find%20Numbers%20with%20Even%20Number%20of%20Digits.py)|
 |[1334]() | [ Find the City With the Smallest Number of Neighbors at a Threshold Distance](./LeetCode/1334.%20Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance.py)|
 |[1399]() | [ Count Largest Group](./LeetCode/1399.%20Count%20Largest%20Group.py)|
 |[1415]() | [ The k-th Lexicographical String of All Happy Strings of Length n](./LeetCode/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py)|
@@ -81,6 +84,7 @@
 |[1455]() | [ Check If a Word Occurs As a Prefix of Any Word in a Sentence](./LeetCode/1455.%20Check%20If%20a%20Word%20Occurs%20As%20a%20Prefix%20of%20Any%20Word%20in%20a%20Sentence.py)|
 |[1557]() | [ Minimum Number of Vertices to Reach All Nodes](./LeetCode/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py)|
 |[1642]() | [ Furthest Building You Can Reach](./LeetCode/1642.%20Furthest%20Building%20You%20Can%20Reach.py)|
+|[1749]() | [ Maximum Absolute Sum of Any Subarray](./LeetCode/1749.%20Maximum%20Absolute%20Sum%20of%20Any%20Subarray.py)|
 |[1780]() | [ Check if Number is a Sum of Powers of Three](./LeetCode/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py)|
 |[1791]() | [ Find Center of Star Graph](./LeetCode/1791.%20Find%20Center%20of%20Star%20Graph.py)|
 |[1921]() | [ Eliminate Maximum Number of Monsters](./LeetCode/1921.%20Eliminate%20Maximum%20Number%20of%20Monsters.py)|
@@ -99,6 +103,7 @@
 |[2208]() | [ Minimum Operations to Halve Array Sum](./LeetCode/2208.%20Minimum%20Operations%20to%20Halve%20Array%20Sum.py)|
 |[2217]() | [ Find Palindrome With Fixed Length](./LeetCode/2217.%20Find%20Palindrome%20With%20Fixed%20Length.py)|
 |[2265]() | [ Count Nodes Equal to Average of Subtree](./LeetCode/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py)|
+|[2302]() | [ Count Subarrays With Score Less Than K](./LeetCode/2302.%20Count%20Subarrays%20With%20Score%20Less%20Than%20K.py)|
 |[2331]() | [ Evaluate Boolean Binary Tree](./LeetCode/2331.%20Evaluate%20Boolean%20Binary%20Tree.py)|
 |[2351](https://leetcode.com/problems/first-letter-to-appear-twice) | [ First Letter to Appear Twice](./LeetCode/2351.%20First%20Letter%20to%20Appear%20Twice.py)|
 |[2357]() | [ Make Array Zero by Subtracting Equal Amounts](./LeetCode/2357.%20Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py)|
