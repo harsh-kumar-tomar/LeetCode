@@ -2,10 +2,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-204-blue)
-[![LeetCode](https://img.shields.io/badge/LeetCode-136-FFA116)](https://leetcode.com/u/harsh780/)
+![Solved](https://img.shields.io/badge/Solved-210-blue)
+[![LeetCode](https://img.shields.io/badge/LeetCode-140-FFA116)](https://leetcode.com/u/harsh780/)
 [![CF](https://img.shields.io/badge/CF-53-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
-[![Cses](https://img.shields.io/badge/Cses-15-5E5E5E)](https://cses.fi/user/321162)
+[![Cses](https://img.shields.io/badge/Cses-17-5E5E5E)](https://cses.fi/user/321162)
 # LeetCode
 |Problem|Question|
 |-|-|
@@ -54,6 +54,7 @@
 |[402]() | [ Remove K Digits](./LeetCode/402.%20Remove%20K%20Digits.py)|
 |[403]() | [ Frog Jump](./LeetCode/403.%20Frog%20Jump.py)|
 |[429]() | [ N-ary Tree Level Order Traversal](./LeetCode/429.%20N-ary%20Tree%20Level%20Order%20Traversal.py)|
+|[455]() | [ Assign Cookies](./LeetCode/455.%20Assign%20Cookies.py)|
 |[486]() | [ Predict the Winner](./LeetCode/486.%20Predict%20the%20Winner.py)|
 |[494](https://leetcode.com/problems/target-sum) | [ Target Sum](./LeetCode/494.%20Target%20Sum.py)|
 |[495]() | [ Teemo Attacking](./LeetCode/495.%20Teemo%20Attacking.py)|
@@ -68,6 +69,7 @@
 |[746]() | [ Min Cost Climbing Stairs](./LeetCode/746.%20Min%20Cost%20Climbing%20Stairs.py)|
 |[797]() | [ All Paths From Source to Target](./LeetCode/797.%20All%20Paths%20From%20Source%20to%20Target.py)|
 |[807]() | [ Max Increase to Keep City Skyline](./LeetCode/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.py)|
+|[826]() | [ Most Profit Assigning Work](./LeetCode/826.%20Most%20Profit%20Assigning%20Work.py)|
 |[852]() | [ Peak Index in a Mountain Array](./LeetCode/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py)|
 |[859]() | [ Buddy Strings](./LeetCode/859.%20Buddy%20Strings.py)|
 |[897]() | [ Increasing Order Search Tree](./LeetCode/897.%20Increasing%20Order%20Search%20Tree.py)|
@@ -95,6 +97,7 @@
 |[2033]() | [ Minimum Operations to Make a Uni-Value Grid](./LeetCode/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py)|
 |[2035]() | [ Partition Array Into Two Arrays to Minimize Sum Difference](./LeetCode/2035.%20Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.py)|
 |[2070]() | [ Most Beautiful Item for Each Query](./LeetCode/2070.%20Most%20Beautiful%20Item%20for%20Each%20Query.py)|
+|[2071]() | [ Maximum Number of Tasks You Can Assign](./LeetCode/2071.%20Maximum%20Number%20of%20Tasks%20You%20Can%20Assign.py)|
 |[2115]() | [ Find All Possible Recipes from Given Supplies](./LeetCode/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py)|
 |[2140]() | [ Solving Questions With Brainpower](./LeetCode/2140.%20Solving%20Questions%20With%20Brainpower.py)|
 |[2145]() | [ Count the Hidden Sequences](./LeetCode/2145.%20Count%20the%20Hidden%20Sequences.py)|
@@ -109,6 +112,7 @@
 |[2357]() | [ Make Array Zero by Subtracting Equal Amounts](./LeetCode/2357.%20Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py)|
 |[2375]() | [ Construct Smallest Number From DI String](./LeetCode/2375.%20Construct%20Smallest%20Number%20From%20DI%20String.py)|
 |[2405]() | [ Optimal Partition of String](./LeetCode/2405.%20Optimal%20Partition%20of%20String.py)|
+|[2410]() | [ Maximum Matching of Players With Trainers](./LeetCode/2410.%20Maximum%20Matching%20of%20Players%20With%20Trainers.py)|
 |[2460]() | [ Apply Operations to an Array](./LeetCode/2460.%20Apply%20Operations%20to%20an%20Array.py)|
 |[2529]() | [ Maximum Count of Positive Integer and Negative Integer](./LeetCode/2529.%20Maximum%20Count%20of%20Positive%20Integer%20and%20Negative%20Integer.py)|
 |[2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | [ Take Gifts From the Richest Pile](./LeetCode/2558.%20Take%20Gifts%20From%20the%20Richest%20Pile.py)|
@@ -212,6 +216,7 @@
 ## Introductory Problems
 |Question/Solutions|
 |-|
+|[Apple Division](./Cses/Introductory%20Problems/Apple%20Division.py)|
 |[Bit Strings](./Cses/Introductory%20Problems/Bit%20Strings.py)|
 |[Coin Piles](./Cses/Introductory%20Problems/Coin%20Piles.py)|
 |[Creating Strings](./Cses/Introductory%20Problems/Creating%20Strings.py)|
@@ -221,6 +226,7 @@
 |[Palindrome Reorder](./Cses/Introductory%20Problems/Palindrome%20Reorder.py)|
 |[Permutations](./Cses/Introductory%20Problems/Permutations.py)|
 |[Repetitions](./Cses/Introductory%20Problems/Repetitions.py)|
+|[tempCodeRunnerFile](./Cses/Introductory%20Problems/tempCodeRunnerFile.py)|
 |[Trailing Zeros](./Cses/Introductory%20Problems/Trailing%20Zeros.py)|
 |[Two Knights](./Cses/Introductory%20Problems/Two%20Knights.py)|
 |[Two Sets](./Cses/Introductory%20Problems/Two%20Sets.py)|

@@ -1,1 +1,2 @@
- (i*index)%k
+  else:
+                pills += temp_pills
