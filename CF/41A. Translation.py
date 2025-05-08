@@ -10,7 +10,7 @@ else:
     j = n -1 
     ok = True
 
-    while i < j:
+    while i < n and j >= 0:
         if s1[i] != s2[j]:
             ok = False
             break

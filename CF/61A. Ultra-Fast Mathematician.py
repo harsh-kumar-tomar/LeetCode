@@ -1,0 +1,6 @@
+a = input()
+b = input()
+a_bin = int(a,2)
+b_bin = int(b,2)
+n = len(a)
+print(bin(a_bin^b_bin)[2:].zfill(n))
