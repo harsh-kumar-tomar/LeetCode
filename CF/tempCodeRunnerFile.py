@@ -1,20 +1,9 @@
-s1 = input()
-s2 = input()
-n = len(s1)
-m = len(s2)
+test = int(input())
 
-if n != m:
-    print("NO")
-else:
-    i = 0
-    j = n -1 
-    ok = True
+for _ in range(test):
+    s = input()
 
-    while i < j:
-        if s1[i] != s2[j]:
-            ok = False
-            break
-        i += 1
-        j -= 1
-
-    print("YES") if ok else print("NO")
+    if (s[0] != "y" or s[0] != "Y") and (s[1] != "e" or s[1] != "E") and (s[2] != "S" or s[2] != "s"):
+        print("NO")
+    else:
+        print("YES") 
