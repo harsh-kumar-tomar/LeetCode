@@ -157,7 +157,7 @@ def handle_atcoder(subfolder_name:str,files:list[str]):
 
 def get_base_read_me():
     global base_read_me
-    base_read_me += get_count_badge("Solved",total_problems_solved) + get_count_badge("LeetCode",count_leetcode,"FFA116",leetcode_profile_link) + get_count_badge("CF",count_cf,"1F8ACB",cf_profile_link) + get_count_badge("Cses",count_cses,"5E5E5E",cses_profile_link)
+    base_read_me += get_count_badge("Solved",total_problems_solved) + get_count_badge("LeetCode",count_leetcode,"FFA116",leetcode_profile_link) + get_count_badge("CF",count_cf,"1F8ACB",cf_profile_link) + get_count_badge("Cses",count_cses,"5E5E5E",cses_profile_link) + get_count_badge("AtCoder",count_atcoder,"0080ff")
     return base_read_me
 
 for root, _, files in os.walk(solutions_dir):
