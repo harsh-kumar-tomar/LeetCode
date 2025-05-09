@@ -2,7 +2,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-238-blue)
+![Solved](https://img.shields.io/badge/Solved-242-blue)
 [![LeetCode](https://img.shields.io/badge/LeetCode-143-FFA116)](https://leetcode.com/u/harsh780/)
 [![CF](https://img.shields.io/badge/CF-78-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
 [![Cses](https://img.shields.io/badge/Cses-17-5E5E5E)](https://cses.fi/user/321162)
@@ -259,3 +259,11 @@
 |[Two Knights](./Cses/Introductory%20Problems/Two%20Knights.py)|
 |[Two Sets](./Cses/Introductory%20Problems/Two%20Sets.py)|
 |[Weird Algorithm](./Cses/Introductory%20Problems/Weird%20Algorithm.py)|
+
+# AtCoder
+##abc Contest
+|Contest|Question||-|-|
+|[400A ](https://atcoder.jp/contests/abc400A/tasks/abc400A_ ) | [ ABC400 Party](./AtCoder/abc/400A%20-%20ABC400%20Party.py)|
+|[400B ](https://atcoder.jp/contests/abc400B/tasks/abc400B_ ) | [ Sum of Geometric Series](./AtCoder/abc/400B%20-%20Sum%20of%20Geometric%20Series.py)|
+|[400C ](https://atcoder.jp/contests/abc400C/tasks/abc400C_ ) | [ 2^a b^2](./AtCoder/abc/400C%20-%202^a%20b^2.py)|
+|[402A ](https://atcoder.jp/contests/abc402A/tasks/abc402A_ ) | [ CBC](./AtCoder/abc/402A%20-%20CBC.py)|

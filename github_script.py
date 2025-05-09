@@ -8,12 +8,14 @@ solutions_dir = "."
 cf_dir = "./CF"
 cses_dir = "./Cses"
 leetcode_dir = "./LeetCode"
+atcoder_dir = "./AtCoder"
 
 
 total_problems_solved = 0
 count_leetcode = 0
 count_cf = 0
 count_cses = 0
+count_atcoder = 0
 
 leetcode_profile_link = "https://leetcode.com/u/harsh780/"
 cf_profile_link = "https://codeforces.com/profile/harshkumartomar"
@@ -28,6 +30,7 @@ base_read_me = """
 leetcode_read_me = "# LeetCode\n"
 cf_read_me = "# Codeforces\n"
 cses_read_me = "# Cses\n"
+atcoder_read_me = "# AtCoder\n"
 final_read_me = ""
 
 
@@ -37,7 +40,6 @@ def get_count_badge(title:str,count:int,color:str = "blue",link = None):
         return f"[{badge}]({link})\n"
     else:
         return f"{badge}\n"
-
 
 def sort_leetcode_files(files:list[str]):
     file_map = {}
@@ -55,7 +57,6 @@ def sort_leetcode_files(files:list[str]):
     
     return sorted_files_list
     
-
 def handle_leetcode(files:list[str]):
     global leetcode_read_me,total_problems_solved,count_leetcode
 
@@ -75,7 +76,6 @@ def handle_leetcode(files:list[str]):
         leetcode_web_link = get_link_from_file(file_path)
 
         leetcode_read_me += f"|[{numeric}]({leetcode_web_link}) | [{title.removesuffix(".py")}]({file_path.replace(' ','%20')})|\n"
-    
         
 def get_link_from_file(file_path:str):
     link = ""
@@ -133,6 +133,28 @@ def handle_cses(subfolder_name:str,files:list[str]):
         
         cses_read_me += f"|[{title.removesuffix('.py')}]({file_path.replace(' ','%20')})|\n"
 
+def handle_atcoder(subfolder_name:str,files:list[str]):
+    if len(files) == 0:
+        return
+    
+    global count_atcoder , total_problems_solved , atcoder_read_me
+
+    count_atcoder += len(files)
+    total_problems_solved += count_atcoder
+    atcoder_read_me += f"##{subfolder_name} Contest\n"
+    atcoder_read_me += "|Contest|Question|"
+    atcoder_read_me += "|-|-|\n"
+
+    for file in files:
+        file_path = f"{atcoder_dir}/{subfolder_name}/{file}"
+        numeric , title = file.split("-")
+
+        contest_name_num = f"{subfolder_name}{numeric[:len(numeric)-1]}"
+        atcoder_web_link = "https://atcoder.jp/contests/{}/tasks/{}_{}".format(contest_name_num,contest_name_num,numeric[-1])
+        atcoder_read_me += f"|[{numeric}]({atcoder_web_link}) | [{title.removesuffix(".py")}]({file_path.replace(' ','%20')})|\n"
+
+
+
 def get_base_read_me():
     global base_read_me
     base_read_me += get_count_badge("Solved",total_problems_solved) + get_count_badge("LeetCode",count_leetcode,"FFA116",leetcode_profile_link) + get_count_badge("CF",count_cf,"1F8ACB",cf_profile_link) + get_count_badge("Cses",count_cses,"5E5E5E",cses_profile_link)
@@ -141,16 +163,18 @@ def get_base_read_me():
 for root, _, files in os.walk(solutions_dir):
 
     folder_name = os.path.normpath(root).split('\\')
-    # print(folder_name,len(files))
+
     if folder_name[0] == "LeetCode":
         handle_leetcode(files)
     elif folder_name[0] == "Cses" and len(folder_name) > 1 :
         handle_cses(folder_name[1],files)
+    elif folder_name[0] == "AtCoder" and len(folder_name) > 1 :
+        handle_atcoder(folder_name[1],files)
     elif folder_name[0] == "CF":
         handle_cf(files)
 
 with open("README.md", "w") as f:
-        f.write( get_base_read_me() + leetcode_read_me + "\n" + cf_read_me + "\n" + cses_read_me)
+        f.write( get_base_read_me() + leetcode_read_me + "\n" + cf_read_me + "\n" + cses_read_me + "\n" + atcoder_read_me)
 
 print("✅ README.md generated successfully.")
 
