@@ -142,14 +142,14 @@ def handle_atcoder(subfolder_name:str,files:list[str]):
     count_atcoder += len(files)
     total_problems_solved += count_atcoder
     atcoder_read_me += f"##{subfolder_name} Contest\n"
-    atcoder_read_me += "|Contest|Question|"
+    atcoder_read_me += "|Contest|Question|\n"
     atcoder_read_me += "|-|-|\n"
 
     for file in files:
         file_path = f"{atcoder_dir}/{subfolder_name}/{file}"
         numeric , title = file.split("-")
 
-        contest_name_num = f"{subfolder_name}{numeric[:len(numeric)-1]}"
+        contest_name_num = f"{subfolder_name}{numeric[:len(numeric)-1].lower()}"
         atcoder_web_link = "https://atcoder.jp/contests/{}/tasks/{}_{}".format(contest_name_num,contest_name_num,numeric[-1])
         atcoder_read_me += f"|[{numeric}]({atcoder_web_link}) | [{title.removesuffix(".py")}]({file_path.replace(' ','%20')})|\n"
 
