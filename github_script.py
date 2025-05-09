@@ -147,7 +147,7 @@ def handle_atcoder(subfolder_name:str,files:list[str]):
 
     for file in files:
         file_path = f"{atcoder_dir}/{subfolder_name}/{file}"
-        numeric , title = file.split("-")
+        numeric , title = [part.strip() for part in file.split("-")]
 
         contest_name_num = f"{subfolder_name}{numeric[:len(numeric)-1].lower()}"
         atcoder_web_link = "https://atcoder.jp/contests/{}/tasks/{}_{}".format(contest_name_num,contest_name_num,numeric[-1])

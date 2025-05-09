@@ -264,7 +264,7 @@
 ## abc Contest
 |Contest|Question|
 |-|-|
-|[400A ](https://atcoder.jp/contests/abc400a/tasks/abc400a_ ) | [ ABC400 Party](./AtCoder/abc/400A%20-%20ABC400%20Party.py)|
-|[400B ](https://atcoder.jp/contests/abc400b/tasks/abc400b_ ) | [ Sum of Geometric Series](./AtCoder/abc/400B%20-%20Sum%20of%20Geometric%20Series.py)|
-|[400C ](https://atcoder.jp/contests/abc400c/tasks/abc400c_ ) | [ 2^a b^2](./AtCoder/abc/400C%20-%202^a%20b^2.py)|
-|[402A ](https://atcoder.jp/contests/abc402a/tasks/abc402a_ ) | [ CBC](./AtCoder/abc/402A%20-%20CBC.py)|
+|[400A](https://atcoder.jp/contests/abc400/tasks/abc400_A) | [ABC400 Party](./AtCoder/abc/400A%20-%20ABC400%20Party.py)|
+|[400B](https://atcoder.jp/contests/abc400/tasks/abc400_B) | [Sum of Geometric Series](./AtCoder/abc/400B%20-%20Sum%20of%20Geometric%20Series.py)|
+|[400C](https://atcoder.jp/contests/abc400/tasks/abc400_C) | [2^a b^2](./AtCoder/abc/400C%20-%202^a%20b^2.py)|
+|[402A](https://atcoder.jp/contests/abc402/tasks/abc402_A) | [CBC](./AtCoder/abc/402A%20-%20CBC.py)|
