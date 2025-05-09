@@ -150,7 +150,7 @@ def handle_atcoder(subfolder_name:str,files:list[str]):
         numeric , title = [part.strip() for part in file.split("-")]
 
         contest_name_num = f"{subfolder_name}{numeric[:len(numeric)-1].lower()}"
-        atcoder_web_link = "https://atcoder.jp/contests/{}/tasks/{}_{}".format(contest_name_num,contest_name_num,numeric[-1])
+        atcoder_web_link = "https://atcoder.jp/contests/{}/tasks/{}_{}".format(contest_name_num,contest_name_num,numeric[-1].lower())
         atcoder_read_me += f"|[{numeric}]({atcoder_web_link}) | [{title.removesuffix(".py")}]({file_path.replace(' ','%20')})|\n"
 
 
