@@ -141,7 +141,7 @@ def handle_atcoder(subfolder_name:str,files:list[str]):
 
     count_atcoder += len(files)
     total_problems_solved += count_atcoder
-    atcoder_read_me += f"##{subfolder_name} Contest\n"
+    atcoder_read_me += f"## {subfolder_name} Contest\n"
     atcoder_read_me += "|Contest|Question|\n"
     atcoder_read_me += "|-|-|\n"
 

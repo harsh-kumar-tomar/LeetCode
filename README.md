@@ -261,7 +261,7 @@
 |[Weird Algorithm](./Cses/Introductory%20Problems/Weird%20Algorithm.py)|
 
 # AtCoder
-##abc Contest
+## abc Contest
 |Contest|Question|
 |-|-|
 |[400A ](https://atcoder.jp/contests/abc400a/tasks/abc400a_ ) | [ ABC400 Party](./AtCoder/abc/400A%20-%20ABC400%20Party.py)|
