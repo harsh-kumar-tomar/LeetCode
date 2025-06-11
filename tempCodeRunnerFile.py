@@ -1,1 +1,1 @@
-print
+get_all_problems
