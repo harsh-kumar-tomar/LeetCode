@@ -13,6 +13,9 @@ for _ in range(test):
         if is_activated:
             x -= 1
         
+        if x == 0:
+            is_activated = False
+        
         i += 1
 
     if i == n:

@@ -7,13 +7,15 @@ for _ in range(test):
     i = 0
     is_activated = False
     while i < n and x >= 0:
-        if arr[i] == 1:
+        if arr[i] == 1 and x > 0 :
             is_activated = True
-        
-        if is_activated:
+
+        if arr[i] == 1 and x == 0:
+            break
+
+        if is_activated and x > 0:
             x -= 1
-        
-        if x == 0:
+        else:
             is_activated = False
         
         i += 1
