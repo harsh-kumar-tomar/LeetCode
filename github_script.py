@@ -17,7 +17,7 @@ count_cf = 0
 count_cses = 0
 count_atcoder = 0
 
-leetcode_profile_link = "https://leetcode.com/u/harsh780/"
+leetcode_profile_link = "https://leetcode.com/u/GhostInPixels/"
 cf_profile_link = "https://codeforces.com/profile/harshkumartomar"
 cses_profile_link = "https://cses.fi/user/321162"
 

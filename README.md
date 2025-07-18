@@ -2,10 +2,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-266-blue)
-[![LeetCode](https://img.shields.io/badge/LeetCode-144-FFA116)](https://leetcode.com/u/harsh780/)
+![Solved](https://img.shields.io/badge/Solved-271-blue)
+[![LeetCode](https://img.shields.io/badge/LeetCode-147-FFA116)](https://leetcode.com/u/GhostInPixels/)
 [![CF](https://img.shields.io/badge/CF-98-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
-[![Cses](https://img.shields.io/badge/Cses-17-5E5E5E)](https://cses.fi/user/321162)
+[![Cses](https://img.shields.io/badge/Cses-19-5E5E5E)](https://cses.fi/user/321162)
 ![AtCoder](https://img.shields.io/badge/AtCoder-7-0080ff)
 # LeetCode
 |Problem|Question|
@@ -43,6 +43,7 @@
 |[198]() | [ House Robber](./LeetCode/198.%20House%20Robber.py)|
 |[206](https://leetcode.com/problems/reverse-linked-list) | [ Reverse Linked List](./LeetCode/206.%20Reverse%20Linked%20List.py)|
 |[213]() | [ House Robber II](./LeetCode/213.%20House%20Robber%20II.py)|
+|[240]() | [ Search a 2D Matrix II](./LeetCode/240.%20Search%20a%202D%20Matrix%20II.py)|
 |[241]() | [ Different Ways to Add Parentheses](./LeetCode/241.%20Different%20Ways%20to%20Add%20Parentheses.py)|
 |[278](https://leetcode.com/problems/first-bad-version/) | [ First Bad Version](./LeetCode/278.%20First%20Bad%20Version.py)|
 |[321]() | [ Create Maximum Number](./LeetCode/321.%20Create%20Maximum%20Number.py)|
@@ -86,6 +87,7 @@
 |[1399]() | [ Count Largest Group](./LeetCode/1399.%20Count%20Largest%20Group.py)|
 |[1415]() | [ The k-th Lexicographical String of All Happy Strings of Length n](./LeetCode/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py)|
 |[1422](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | [ Maximum Score After Splitting a String](./LeetCode/1422.%20Maximum%20Score%20After%20Splitting%20a%20String.py)|
+|[1450]() | [ Number of Students Doing Homework at a Given Time](./LeetCode/1450.%20Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time.py)|
 |[1455]() | [ Check If a Word Occurs As a Prefix of Any Word in a Sentence](./LeetCode/1455.%20Check%20If%20a%20Word%20Occurs%20As%20a%20Prefix%20of%20Any%20Word%20in%20a%20Sentence.py)|
 |[1464]() | [ Maximum Product of Two Elements in an Array](./LeetCode/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.py)|
 |[1557]() | [ Minimum Number of Vertices to Reach All Nodes](./LeetCode/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py)|
@@ -125,6 +127,7 @@
 |[2566]() | [ Maximum Difference by Remapping a Digit](./LeetCode/2566.%20Maximum%20Difference%20by%20Remapping%20a%20Digit.py)|
 |[2579]() | [ Count Total Number of Colored Cells](./LeetCode/2579.%20Count%20Total%20Number%20of%20Colored%20Cells.py)|
 |[2593](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) | [ Find Score of an Array After Marking All Elements](./LeetCode/2593.%20Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.py)|
+|[2616]() | [ Minimize the Maximum Difference of Pairs](./LeetCode/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs.py)|
 |[2685]() | [ Count the Number of Complete Components](./LeetCode/2685.%20Count%20the%20Number%20of%20Complete%20Components.py)|
 |[2762](https://leetcode.com/problems/continuous-subarrays) | [ Continuous Subarrays](./LeetCode/2762.%20Continuous%20Subarrays.py)|
 |[2799]() | [ Count Complete Subarrays in an Array](./LeetCode/2799.%20Count%20Complete%20Subarrays%20in%20an%20Array.py)|
@@ -281,6 +284,11 @@
 |[Two Knights](./Cses/Introductory%20Problems/Two%20Knights.py)|
 |[Two Sets](./Cses/Introductory%20Problems/Two%20Sets.py)|
 |[Weird Algorithm](./Cses/Introductory%20Problems/Weird%20Algorithm.py)|
+## Sliding Window Problems
+|Question/Solutions|
+|-|
+|[Sliding Window Minimum](./Cses/Sliding%20Window%20Problems/Sliding%20Window%20Minimum.py)|
+|[Sliding Window Sum](./Cses/Sliding%20Window%20Problems/Sliding%20Window%20Sum.py)|
 
 # AtCoder
 ## abc Contest

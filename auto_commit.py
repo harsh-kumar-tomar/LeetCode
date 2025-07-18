@@ -2,7 +2,7 @@ import subprocess
 from datetime import datetime
 
 # Directory of the Git repository (adjust the path if necessary)
-repo_dir = r"I:\vault"
+repo_dir = r"C:\Users\Harsh Ji\Desktop\LeetCode"
 
 # Get the current date and time
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
