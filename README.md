@@ -2,9 +2,9 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/harsh-kumar-tomar/LeetCode)
 ![GitHub repo size](https://img.shields.io/github/repo-size/harsh-kumar-tomar/LeetCode)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-![Solved](https://img.shields.io/badge/Solved-271-blue)
+![Solved](https://img.shields.io/badge/Solved-286-blue)
 [![LeetCode](https://img.shields.io/badge/LeetCode-147-FFA116)](https://leetcode.com/u/GhostInPixels/)
-[![CF](https://img.shields.io/badge/CF-98-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
+[![CF](https://img.shields.io/badge/CF-113-1F8ACB)](https://codeforces.com/profile/harshkumartomar)
 [![Cses](https://img.shields.io/badge/Cses-19-5E5E5E)](https://cses.fi/user/321162)
 ![AtCoder](https://img.shields.io/badge/AtCoder-7-0080ff)
 # LeetCode
@@ -167,11 +167,16 @@
 |[116A](https://codeforces.com/problemset/problem/116/A) | [ Tram](./CF/116A.%20Tram.py)|
 |[118A](https://codeforces.com/problemset/problem/118/A) | [ String Task](./CF/118A.%20String%20Task.py)|
 |[122A](https://codeforces.com/problemset/problem/122/A) | [ Lucky Division](./CF/122A.%20Lucky%20Division.py)|
+|[131A](https://codeforces.com/problemset/problem/131/A) | [ cAPS lOCK](./CF/131A.%20cAPS%20lOCK.py)|
 |[1328A](https://codeforces.com/problemset/problem/1328/A) | [ Divisibility Problem](./CF/1328A.%20Divisibility%20Problem.py)|
 |[133A](https://codeforces.com/problemset/problem/133/A) | [ HQ9+](./CF/133A.%20HQ9+.py)|
+|[1343A](https://codeforces.com/problemset/problem/1343/A) | [ Candies](./CF/1343A.%20Candies.py)|
 |[1352A](https://codeforces.com/problemset/problem/1352/A) | [ Sum of Round Numbers](./CF/1352A.%20Sum%20of%20Round%20Numbers.py)|
 |[1352B](https://codeforces.com/problemset/problem/1352/B) | [ Same Parity Summands](./CF/1352B.%20Same%20Parity%20Summands.py)|
 |[1352C](https://codeforces.com/problemset/problem/1352/C) | [ K-th Not Divisible by n](./CF/1352C.%20K-th%20Not%20Divisible%20by%20n.py)|
+|[1374B](https://codeforces.com/problemset/problem/1374/B) | [ Multiply by 2, divide by 6](./CF/1374B.%20Multiply%20by%202,%20divide%20by%206.py)|
+|[1475A](https://codeforces.com/problemset/problem/1475/A) | [ Odd Divisor](./CF/1475A.%20Odd%20Divisor.py)|
+|[1475B](https://codeforces.com/problemset/problem/1475/B) | [ New Year's Number](./CF/1475B.%20New%20Year's%20Number.py)|
 |[148A](https://codeforces.com/problemset/problem/148/A) | [ Insomnia cure](./CF/148A.%20Insomnia%20cure.py)|
 |[158A](https://codeforces.com/problemset/problem/158/A) | [ Next Round](./CF/158A.%20Next%20Round.py)|
 |[160A](https://codeforces.com/problemset/problem/160/A) | [ Twins](./CF/160A.%20Twins.py)|
@@ -181,6 +186,8 @@
 |[1743A](https://codeforces.com/problemset/problem/1743/A) | [ Password](./CF/1743A.%20Password.py)|
 |[1821A](https://codeforces.com/problemset/problem/1821/A) | [ Matching](./CF/1821A.%20Matching.py)|
 |[1843C](https://codeforces.com/problemset/problem/1843/C) | [ Sum in Binary Tree](./CF/1843C.%20Sum%20in%20Binary%20Tree.py)|
+|[1878C](https://codeforces.com/problemset/problem/1878/C) | [ Vasilije in Cacak](./CF/1878C.%20Vasilije%20in%20Cacak.py)|
+|[1883B](https://codeforces.com/problemset/problem/1883/B) | [ Chemistry](./CF/1883B.%20Chemistry.py)|
 |[1915C](https://codeforces.com/problemset/problem/1915/C) | [ Can I Square](./CF/1915C.%20Can%20I%20Square.py)|
 |[1996A](https://codeforces.com/problemset/problem/1996/A) | [ Legs](./CF/1996A.%20Legs.py)|
 |[1999A](https://codeforces.com/problemset/problem/1999/A) | [ A+B Again](./CF/1999A.%20A+B%20Again.py)|
@@ -203,6 +210,7 @@
 |[2067A](https://codeforces.com/problemset/problem/2067/A) | [ Adjacent Digit Sums](./CF/2067A.%20Adjacent%20Digit%20Sums.py)|
 |[2069A](https://codeforces.com/problemset/problem/2069/A) | [ Was there an Array](./CF/2069A.%20Was%20there%20an%20Array.py)|
 |[2075A](https://codeforces.com/problemset/problem/2075/A) | [ To Zero](./CF/2075A.%20To%20Zero.py)|
+|[208A](https://codeforces.com/problemset/problem/208/A) | [ Dubstep](./CF/208A.%20Dubstep.py)|
 |[2090A](https://codeforces.com/problemset/problem/2090/A) | [ Treasure Hunt](./CF/2090A.%20Treasure%20Hunt.py)|
 |[2094A](https://codeforces.com/problemset/problem/2094/A) | [ Trippi Troppi](./CF/2094A.%20Trippi%20Troppi.py)|
 |[2094B](https://codeforces.com/problemset/problem/2094/B) | [ Bobritto Bandito](./CF/2094B.%20Bobritto%20Bandito.py)|
@@ -216,6 +224,7 @@
 |[2114B](https://codeforces.com/problemset/problem/2114/B) | [ Not Quite a Palindromic String](./CF/2114B.%20Not%20Quite%20a%20Palindromic%20String.py)|
 |[2117A](https://codeforces.com/problemset/problem/2117/A) | [ False Alarm](./CF/2117A.%20False%20Alarm.py)|
 |[228A](https://codeforces.com/problemset/problem/228/A) | [ Is your horseshoe on the other hoof](./CF/228A.%20Is%20your%20horseshoe%20on%20the%20other%20hoof.py)|
+|[230A](https://codeforces.com/problemset/problem/230/A) | [ Dragons](./CF/230A.%20Dragons.py)|
 |[231A](https://codeforces.com/problemset/problem/231/A) | [ Team](./CF/231A.%20Team.py)|
 |[236A](https://codeforces.com/problemset/problem/236/A) | [ Boy or Girl](./CF/236A.%20Boy%20or%20Girl.py)|
 |[263A](https://codeforces.com/problemset/problem/263/A) | [ Beautiful Matrix](./CF/263A.%20Beautiful%20Matrix.py)|
@@ -224,12 +233,16 @@
 |[271A](https://codeforces.com/problemset/problem/271/A) | [ Beautiful Year](./CF/271A.%20Beautiful%20Year.py)|
 |[281A](https://codeforces.com/problemset/problem/281/A) | [ Word Capitalization](./CF/281A.%20Word%20Capitalization.py)|
 |[282A](https://codeforces.com/problemset/problem/282/A) | [ Bit++](./CF/282A.%20Bit++.py)|
+|[313A](https://codeforces.com/problemset/problem/313/A) | [ Ilya and Bank Account](./CF/313A.%20Ilya%20and%20Bank%20Account.py)|
 |[318A](https://codeforces.com/problemset/problem/318/A) | [ Even Odds](./CF/318A.%20Even%20Odds.py)|
+|[337A](https://codeforces.com/problemset/problem/337/A) | [ Puzzles](./CF/337A.%20Puzzles.py)|
 |[339A](https://codeforces.com/problemset/problem/339/A) | [ Helpful Maths](./CF/339A.%20Helpful%20Maths.py)|
 |[344A](https://codeforces.com/problemset/problem/344/A) | [ Magnets](./CF/344A.%20Magnets.py)|
+|[34B](https://codeforces.com/problemset/problem/34/B) | [ Sale](./CF/34B.%20Sale.py)|
 |[405A](https://codeforces.com/problemset/problem/405/A) | [ Gravity Flip](./CF/405A.%20Gravity%20Flip.py)|
 |[41A](https://codeforces.com/problemset/problem/41/A) | [ Translation](./CF/41A.%20Translation.py)|
 |[443A](https://codeforces.com/problemset/problem/443/A) | [ Anton and Letters](./CF/443A.%20Anton%20and%20Letters.py)|
+|[460A](https://codeforces.com/problemset/problem/460/A) | [ Vasya and Socks](./CF/460A.%20Vasya%20and%20Socks.py)|
 |[467A](https://codeforces.com/problemset/problem/467/A) | [ George and Accommodation](./CF/467A.%20George%20and%20Accommodation.py)|
 |[469A](https://codeforces.com/problemset/problem/469/A) | [ I Wanna Be the Guy](./CF/469A.%20I%20Wanna%20Be%20the%20Guy.py)|
 |[479A](https://codeforces.com/problemset/problem/479/A) | [ Expression](./CF/479A.%20Expression.py)|
@@ -237,6 +250,8 @@
 |[50A](https://codeforces.com/problemset/problem/50/A) | [ Domino piling](./CF/50A.%20Domino%20piling.py)|
 |[520A](https://codeforces.com/problemset/problem/520/A) | [ Pangram](./CF/520A.%20Pangram.py)|
 |[546A](https://codeforces.com/problemset/problem/546/A) | [ Soldier and Bananas](./CF/546A.%20Soldier%20and%20Bananas.py)|
+|[556A](https://codeforces.com/problemset/problem/556/A) | [ Case of the Zeros and Ones](./CF/556A.%20Case%20of%20the%20Zeros%20and%20Ones.py)|
+|[580A](https://codeforces.com/problemset/problem/580/A) | [ Kefa and First Steps](./CF/580A.%20Kefa%20and%20First%20Steps.py)|
 |[581A](https://codeforces.com/problemset/problem/581/A) | [ Vasya the Hipster](./CF/581A.%20Vasya%20the%20Hipster.py)|
 |[58A](https://codeforces.com/problemset/problem/58/A) | [ Chat room](./CF/58A.%20Chat%20room.py)|
 |[59A](https://codeforces.com/problemset/problem/59/A) | [ Word](./CF/59A.%20Word.py)|
